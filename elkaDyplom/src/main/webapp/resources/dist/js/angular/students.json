@@ -1,0 +1,101 @@
+[
+  {
+    "name":"Karol",
+    "lastname": "Matusiak",
+    "title":"Warstwy dielektryczne o wysokiej wartości przenikalności elektrycznej dla zastosowań w przyrządach MOS/MOSFET",
+    "type": "inzynierskie",
+    "start": "12z",
+    "mail": "marek.rudzinski@gmail.com",
+    "average": "5.0"
+  },
+  {
+    "name":"Piotr",
+    "lastname": "Nowak",
+    "title":"Warstwy dielektryczne o wysokiej wartości przenikalności elektrycznej dla zastosowań w przyrządach MOS/MOSFET",
+    "type": "inzynierskie",
+    "start": "12z",
+    "mail": "marek.rudzinski@gmail.com",
+    "average": "3.78"
+  },
+  {
+    "name":"Piotr",
+    "lastname": "Bojarski",
+    "title":"Warstwy dielektryczne o wysokiej wartości przenikalności elektrycznej dla zastosowań w przyrządach MOS/MOSFET",
+    "type": "inzynierskie",
+    "start": "12z",
+    "mail": "marek.rudzinski@gmail.com",
+    "average": "4.07"
+  },
+  {
+    "name":"Piotr",
+    "lastname": "Tatarski",
+    "title":"Warstwy dielektryczne o wysokiej wartości przenikalności elektrycznej dla zastosowań w przyrządach MOS/MOSFET",
+    "type": "inzynierskie",
+    "start": "12z",
+    "mail": "marek.rudzinski@gmail.com",
+    "average": "3.16"
+  },
+  {
+    "name":"Piotr",
+    "lastname": "Kowalski",
+    "title":"Warstwy dielektryczne o wysokiej wartości przenikalności elektrycznej dla zastosowań w przyrządach MOS/MOSFET",
+    "type": "inzynierskie",
+    "start": "12z",
+    "mail": "marek.rudzinski@gmail.com",
+    "average": "4.41"
+  },
+  {
+    "name":"Piotr",
+    "lastname": "Dadalski",
+    "title":"Warstwy dielektryczne o wysokiej wartości przenikalności elektrycznej dla zastosowań w przyrządach MOS/MOSFET",
+    "type": "inzynierskie",
+    "start": "12z",
+    "mail": "marek.rudzinski@gmail.com",
+    "average": "3.3"
+  },
+  {
+    "name":"Piotr",
+    "lastname": "Zapalski",
+    "title":"Warstwy dielektryczne o wysokiej wartości przenikalności elektrycznej dla zastosowań w przyrządach MOS/MOSFET",
+    "type": "inzynierskie",
+    "start": "12z",
+    "mail": "marek.rudzinski@gmail.com",
+    "average": "3.01"
+  },
+  {
+    "name":"Andrzej",
+    "lastname": "Morawski",
+    "title":"Warstwy dielektryczne o wysokiej wartości przenikalności elektrycznej dla zastosowań w przyrządach MOS/MOSFET",
+    "type": "inzynierskie",
+    "start": "12z",
+    "mail": "marek.rudzinski@gmail.com",
+    "average": "4.22"
+  },
+  {
+    "name":"Przemysław",
+    "lastname": "Opolski",
+    "title":"Warstwy dielektryczne o wysokiej wartości przenikalności elektrycznej dla zastosowań w przyrządach MOS/MOSFET",
+    "type": "inzynierskie",
+    "start": "12z",
+    "mail": "marek.rudzinski@gmail.com",
+    "average": "3.98"
+  },
+  {
+    "name":"Daniel",
+    "lastname": "Kowalski2",
+    "title":"Warstwy dielektryczne o wysokiej wartości przenikalności elektrycznej dla zastosowań w przyrządach MOS/MOSFET",
+    "type": "inzynierskie",
+    "start": "12z",
+    "mail": "marek.rudzinski@gmail.com",
+    "average": "3.70"
+  },
+  {
+    "name":"Ryszard",
+    "lastname": "Andrzejewicz",
+    "title":"Warstwy dielektryczne o wysokiej wartości przenikalności elektrycznej dla zastosowań w przyrządach MOS/MOSFET",
+    "type": "inzynierskie",
+    "start": "12z",
+    "mail": "marek.rudzinski@gmail.com",
+    "average": "4.14"
+  }
+]

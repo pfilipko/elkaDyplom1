@@ -1,0 +1,286 @@
+<div ng-controller="supervisorTopicCtrl">
+
+    <div class="row">
+        <div class="page-header">
+            <h2>
+                Tematy
+                <button class="btn btn-primary pull-right" data-toggle="modal" data-target="#myModal">
+                    Dodaj temat
+                </button>
+                <button class="btn btn-default pull-right">
+                    Moje tematy
+                </button>
+            </h2>
+        </div>
+
+        <input class="form-group" placeholder=" wyszukaj..."/>
+
+
+        <div>
+            <span class="label label-default">java ee</span>
+            <span class="label label-primary">oracle</span>
+            <span class="label label-success">spring</span>
+            <span class="label label-info">angularjs</span>
+            <span class="label label-warning">jquery</span>
+            <span class="label label-danger">matlab</span>
+            <span class="label label-default">javascript</span>
+            <span class="label label-primary">mysql</span>
+            <span class="label label-success">c++</span>
+            <span class="label label-info">python</span>
+            <span class="label label-warning">django</span>
+            <span class="label label-danger">c#</span>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Zamknij</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Nowy temat</h4>
+                    </div>
+                    <div class="modal-body">
+
+                        <form role="form">
+                            <div class="box-body">
+                                <div class="form-group">
+                                    <label>Duplikuj</label>
+                                    <input class="form-control" rows="1"></input>
+                                </div>
+                                <div class="form-group">
+                                    <label>Tytuł</label>
+                                    <textarea class="form-control" rows="3" placeholder="Tutaj wyszukiwarka tematów podobnych pod względem tytułu..."></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label>Słowa kluczowe</label>
+                                    <input class="form-control" rows="1" placeholder=""></input>
+                                </div>
+                                <div class="form-group">
+                                    <label>Typ</label>
+                                    <select class="form-control">
+                                        <option>inzynierski</option>
+                                        <option>magisterski</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Instytut prowadzący</label>
+                                    <select class="form-control">
+                                        <option>Instytut Automatyki i Informatyki Stosowanej</option>
+                                        <option>Instytut Informatyki</option>
+                                        <option>Instytut Mikroelektroniki i Optoelektroniki</option>
+                                        <option>
+                                            Instytut Radioelektroniki i Technik Multimedialnych
+                                        </option>
+                                        <option>Instytut Systemów Elektronicznych</option>
+                                        <option>Instytut Telekomunikacji</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Specjalność</label>
+                                    <select class="form-control">
+                                        <option>Inżynieria systemów informatycznych </option>
+                                        <option>Systemy informacyjno - decyzyjne</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Proponowana liczba studentów </label>
+                                    <select class="form-control">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Widoczność tematu</label><br/>
+                                    <div class="radio-inline">
+                                        <!--wybranie prytwatnego powoduje rozwiniecie wyszkiwarki sutdentow-->
+                                        <label><input type="radio" name="optradio">Temat prywatny</label>
+                                    </div>
+                                    <div class="radio-inline">
+                                        <label><input type="radio" name="optradio">Temat widoczny dla wszystkich</label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Język</label>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">Możliwość realizacji w języku angielskim</label>
+                                    </div>
+
+                                </div>
+                                <div class="form-group">
+                                    <label>Zakres prac w przeciągu dwóch semestrów</label>
+                                    <textarea class="form-control" rows="10"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label>Wykorzystywane narzędzia (sprzęt, typ komputera, oprogramowanie, inne)</label>
+                                    <textarea class="form-control" rows="5"></textarea>
+                                </div>
+                            </div><!-- /.box-body -->
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Zamknij</button>
+                        <button type="button" class="btn btn-primary">Zapisz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--klonuj-->
+        <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Zamknij</span></button>
+                        <h4 class="modal-title" id="myModalLabel2">Klonuj temat</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form">
+                            <div class="box-body">
+                                <div class="form-group">
+                                    <label>Tytuł</label>
+                                    <textarea class="form-control" rows="3" placeholder="Enter title ...">Adaptacyjne metody wyostrzania i odszumiania obrazów. (dekonwolucja) z wykorzystaniem biblioteki CUDA</textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label>Typ</label>
+                                    <select class="form-control">
+                                        <option>inzynierski</option>
+                                        <option>magisterski</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Instytut prowadzący</label>
+                                    <select class="form-control">
+                                        <option>Instytut Automatyki i Informatyki Stosowanej</option>
+                                        <option>Instytut Informatyki</option>
+                                        <option>Instytut Mikroelektroniki i Optoelektroniki</option>
+                                        <option>
+                                            Instytut Radioelektroniki i Technik Multimedialnych
+                                        </option>
+                                        <option>Instytut Systemów Elektronicznych</option>
+                                        <option>Instytut Telekomunikacji</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Specjalność</label>
+                                    <select class="form-control">
+                                        <option>Inżynieria systemów informatycznych </option>
+                                        <option>Systemy informacyjno - decyzyjne</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Proponowana liczba studentów </label>
+                                    <select class="form-control">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Widoczność tematu</label><br/>
+                                    <div class="radio-inline">
+                                        <label><input type="radio" name="optradio">Temat prywatny</label>
+                                    </div>
+                                    <div class="radio-inline">
+                                        <label><input type="radio" name="optradio">Temat widoczny dla wszystkich</label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Język</label>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">Możliwość realizacji w języku angielskim</label>
+                                    </div>
+
+                                </div>
+                                <div class="form-group">
+                                    <label>Zakres prac w przeciągu dwóch semestrów</label>
+                                    <textarea class="form-control" rows="10" placeholder="Enter ...">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label>Wykorzystywane narzędzia (sprzęt, typ komputera, oprogramowanie, inne)</label>
+                                    <textarea class="form-control" rows="5" placeholder="Enter ..."></textarea>
+                                </div>
+                            </div><!-- /.box-body -->
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Zamknij</button>
+                        <button type="button" class="btn btn-primary">Zapisz zmiany</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--<button type="button" data-toggle="" data-target="" ng-click="addTopic()" class="btn btn-default pull-right">
+            <span class="glyphicon glyphicon-plus">Dodaj temat</span>
+        </button>-->
+
+        <div class="col-md-12">
+
+
+            <div style="overflow-x:auto;">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Temat</th>
+                        <th>Data dodania</th>
+                        <th>Popularność</th>
+                        <th>Status</th>
+                        <th>Klonuj</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr ng-repeat="topic in topics" >
+                        <th class="select-column">{{$index}}</th>
+                        <td data-toggle="collapse" data-target="{{ '#demo' + $index }}" class="title-column accordion-toggle">
+                            {{topic.title}}
+
+                            <div class="hiddenRow accordian-body collapse" id="{{ 'demo' + $index }}">
+                                <table class="table table table-borderless">
+                                    <tr>
+                                        <th>typ</th>
+                                        <th>instytut prowadzący</th>
+                                        <th>specjalność</th>
+                                        <th>temat prywatny</th>
+                                        <th>może być realizowany po angielsku</th>
+                                    </tr>
+                                    <tr>
+                                        <td>{{topic.type}}</td>
+                                        <td>{{topic.institute}}</td>
+                                        <td>{{topic.specialty}}</td>
+                                        <td>{{topic.private}}</td>
+                                        <td>{{topic.english}}</td>
+                                    </tr>
+                                </table>
+
+                                <b>Zakres prac w przeciągu dwóch semestrów:</b>
+                                <p>{{topic.scope}}</p>
+                                <b>Wykorzystywane narzędzia (sprzęt, typ komputera, oprogramowanie, inne):</b>
+                                <p>{{topic.tools}}</p>
+
+                            </div>
+
+                        </td>
+                        <td>01.01.1999</td>
+                        <td>{{topic.popularity}}</td>
+                        <td class="select-column">
+                            {{topic.status}}
+                        </td>
+                        <td><button type="button" data-toggle="modal" data-target="#myModal2">
+                            <span class="glyphicon glyphicon-duplicate"></span>
+                        </button></td>
+                    </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+    </div><!-- /.row -->
+
+
+</div>

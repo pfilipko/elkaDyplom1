@@ -1,0 +1,29 @@
+body {
+    padding-top: 30px;
+}
+.hiddenRow {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
+    border: none;
+}
+
+.title-column {
+    width: 900px;
+    overflow: hidden;
+}
+.select-column {
+    width: 2px;
+    overflow: hidden;
+}
+.form-group label{
+    /* text-align:right; */
+    text-align:left;
+}
+/*
+
+
+.thead-inverse{
+    background-color: #222;
+}*/

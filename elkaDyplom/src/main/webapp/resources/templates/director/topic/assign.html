@@ -1,0 +1,129 @@
+<div ng-controller="testowyCtrl">
+
+    <div class="row">
+        <div class="page-header">
+            <h2>
+                Przydziel temat
+                <a href="#director/topic" class="btn btn-default pull-right">Lista tematów</a>
+            </h2>
+
+        </div>
+
+
+        <div class="col-md-6">
+
+
+            <div style="overflow-x:auto;">
+
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Średnia</th>
+                        <th>Nazwisko</th>
+                        <th>Imię</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr ng-repeat="student in students" >
+                        <th class="select-column">{{$index}}</th>
+                        <td>
+                            {{student.average}}
+                        </td>
+                        <td>{{student.lastname}}</td>
+                        <td>{{student.name}}</td>
+
+                    </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h4>Karol Matusiak - wybrane tematy</h4>
+            <ul class="nav nav-tabs">
+                <li class="nav-item" data-toggle="collapse" data-target="#topics1" >
+                    <a href="">Temat1</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target="#topics2" >
+                    <a href="">Temat 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Temat 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Temat 4</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Temat 5</a>
+                </li>
+            </ul>
+            <br />
+            <div class="accordion-toggle" data-toggle="collapse" data-target="#details" id="topics1">
+                <b>Tytuł:</b>
+                <p>Implementacja bezpiecznego przechowywania i udostępniania poufnych danych biomedycznych z wykorzystaniem telefonu komórkowego.</p>
+                <b>Typ:</b>
+                <p>Inżynierski</p>
+                <b>Autor:</b>
+                <p>dr mgr inż. Stanisław Stanisławski</p>
+                <b>Instytut prowadzący:</b>
+                <p>Instytut Systemów Elektronicznych</p>
+                <b>Liczba osób:</b>
+                <p>0/1</p>
+                <b>Ilość dyplomantów autora:</b>
+                <p>2</p>
+                <p>
+                    <b>Szczegóły tematu...</b>
+
+                    <div class="hiddenRow accordian-body collapse" id="details">
+                        <b>Zakres prac w przeciągu dwóch semestrów:</b>
+                         <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
+                        </p>
+                        <b>Wykorzystywane narzędzia (sprzęt, typ komputera, oprogramowanie, inne):</b>
+                        <p>
+                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
+                        </p>
+                    </div>
+                </p>
+
+                <p>
+
+                    <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Cofnij przydział</button>
+                    <button type="button" class="btn btn-primary pull-right">Przydziel</button>
+                </p>
+
+            </div><!-- /.tab-pane -->
+
+            <div class="hiddenRow accordian-body collapse" data-toggle="collapse" data-target="#details" id="topics2">
+                <b>Tytuł:</b>
+                <p>TEMAT2</p>
+                <b>Typ:</b>
+                <p>Inżynierski</p>
+                <b>Autor:</b>
+                <p>dr mgr inż. Stanisław Stanisławski</p>
+                <b>Instytut prowadzący:</b>
+                <p>Instytut Systemów Elektronicznych</p>
+                <b>Liczba osób:</b>
+                <p>0/1</p>
+                <b>Ilość dyplomantów autora:</b>
+                <p>2</p>
+
+                <p>
+
+                    <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Cofnij przydział</button>
+                    <button type="button" class="btn btn-primary pull-right">Przydziel</button>
+                </p>
+            </div>
+
+
+
+
+        </div><!-- col-md-6-->
+
+    </div><!-- /.row -->
+
+
+</div>

@@ -1,0 +1,95 @@
+<div ng-controller="testowyCtrl">
+
+    <div class="row">
+
+        <div class="page-header">
+            <h2>
+                Lista tematów
+                <a href="#student/topic" class="btn btn-default pull-right">
+                    Mój temat
+                </a>
+            </h2>
+        </div>
+
+        <div class="col-md-12">
+            {{selected}}
+        </div>
+
+        <input class="form-group" placeholder=" wyszukaj..."/>
+        <span class="label label-default">java ee</span>
+        <span class="label label-primary">oracle</span>
+        <span class="label label-success">spring</span>
+        <span class="label label-info">angularjs</span>
+        <span class="label label-warning">jquery</span>
+        <span class="label label-danger">matlab</span>
+        <span class="label label-default">javascript</span>
+        <span class="label label-primary">mysql</span>
+        <span class="label label-success">c++</span>
+        <span class="label label-info">python</span>
+        <span class="label label-warning">django</span>
+        <span class="label label-danger">c#</span>
+
+        <div class="col-md-12">
+
+            <div style="overflow-x:auto;">
+
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Temat</th>
+                        <th>Autor</th>
+                        <th>Wybierz</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr ng-repeat="topic in topics" >
+                        <th class="select-column">{{$index}}</th>
+                        <td class="title-column accordion-toggle" data-toggle="collapse" data-target="{{ '#demo' + $index }}">
+                            {{topic.title}}
+
+                            <div class="hiddenRow accordian-body collapse" id="{{ 'demo' + $index }}">
+                                <table class="table table table-borderless">
+                                    <tr>
+                                        <th>typ</th>
+                                        <th>instytut prowadzący</th>
+                                        <th>specjalność</th>
+                                        <th>temat prywatny</th>
+                                        <th>może być realizowany po angielsku</th>
+                                    </tr>
+                                    <tr>
+                                        <td>{{topic.type}}</td>
+                                        <td>{{topic.institute}}</td>
+                                        <td>{{topic.specialty}}</td>
+                                        <td>{{topic.private}}</td>
+                                        <td>{{topic.english}}</td>
+                                    </tr>
+                                </table>
+
+                                <b>Zakres prac w przeciągu dwóch semestrów:</b>
+                                <p>{{topic.scope}}</p>
+                                <b>Wykorzystywane narzędzia (sprzęt, typ komputera, oprogramowanie, inne):</b>
+                                <p>{{topic.tools}}</p>
+
+                            </div>
+
+                        </td>
+                        <td>{{topic.author}}</td>
+                        <td class="select-column">
+                            <button type="button" data-toggle="" data-target="" ng-click="chooseTopic()" class="btn btn-xs btn-success">
+                                <span class="glyphicon glyphicon-plus"></span>
+                            </button>
+                        </td>
+                    </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+    </div><!-- /.row -->
+
+
+</div>

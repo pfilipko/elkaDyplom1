@@ -1,0 +1,82 @@
+<div ng-controller="acceptCtrl">
+
+    <div class="row">
+        <div class="page-header">
+            <h2>
+                Tematy
+                <button class="btn btn-primary pull-right" data-toggle="modal" data-target="#myModal">
+                    Dodaj temat
+                </button>
+                <a href="#director/topic/accept" class="btn btn-default pull-right">
+                    Akceptacja
+                </a>
+                </button>
+                <a href="#director/topic/assign" class="btn btn-default pull-right">
+                    Przydziel studentom
+                </a>
+                <button class="btn btn-default pull-right">
+                    Moje tematy
+                </button>
+            </h2>
+        </div>
+
+        <input class="form-group" placeholder=" wyszukaj..."/>
+
+        <div class="col-md-12">
+
+            <div style="overflow-x:auto;">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Temat</th>
+                        <th>Data dodania</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr ng-repeat="topic in topics" >
+                        <th class="select-column">{{$index}}</th>
+                        <td data-toggle="collapse" data-target="{{ '#demo' + $index }}" class="title-column accordion-toggle">
+                            {{topic.title}}
+
+                            <div class="hiddenRow accordian-body collapse" id="{{ 'demo' + $index }}">
+                                <table class="table table table-borderless">
+                                    <tr>
+                                        <th>typ</th>
+                                        <th>instytut prowadzący</th>
+                                        <th>specjalność</th>
+                                        <th>temat prywatny</th>
+                                        <th>może być realizowany po angielsku</th>
+                                    </tr>
+                                    <tr>
+                                        <td>{{topic.type}}</td>
+                                        <td>{{topic.institute}}</td>
+                                        <td>{{topic.specialty}}</td>
+                                        <td>{{topic.private}}</td>
+                                        <td>{{topic.english}}</td>
+                                    </tr>
+                                </table>
+
+                                <b>Zakres prac w przeciągu dwóch semestrów:</b>
+                                <p>{{topic.scope}}</p>
+                                <b>Wykorzystywane narzędzia (sprzęt, typ komputera, oprogramowanie, inne):</b>
+                                <p>{{topic.tools}}</p>
+
+                            </div>
+
+                        </td>
+                        <td>01.01.1999</td>
+
+                    </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+    </div><!-- /.row -->
+
+
+</div>

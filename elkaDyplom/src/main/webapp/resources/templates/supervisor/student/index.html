@@ -1,0 +1,67 @@
+<div ng-controller="myStudentCtrl">
+
+    <div class="row">
+
+        <div class="page-header">
+            <h2>Moi studenci</h2>
+        </div>
+
+        <input class="form-group" placeholder=" wyszukaj..."/>
+
+        <div class="col-md-12">
+
+            <div style="overflow-x:auto;">
+
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nazwisko</th>
+                        <th>Imię</th>
+                        <th>e-mail</th>
+                        <th>Tytuł pracy</th>
+                        <th>Typ</th>
+                        <th>Rozpoczęcie</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr ng-repeat="student in students" data-toggle="collapse" data-target="{{ '#demo' + $index }}" class="accordion-toggle">
+                        <th>{{$index}}</th>
+                        <td>
+                            {{student.lastname}}
+                        </td>
+                        <td>
+                            {{student.name}}
+                        </td>
+                        <td>
+                            {{student.mail}}
+                        </td>
+                        <td>
+                            {{student.title}}
+
+                            <div class="hiddenRow accordian-body collapse" id="{{ 'demo' + $index }}">
+
+                                <b>Szczegóły</b>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequaturr</p>
+                            </div>
+
+                        </td>
+                        <td>
+                            {{student.type}}
+                        </td>
+                        <td>
+                            {{student.start}}
+                        </td>
+                    </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+    </div><!-- /.row -->
+
+
+</div>
