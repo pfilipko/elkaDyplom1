@@ -37,7 +37,10 @@ mlApp.config(['$routeProvider', '$locationProvider', function AppConfig($routePr
         templateUrl: 'resources/templates/supervisor/topic/edit.html',
         controller: 'topics/editCtrl'
     }).
-
+    when('/supervisor/ranking', {
+        templateUrl: 'resources/templates/supervisor/ranking/index.html',
+        controller: 'rankingCtrl'
+    }).
     when('/director/topic', {
         templateUrl: 'resources/templates/director/topic/index.html',
         controller: ''
@@ -54,7 +57,10 @@ mlApp.config(['$routeProvider', '$locationProvider', function AppConfig($routePr
         templateUrl: 'resources/templates/director/student/index.html',
         controller: ''
     }).
-
+    when('/director/user', {
+        templateUrl: 'resources/templates/director/user/index.html',
+        controller: 'userCtrl'
+    }).
     when('/method/edit/:id',{
         templateUrl: 'resources/templates/method/edit.html',
         controller: 'methodCtrl'
@@ -84,8 +90,10 @@ mlApp.controller('acceptCtrl', function ($scope, $http){
 
     $http.get('resources/dist/js/angular/topics.json')
         .then(function(res){
-            $scope.students = res.data;
+            $scope.topics = res.data;
         });
+
+
 
 });
 
@@ -113,6 +121,15 @@ mlApp.controller('supervisorTopicCtrl', function ($scope, $http){
     $http.get('resources/dist/js/angular/topics.json')
         .then(function(res){
             $scope.topics = res.data;
+        });
+
+});
+
+mlApp.controller('userCtrl', function ($scope, $http){
+
+    $http.get('resources/dist/js/angular/users.json')
+        .then(function(res){
+            $scope.users = res.data;
         });
 
 });

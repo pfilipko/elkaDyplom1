@@ -7,9 +7,7 @@
                 <button class="btn btn-primary pull-right" data-toggle="modal" data-target="#myModal">
                     Dodaj temat
                 </button>
-                <a href="#director/topic/accept" class="btn btn-default pull-right">
-                    Akceptacja
-                </a>
+
                 </button>
                 <a href="#director/topic/assign" class="btn btn-default pull-right">
                     Przydziel studentom
@@ -17,7 +15,48 @@
                 <button class="btn btn-default pull-right">
                     Moje tematy
                 </button>
+                <a href="#director/topic" class="btn btn-default pull-right">
+                    Lista tematów
+                </a>
             </h2>
+        </div>
+
+        <div class="modal fade" id="edit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Zamknij</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Zarządaj poprawek</h4>
+                    </div>
+                    <div class="modal-body">
+
+                        <form role="form">
+                            <div class="box-body">
+
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="optradio">Zarządaj poprawek
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="optradio">Wprowadź zmiany
+                                    </label>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Komentarz dla autora</label>
+                                    <textarea class="form-control" rows="10"></textarea>
+                                </div>
+
+                            </div><!-- /.box-body -->
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Zamknij</button>
+                        <button type="button" class="btn btn-primary">Zapisz</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <input class="form-group" placeholder=" wyszukaj..."/>
@@ -27,11 +66,12 @@
             <div style="overflow-x:auto;">
                 <table class="table">
                     <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Temat</th>
-                        <th>Data dodania</th>
-                    </tr>
+                        <tr>
+                            <th>#</th>
+                            <th>Temat</th>
+                            <th>Data dodania</th>
+                            <th>Akcje</th>
+                        </tr>
                     </thead>
                     <tbody>
 
@@ -67,6 +107,14 @@
 
                         </td>
                         <td>01.01.1999</td>
+                        <td>
+                            <button type="button" data-toggle="modal" data-target="#edit" class="btn btn-xs btn-warning">
+                                <span class="glyphicon glyphicon-edit"></span>
+                            </button>
+                            <button type="button" class="btn btn-xs btn-success">
+                                <span class="glyphicon glyphicon-ok"></span>
+                            </button>
+                        </td>
 
                     </tr>
 

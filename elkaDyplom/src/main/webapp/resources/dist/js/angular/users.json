@@ -1,0 +1,80 @@
+[
+  {
+    "name":"Karol",
+    "lastname": "Matusiak",
+    "mail": "karol@matusiak.com",
+    "type": "student"
+  },
+  {
+    "name":"Adam",
+    "lastname": "Aaaaaaaaaa",
+    "mail": "Adam@Aaaaaaaaaa.com",
+    "type": "pracownik"
+  },
+  {
+    "name":"Piotr",
+    "lastname": "Nowak",
+    "mail": "Piotr@Nowak.com",
+    "type": "dyrektor"
+  },
+  {
+    "name":"Piotr",
+    "lastname": "Bojarski",
+    "mail": "Piotr@Bojarski.com",
+    "type": "student"
+  },
+  {
+    "name":"Piotr",
+    "lastname": "Tatarski",
+    "mail": "Piotr@Tatarski.com",
+    "type": "pracownik"
+  },
+  {
+    "name":"Piotr",
+    "lastname": "Kowalski",
+    "mail": "Piotr@Kowalski.com",
+    "type": "student"
+  },
+  {
+    "name":"Piotr",
+    "lastname": "Dadalski",
+    "mail": "Piotr@Dadalski.com",
+    "type": "student"
+  },
+  {
+    "name":"Piotr",
+    "lastname": "Zapalski",
+    "mail": "Piotr@Zapalski.com",
+    "type": "student"
+  },
+  {
+    "name":"Andrzej",
+    "lastname": "Morawski",
+    "mail": "Andrzej@Morawski.com",
+    "type": "pracownik"
+  },
+  {
+    "name":"Przemysław",
+    "lastname": "Opolski",
+    "mail": "Przemysław@Opolski.com",
+    "type": "student"
+  },
+  {
+    "name":"Daniel",
+    "lastname": "Kowalski2",
+    "mail": "Piotr@Kowalski2.com",
+    "type": "Daniel"
+  },
+  {
+    "name":"Ryszard",
+    "lastname": "Andrzejewicz",
+    "mail": "Piotr@Andrzejewicz.com",
+    "type": "student"
+  },
+  {
+    "name":"Mariusz",
+    "lastname": "Andrzejewicz",
+    "mail": "Mariusz@Andrzejewicz.com",
+    "type": "student"
+  }
+]

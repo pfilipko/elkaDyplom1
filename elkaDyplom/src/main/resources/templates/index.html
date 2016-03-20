@@ -33,13 +33,14 @@
             <li>
               <a href="#supervisor/topic">Tematy (promotor)</a>
             </li>
-
             <li>
               <a href="#director/topic">Tematy (dyrektor)</a>
             </li>
-
             <li>
-              <a href="#supervisor/topic">Statystyki tematów</a>
+              <a href="#supervisor/ranking">Statystyki tematów</a>
+            </li>
+            <li>
+              <a href="#director/user">Użytkownicy</a>
             </li>
           </ul>
 
@@ -63,5 +64,19 @@
   <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
   <!-- Bootstrap 3.3.5 -->
   <script src="resources/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $('#datetimepicker6').datetimepicker();
+      $('#datetimepicker7').datetimepicker({
+        useCurrent: false //Important! See issue #1075
+      });
+      $("#datetimepicker6").on("dp.change", function (e) {
+        $('#datetimepicker7').data("DateTimePicker").minDate(e.date);
+      });
+      $("#datetimepicker7").on("dp.change", function (e) {
+        $('#datetimepicker6').data("DateTimePicker").maxDate(e.date);
+      });
+    });
+  </script>
 
 </html>

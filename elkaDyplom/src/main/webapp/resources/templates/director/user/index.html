@@ -1,0 +1,74 @@
+<div ng-controller="myStudentCtrl">
+
+    <div class="row">
+
+        <div class="page-header">
+            <h2>Użytkownicy</h2>
+        </div>
+
+        <div class="row">
+            <div class="form-group col-xs-2">
+                <input type="text" class="form-control" placeholder="wyszukaj...">
+            </div>
+
+            <div class="form-group col-xs-3 ">
+
+                <label class="checkbox-inline"><input type="checkbox" value="">Student</label>
+                <label class="checkbox-inline"><input type="checkbox" value="">Pracownik</label>
+                <label class="checkbox-inline"><input type="checkbox" value="">Dyrektor</label>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+
+            <div style="overflow-x:auto;">
+
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nazwisko</th>
+                        <th>E-mail</th>
+                        <th>Typ</th>
+                        <th>Akcje</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr data-toggle="collapse" ng-repeat="user in users" data-target="#demo1" class="accordion-toggle">
+                        <th>{{$index}}</th>
+                        <td>
+                            {{user.lastname+" "+user.name}}
+                        </td>
+                        <td>
+                            {{user.mail}}
+                        </td>
+
+                        <td>
+                            {{user.type}}
+                        </td>
+                        <td>
+                            <button type="button" data-toggle="modal" data-target="#edit" class="btn btn-xs btn-warning">
+                                <span class="glyphicon glyphicon-edit"></span>
+                            </button>
+                            <button type="button" class="btn btn-xs btn-danger">
+                                <span class="glyphicon glyphicon-remove"></span>
+                            </button>
+                        </td>
+
+
+                        
+
+                    </tr>
+
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+    </div><!-- /.row -->
+
+
+</div>
