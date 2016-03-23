@@ -1,4 +1,4 @@
-<div ng-controller="testowyCtrl">
+<div ng-controller="listCtrl">
 
     <div class="row">
 
@@ -11,8 +11,53 @@
             </h2>
         </div>
 
-        <div class="col-md-12">
-            {{selected}}
+        <div class="col-md-12" ng-show="numOfSelected">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Wybrane tematy</th>
+                    <th>Akcje</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="item in selected">
+                        <td>{{$index}}</td>
+                        <td>
+                            <p><b>{{item.title}}</b></p>
+                            <p>{{item.author}}</p>
+                        </td>
+                        <td class="td-inline">
+                            <button type="button" class="btn btn-xs btn-warning">
+                                <span class="glyphicon glyphicon-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn btn-xs btn-warning">
+                                <span class="glyphicon glyphicon-arrow-down"></span>
+                            </button>
+                            <button type="button" ng-click="removeTopic(item)" class="btn btn-xs btn-danger">
+                                <span class="glyphicon glyphicon-remove"></span>
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!--ol>
+                <li ng-repeat="item in selected">
+                    <ul>
+                        <b>Tytuł</b>
+                        <p>{{item.title}} </p>
+                        <b>Autor</b>
+                        <p>{{item.author}} </p>
+                        <p>
+                            <button type="button" ng-click="removeTopic(topic)" class="btn btn-xs btn-danger">
+                                <span class="glyphicon glyphicon-remove"></span>
+                            </button>
+                        </p>
+                    </ul>
+                </li>
+
+            </ol>-->
         </div>
 
         <input class="form-group" placeholder=" wyszukaj..."/>
@@ -77,7 +122,8 @@
                         </td>
                         <td>{{topic.author}}</td>
                         <td class="select-column">
-                            <button type="button" data-toggle="" data-target="" ng-click="chooseTopic()" class="btn btn-xs btn-success">
+
+                            <button type="button" ng-click="selectTopic(topic)" class="btn btn-xs btn-success">
                                 <span class="glyphicon glyphicon-plus"></span>
                             </button>
                         </td>

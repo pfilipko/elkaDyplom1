@@ -1,0 +1,3002 @@
+[
+  {
+    "Temat":"1. Technologia i charakteryzacja struktur MISFET z dielektrykami bramkowymi w postaci ultra-cienkich warstw dielektrycznych wytwarzanych metodą PECVD",
+    "Autor":"Robert Paweł  MROCZYŃSKI"
+  },
+  {
+    "Temat":"2. Warstwy dielektryczne o wysokiej wartości przenikalności elektrycznej dla zastosowań w przyrządach MOS/MOSFET",
+    "Autor":"Robert Paweł  MROCZYŃSKI"
+  },
+  {
+    "Temat":"9. Nowa wersja systemu detekcji pola dla systemów LLRF z falą ciągłą",
+    "Autor":"Krzysztof Marek  CZUBA"
+  },
+  {
+    "Temat":"Adaptacyjne cykliczne przetworniki analogowo-cyfrowe - modelowanie i badania symulacyjne",
+    "Autor":"Konrad  JĘDRZEJEWSKI"
+  },
+  {
+    "Temat":"Adaptacyjne metody wyostrzania i odszumiania obrazów. (dekonwolucja)  z wykorzystaniem biblioteki CUDA",
+    "Autor":"Piotr  GARBAT"
+  },
+  {
+    "Temat":"Adaptacyjnie dostrajany akcelerometr o zwiększonej dokładności i rozszerzonym  zakresie zastosowań.",
+    "Autor":"Anatolij  PŁATONOW"
+  },
+  {
+    "Temat":"Adaptacyjny wysokoefektywny mikro-nadajnik do zastosowań w bezprzewodowych sieciach czujnikowych i w lokalnej komunikacji.",
+    "Autor":"Anatolij  PŁATONOW"
+  },
+  {
+    "Temat":"Akustyczne rozpoznawanie kształtu przeszkód",
+    "Autor":"Marek Wojciech  RUPNIEWSKI"
+  },
+  {
+    "Temat":"Akustyczny wzmacniacz mocy - ćwiczenie laboratoryjne",
+    "Autor":"Aleksander  BURD"
+  },
+  {
+    "Temat":"Algorytm ewolucyjny do segmentacji obrazów",
+    "Autor":"Jarosław  DAWIDCZYK"
+  },
+  {
+    "Temat":"Algorytmy estymacji parametrów impulsowych sygnałów radarowych",
+    "Autor":"Piotr Jerzy  SAMCZYŃSKI"
+  },
+  {
+    "Temat":"Algorytmy estymacji parametrów impulsowych sygnałów radarowych",
+    "Autor":"Piotr Jerzy  SAMCZYŃSKI"
+  },
+  {
+    "Temat":"Algorytmy optymalizacji układów analogowych",
+    "Autor":"Dominik Krzysztof  KASPROWICZ"
+  },
+  {
+    "Temat":"Algorytmy przetwarzania sygnałów niestacjonarnych oparte na koncepcji adaptacyjnej dopasowanej obserwacji - analiza i badania symulacyjne",
+    "Autor":"Konrad  JĘDRZEJEWSKI"
+  },
+  {
+    "Temat":"Algorytmy wstępnego przetwarzania danych pochodzących z impulsowego sensora radarowego.",
+    "Autor":"Andrzej  MIĘKINA"
+  },
+  {
+    "Temat":"Algorytmy wykrywające plagiaty topografii układów scalonych",
+    "Autor":"Dominik Krzysztof  KASPROWICZ"
+  },
+  {
+    "Temat":"Analiza aktualnych możliwości konstrukcji energooszczędnych motów",
+    "Autor":"Zbigniew  PIÓRO"
+  },
+  {
+    "Temat":"Analiza efektywności chłodzenia układów VeSTIC z punktu widzenia ich skalowania",
+    "Autor":"Andrzej  PFITZNER"
+  },
+  {
+    "Temat":"Analiza efektywności sztucznych sieci neuronowych w zastosowaniu  do klasyfikacji danych",
+    "Autor":"Mikołaj  BASZUN"
+  },
+  {
+    "Temat":"Analiza elektrofizyczna właściwości warstw grafenowych",
+    "Autor":"Jan  SZMIDT"
+  },
+  {
+    "Temat":"Analiza elektrofizycznych właściwości warstw grafenowych",
+    "Autor":"Jan  SZMIDT"
+  },
+  {
+    "Temat":"Analiza fotonicznej gęstości stanów w różnego typu wnękach optycznych.",
+    "Autor":"Anna  TYSZKA-ZAWADZKA"
+  },
+  {
+    "Temat":"Analiza i klasyfikacja drewna na podstawie obrazów wielomodalnych/multispektralnych",
+    "Autor":"Piotr  GARBAT"
+  },
+  {
+    "Temat":"Analiza i klasyfikacja sygnałów echolokacyjnych wykorzystywanych w naturze",
+    "Autor":"Piotr Jerzy  SAMCZYŃSKI"
+  },
+  {
+    "Temat":"Analiza możliwości i sposobów wzbudzenia rodzajów Whispering Galery w kulistym rezonatorze dielektrycznym.",
+    "Autor":"Krzysztof  DERZAKOWSKI"
+  },
+  {
+    "Temat":"Analiza możliwości i sposobów wzbudzenia rodzajów Whispering Galery w stożkowym rezonatorze dielektrycznym.",
+    "Autor":"Krzysztof  DERZAKOWSKI"
+  },
+  {
+    "Temat":"Analiza możliwości konstrukcji tranzystora VeSFET z bramkami metalowymi",
+    "Autor":"Andrzej  PFITZNER"
+  },
+  {
+    "Temat":"Analiza powstawania nekroz w blaszkach liści prowadzona metodami przetwarzania obrazu",
+    "Autor":"Zbigniew  WAWRZYNIAK"
+  },
+  {
+    "Temat":"Analiza pracy ponad progowej planarnych laserów z ośrodkiem aktywnym w postaci jedno- i dwu-wymiarowego kryształu fotonicznego",
+    "Autor":"Agnieszka  MOSSAKOWSKA-WYSZYŃSKA"
+  },
+  {
+    "Temat":"Analiza pracy systemów fotowoltaicznych na dachu i fasadzie Gmachu Inżynierii   Środowiska",
+    "Autor":"Stanisław  PIETRUSZKO"
+  },
+  {
+    "Temat":"Analiza protokołów komunikacyjnych dla sieci motów",
+    "Autor":"Zbigniew  PIÓRO"
+  },
+  {
+    "Temat":"Analiza pseudoszeptu zaimplementowana na DSP",
+    "Autor":"Antoni  GRZANKA"
+  },
+  {
+    "Temat":"Analiza sieci połączeń na podstwie badań czynnościowych",
+    "Autor":"Ewa  PIĄTKOWSKA-JANKO"
+  },
+  {
+    "Temat":"Analiza sprzężonych linii transmisyjnych nową metodą macierzy sprzężeń.",
+    "Autor":"Adam  ABRAMOWICZ"
+  },
+  {
+    "Temat":"Analiza stanu powierzchni SiC po procesach reaktywnego trawienia jonowego",
+    "Autor":"Jan  SZMIDT"
+  },
+  {
+    "Temat":"Analiza statystyczna danych z badań neuroobrazowych",
+    "Autor":"Ewa  PIĄTKOWSKA-JANKO"
+  },
+  {
+    "Temat":"Analiza sygnałów biomechanicznych w badaniach kinematyki chodu ludzkiego",
+    "Autor":"Jacek  DUSZA"
+  },
+  {
+    "Temat":"Analiza tekstur z wykorzystaniem metody LBP(Local Binary Pattern)",
+    "Autor":"Piotr  GARBAT"
+  },
+  {
+    "Temat":"Analizator smogu elektromagnetycznego",
+    "Autor":"Jacek  MISIUREWICZ"
+  },
+  {
+    "Temat":"Analiza wiarygodności systemów wbudowanych i czasu rzeczywistego",
+    "Autor":"Piotr  GAWKOWSKI"
+  },
+  {
+    "Temat":"Analiza wizualna zjawiska nekroz w blaszkach liści metodami przetwarzania obrazu",
+    "Autor":"Zbigniew  WAWRZYNIAK"
+  },
+  {
+    "Temat":"Analiza właściwości dielektryków o wysokiej przenikalności elektrycznej wytwarzanych na podłożach z węglika krzemu metodą ALD.",
+    "Autor":"Jan  SZMIDT"
+  },
+  {
+    "Temat":"Analiza wpływu modyfikacji przeciwciałami struktur ISFET na właściwości detekcyjne",
+    "Autor":"Piotr  FIREK"
+  },
+  {
+    "Temat":"Analiza zagadnienia dynamicznej pracy laserów o strukturze kryształu fotonicznego",
+    "Autor":"Agnieszka  MOSSAKOWSKA-WYSZYŃSKA"
+  },
+  {
+    "Temat":"Aniamacja z obracającymi się obiektami 3D",
+    "Autor":"Jan  ZABRODZKI"
+  },
+  {
+    "Temat":"Aplikacja bazodanowa do ewidencji danych z procesu produkcji mierników.",
+    "Autor":"Andrzej  PODGÓRSKI"
+  },
+  {
+    "Temat":"Aplikacja bazodanowa do ewidencji danych z procesu produkcji mierników.",
+    "Autor":"Andrzej  PODGÓRSKI"
+  },
+  {
+    "Temat":"Aplikacja bazodanowa do ewidencji danych z procesu produkcji mierników.",
+    "Autor":"Andrzej  PODGÓRSKI"
+  },
+  {
+    "Temat":"Aplikacja do analizy kraterów powstałych w wyniku oddziaływania laserowego",
+    "Autor":"Paweł Jan  GĄSIOR"
+  },
+  {
+    "Temat":"Aplikacja do ewolucyjnej korelacji obrazów",
+    "Autor":"Jarosław  DAWIDCZYK"
+  },
+  {
+    "Temat":"Aplikacja do segmentacji obrazów wykorzystująca algorytm ewolucyjny.",
+    "Autor":"Jarosław  DAWIDCZYK"
+  },
+  {
+    "Temat":"Aplikacja webowa do prezentacji danych pomiarowych",
+    "Autor":"Andrzej  PODGÓRSKI"
+  },
+  {
+    "Temat":"Aplikacja webowa do prezentacji danych pomiarowych.",
+    "Autor":"Andrzej  PODGÓRSKI"
+  },
+  {
+    "Temat":"Aplikacja webowa do prezentacji danych pomiarowych.",
+    "Autor":"Andrzej  PODGÓRSKI"
+  },
+  {
+    "Temat":"Automatyczna ekstrakcja modelu diody",
+    "Autor":"Arkadiusz Cezary  LEWANDOWSKI"
+  },
+  {
+    "Temat":"Automatyczna generacja topografii bramek logicznych w technologii VESTIC",
+    "Autor":"Zbigniew  JAWORSKI"
+  },
+  {
+    "Temat":"Automatyczne prowadzenie połączeń w symbolicznym edytorze układów VeSTIC",
+    "Autor":"Adam  WOJTASIK"
+  },
+  {
+    "Temat":"Automatyczne wyznaczanie parametrów medycznych ze zdjęć obrazowania medycznego",
+    "Autor":"Jan  MULAWKA"
+  },
+  {
+    "Temat":"Badania pola prędkości z wykorzystaniem systemu do badań termoanemometrycznych;",
+    "Autor":"Grzegorz  PANKANIN"
+  },
+  {
+    "Temat":"Badania symulacyjne w modelu wirtualnego człowieka do analizy narządu ruchu",
+    "Autor":"Zbigniew  WAWRZYNIAK"
+  },
+  {
+    "Temat":"Badania technologii montażu diod GaN do podłoży DBC",
+    "Autor":"Ryszard  KISIEL"
+  },
+  {
+    "Temat":"Badanie charakterystyk przewężeń światłowodowych z siatkami Bragga pod obciążeniem mechanicznym;",
+    "Autor":"Kazimierz  JĘDRZEJEWSKI"
+  },
+  {
+    "Temat":"Badanie detektorów krzemowych do zastosowań fizycznych i biomedycznych",
+    "Autor":"Wojciech  ZABOŁOTNY"
+  },
+  {
+    "Temat":"Badanie metod projektowania nanometrowych układów scalonych dla potrzeb komunikacji bezprzewodowej (np. HSPA, LTE-Advanced, WiMAX, GSM, Bluetooth, WiFi, ZigBee)",
+    "Autor":"Witold  PLESKACZ"
+  },
+  {
+    "Temat":"Badanie modelu pełnofalowego zjawiska supercontinuum w mikrostrukturalnych włóknach światłowodowych",
+    "Autor":"Bartłomiej Wacław  SALSKI"
+  },
+  {
+    "Temat":"Badanie obciążalności prądowo-napięciowej demonstratorów przyrządów SiC",
+    "Autor":"Ryszard  KISIEL"
+  },
+  {
+    "Temat":"Badanie obwiedni sygnału osłuchowego płuc z wykorzystaniem pojęcia sygnału analitycznego",
+    "Autor":"Kajetana Marta  SNOPEK"
+  },
+  {
+    "Temat":"Badanie procesów przemiany częstotliwości w modulatorach Macha-Zehndera",
+    "Autor":"Krzysztof Michał  MADZIAR"
+  },
+  {
+    "Temat":"Badanie stabilności analogowego modulatora sigma-delta",
+    "Autor":"Zbigniew  KULKA"
+  },
+  {
+    "Temat":"Badanie układów detektorów aktywnych w.cz.",
+    "Autor":"Aleksander  BURD"
+  },
+  {
+    "Temat":"Badanie właściwości przestrajalnych przetworników metamateriałowych z warstwą ciekłego kryształu w zakresie 0,3-3THz.",
+    "Autor":"Janusz  PARKA"
+  },
+  {
+    "Temat":"Badanie właściwości warstw diamentopodobnych osadzanych na podłożu SiC",
+    "Autor":"Jan  SZMIDT"
+  },
+  {
+    "Temat":"Badanie własności spektralnych jednowymiarowych quasi-periodycznych kryształów fotonicznych",
+    "Autor":"Tomasz Przemysław  OSUCH"
+  },
+  {
+    "Temat":"Badanie wpływu działania systemu nadążnego na uzysk energii systemu fotowoltaicznego",
+    "Autor":"Stanisław  PIETRUSZKO"
+  },
+  {
+    "Temat":"Badanie wydajności bramki SSL",
+    "Autor":"Grzegorz  BLINOWSKI"
+  },
+  {
+    "Temat":"Bateryjny detektor koncentracji tlenu w powietrzu umożliwiający bezprzewodową transmisję danych.",
+    "Autor":"Gerard  CYBULSKI"
+  },
+  {
+    "Temat":"Bezinwazyjny glukometr z odczytem optycznym i wymuszeniem termicznym",
+    "Autor":"Michał  BORECKI"
+  },
+  {
+    "Temat":"Bezprzewodowa sieć czujnikowa do monitorowania drgań konstrukcji mechanicznych",
+    "Autor":"Daniel  PACZESNY"
+  },
+  {
+    "Temat":"·\tBezprzewodowe urządzenie do stymulacji słuchowych w funkcjonalnym Rezonansie Magnetycznym",
+    "Autor":"Piotr  BOGORODZKI"
+  },
+  {
+    "Temat":"Bezprzewodowy moduł pomiarowy z transmisją optyczną",
+    "Autor":"Gustaw Stanisław  MAZUREK"
+  },
+  {
+    "Temat":"Bezstykowe pomiary prądów chwilowych o dużych natężeniach",
+    "Autor":"Aleksander  BURD"
+  },
+  {
+    "Temat":"Biblioteka sekwencji obrazujących MRI",
+    "Autor":"Ewa  PIĄTKOWSKA-JANKO"
+  },
+  {
+    "Temat":"Biblioteka sekwencji obrazujących MRI",
+    "Autor":"Ewa  PIĄTKOWSKA-JANKO"
+  },
+  {
+    "Temat":"Biblioteki Java do komunikacji z urządzeniami pomiarowymi LXI",
+    "Autor":"Arkadiusz Cezary  LEWANDOWSKI"
+  },
+  {
+    "Temat":"Blok wejściowy toru Y oscyloskopu",
+    "Autor":"Tomasz  STARECKI"
+  },
+  {
+    "Temat":"Budowa i optymalizacja warunków pracy wzmacniacza światłowodowego EDFA",
+    "Autor":"Ryszard  PIRAMIDOWICZ"
+  },
+  {
+    "Temat":"Budowa prostego analizatora wielkosygnałowego",
+    "Autor":"Arkadiusz Cezary  LEWANDOWSKI"
+  },
+  {
+    "Temat":"Budowa prostego analizatora wielkosygnałowego",
+    "Autor":"Arkadiusz Cezary  LEWANDOWSKI"
+  },
+  {
+    "Temat":"Budowa sondy do pomiaru obwodów w.cz. bezpośrednio na płytkach drukowanych",
+    "Autor":"Arkadiusz Cezary  LEWANDOWSKI"
+  },
+  {
+    "Temat":"Budowa stanowiska kontroli obwodów drukowanych metodą optyczną",
+    "Autor":"Marek  SUTKOWSKI"
+  },
+  {
+    "Temat":"Budowa układu do pomiaru małych pojemności z idealnym integratorem",
+    "Autor":"Tomasz  OLSZEWSKI"
+  },
+  {
+    "Temat":"Cewki gradientowe dla tomografii nanocząstek magnetycznych",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"Charakterystyka właściwości elektrooptycznych ciekłokrystalicznych materiałów nematycznych adresowanych dwiema częstotliwościami dla potrzeb wyświetlaczy (możliwość kontynuacji tematyki na studiach II-ego stopnia)",
+    "Autor":"Janusz  PARKA"
+  },
+  {
+    "Temat":"Charakteryzacja elektryczna heterostruktur półprzewodnikowych ZnO/4H-SiC",
+    "Autor":"Jan  SZMIDT"
+  },
+  {
+    "Temat":"Charakteryzacja struktury metal-izolator-półprzewodnik na podstawie pomiaru prądu tunelowego Fowlera-Nordheima",
+    "Autor":"Bogdan  MAJKUSIAK"
+  },
+  {
+    "Temat":"Charakteryzacja tranzystorów MISFET SiC przy użyciu metody pompowania  ładunku (charge pumping)",
+    "Autor":"Jan  SZMIDT"
+  },
+  {
+    "Temat":"Cyfrowa rejestracja obrazów - prezentacja multimedialna",
+    "Autor":"Marek  SUTKOWSKI"
+  },
+  {
+    "Temat":"Cyfrowe metody usuwania sprzężeń akustycznych",
+    "Autor":"Gustaw Stanisław  MAZUREK"
+  },
+  {
+    "Temat":"Cyfrowe przetwarzanie danych nawigacyjnych w dwusystemowym, wielopasmowym scalonym odbiorniku GNSS",
+    "Autor":"Witold  PLESKACZ"
+  },
+  {
+    "Temat":"Cyfrowy moduł pomiarowej stacji bazowej",
+    "Autor":"Henryk  CHACIŃSKI"
+  },
+  {
+    "Temat":"Cykliczna funkcja autokorelacji i cykliczne widmo gęstości mocy sygnałów EKG/EEG",
+    "Autor":"Kajetana Marta  SNOPEK"
+  },
+  {
+    "Temat":"Cykliczna gęstość widmowa w detekcji sygnału użytecznego w obecności szumu",
+    "Autor":"Kajetana Marta  SNOPEK"
+  },
+  {
+    "Temat":"Czujniki i układ do pomiaru prężności tlenu w płynach metodą elektrochemiczną",
+    "Autor":"Tadeusz  PAŁKO"
+  },
+  {
+    "Temat":"demonstrator radaru FMCW",
+    "Autor":"Krzysztof  KULPA"
+  },
+  {
+    "Temat":"Demonstrator radaru szumowego z zastosowaniem urzadzenia SDR -NI--USRP z układami FPGA",
+    "Autor":"Krzysztof  KULPA"
+  },
+  {
+    "Temat":"Detekcja anomalii w systemach komputerowych",
+    "Autor":"Janusz  SOSNOWSKI"
+  },
+  {
+    "Temat":"Detektor scyntylacyjny z wielopikselową fotodiodą lawinową",
+    "Autor":"Janusz  MARZEC"
+  },
+  {
+    "Temat":"Detektor scyntylacyjny z wielopikselową fotodiodą lawinową",
+    "Autor":"Janusz  MARZEC"
+  },
+  {
+    "Temat":"Detektor sygnału 300 GHz na potrzeby sub-THz układu radiokomunikacyjnego",
+    "Autor":"Paweł  KOPYT"
+  },
+  {
+    "Temat":"Dokładny pomiar małych odległości",
+    "Autor":"Marek  PAWŁOWSKI"
+  },
+  {
+    "Temat":"Dwutaktowa przetwornica napięcia stałego",
+    "Autor":"Mirosław  MIKOŁAJEWSKI"
+  },
+  {
+    "Temat":"Edytor graficznych elementów bibliotecznych do narzędzia typu EDA",
+    "Autor":"Tomasz  STARECKI"
+  },
+  {
+    "Temat":"Eksploracja wiedzy z baz medycznych",
+    "Autor":"Zbigniew  WAWRZYNIAK"
+  },
+  {
+    "Temat":"Eksploracja wiedzy z baz medycznych",
+    "Autor":"Zbigniew  WAWRZYNIAK"
+  },
+  {
+    "Temat":"Ekstraktor parametrów struktury diody tunelowej MOS (metal-izolator-półprzewodnik)",
+    "Autor":"Bogdan  MAJKUSIAK"
+  },
+  {
+    "Temat":"Elektromagnetyczne wykrywanie przeszkód w bliskiej odległości (dziesiątki cm)",
+    "Autor":"Aleksander  BURD"
+  },
+  {
+    "Temat":"Elektrooptyczne właściwości ciekłokrystalicznych nematyków o dużej dwójłomności  i małej lepkości (możliwość kontynuacji tematyki na studiach II-ego stopnia)",
+    "Autor":"Janusz  PARKA"
+  },
+  {
+    "Temat":"Elementy Systemów mobilnych e-Health w zarządzaniu chorobami przewlekłymi",
+    "Autor":"Zbigniew  WAWRZYNIAK"
+  },
+  {
+    "Temat":"Energochłonność oprogramowania",
+    "Autor":"Janusz  SOSNOWSKI"
+  },
+  {
+    "Temat":"Energooszczędne protokoły trasowania dla sieci czujnikowych pracujących w ramach Internetu Rzeczy",
+    "Autor":"Daniel  PACZESNY"
+  },
+  {
+    "Temat":"Estymacja i analiza parametrów ruchów płodu na podstawie sygnałów dopplerowskich aktywności ruchowej płodu.",
+    "Autor":"Krzysztof  KAŁUŻYŃSKI"
+  },
+  {
+    "Temat":"Estymacja kąta nadejścia fali elektromagnetycznej metodą pęku macierzy",
+    "Autor":"Marek Wojciech  RUPNIEWSKI"
+  },
+  {
+    "Temat":"Estymacja przemieszczeń na potrzeby elastografii na podstawie analizy fazy transformaty Fouriera ech ultradźwiękowych.",
+    "Autor":"Krzysztof  KAŁUŻYŃSKI"
+  },
+  {
+    "Temat":"Falowodowy filtr pasmowo-przepustowy na pasmo 220 - 330 GHz (WR3.4)",
+    "Autor":"Paweł  KOPYT"
+  },
+  {
+    "Temat":"Falowodowy filtr pasmowo-przepustowy na pasmo WR3.4 (220-330 GHz)",
+    "Autor":"Paweł  KOPYT"
+  },
+  {
+    "Temat":"Fuzja zobrazowań radarowych i optycznych",
+    "Autor":"Piotr Jerzy  SAMCZYŃSKI"
+  },
+  {
+    "Temat":"Generacja promieniowania w laserach ramanowskich wykonanych na platformie krzemowej",
+    "Autor":"Paweł  SZCZEPAŃSKI"
+  },
+  {
+    "Temat":"Generacja promieniowania w laserach z ośrodkiem w postaci dwu-wymiarowego kryształu fotonicznego",
+    "Autor":"Paweł  SZCZEPAŃSKI"
+  },
+  {
+    "Temat":"Generacja siatek dyskretyzacyjnych dla topografii układu scalonego",
+    "Autor":"Adam  WOJTASIK"
+  },
+  {
+    "Temat":"Generator impulsowy skoku jednostkowego ze sterowaniem cyfrowym",
+    "Autor":"Aleksander  BURD"
+  },
+  {
+    "Temat":"Generator impulsów z przestrajanym zegarem oraz układem programowalnym",
+    "Autor":"Mariusz Jarosław  SUCHENEK"
+  },
+  {
+    "Temat":"Generator magistral Wishbone dla FPGA",
+    "Autor":"Ryszard  ROMANIUK"
+  },
+  {
+    "Temat":"Generator połączeń pomiędzy blokami funkcjonalnymi układu scalonego",
+    "Autor":"Grzegorz  JANCZYK"
+  },
+  {
+    "Temat":"Generator przebiegów arbitralnych z układem programowalnym",
+    "Autor":"Mariusz Jarosław  SUCHENEK"
+  },
+  {
+    "Temat":"Generator przebiegów reograficznych (sztuczny pacjent) z funkcją bezprzewodowej transmisji danych.",
+    "Autor":"Gerard  CYBULSKI"
+  },
+  {
+    "Temat":"Generator przebiegów sinusoidalnych",
+    "Autor":"Tomasz  STARECKI"
+  },
+  {
+    "Temat":"Generator przebiegów sinusoidalnych do testowania toru pomiarowego w ultrasonografii",
+    "Autor":"Tomasz  STARECKI"
+  },
+  {
+    "Temat":"Generator przestrajany precyzyjnie w zakresie 1-2 GHz",
+    "Autor":"Krzysztof  ANTOSZKIEWICZ"
+  },
+  {
+    "Temat":"Generator sygnału 1.3 GHz stabilizowany rezonatorem dielektrycznym",
+    "Autor":"Krzysztof Marek  CZUBA"
+  },
+  {
+    "Temat":"Generator tonu muzycznego z wykorzystaniem cyfrowej linii opóźniającej",
+    "Autor":"Aleksander  BURD"
+  },
+  {
+    "Temat":"Geograficzna baza danych o nadajnikach dla potrzeb radaru pasywnego",
+    "Autor":"Jacek  MISIUREWICZ"
+  },
+  {
+    "Temat":"Głowica pomiarowa do pomiarów mikrofalowych tranzystorów mocy",
+    "Autor":"Arkadiusz Cezary  LEWANDOWSKI"
+  },
+  {
+    "Temat":"Graficzne modele urządzeń wejścia/wyjścia do symulatorów VHDL i Verilog",
+    "Autor":"Wojciech  ZABOŁOTNY"
+  },
+  {
+    "Temat":"Graficzny interfejs użytkownika dla pakietu ectsim (Matlab) do modelowania i rekonstrukcji obrazów w tomografii elektrycznej",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"Grupowanie danych w podprzestrzeniach",
+    "Autor":"Marzena  KRYSZKIEWICZ"
+  },
+  {
+    "Temat":"Heterogeniczne środowisko numeryczne do wysokowydajnych analiz Monte Carlo",
+    "Autor":"Arkadiusz Cezary  LEWANDOWSKI"
+  },
+  {
+    "Temat":"Holter EKG",
+    "Autor":"Tomasz  STARECKI"
+  },
+  {
+    "Temat":"Identyfikacja ładunku w układzie FPGA dla dwu-wymiarowego detektora GEM",
+    "Autor":"Krzysztof  POŹNIAK"
+  },
+  {
+    "Temat":"Implementacja aktualnych standardów pomiaru parametrów i charakterystyk przetworników analogowo-cyfrowych zgodnie z IEEE Std 1241-2010",
+    "Autor":"Konrad  JĘDRZEJEWSKI"
+  },
+  {
+    "Temat":"Implementacja algorytmów GMTI czasu rzeczywistego",
+    "Autor":"Piotr Jerzy  SAMCZYŃSKI"
+  },
+  {
+    "Temat":"Implementacja algorytmów przetwarzania obrazów „polaryzacyjnych” dla systemów wbudowanych opartych na architekturze ARM",
+    "Autor":"Piotr  GARBAT"
+  },
+  {
+    "Temat":"Implementacja algorytmów roju i mrówkowego do rozwiązania symetrycznego i niesymetrycznego problemu komiwojażera",
+    "Autor":"Piotr  BILSKI"
+  },
+  {
+    "Temat":"Implementacja algorytmów SAR/ISAR czasu rzeczywistego",
+    "Autor":"Piotr Jerzy  SAMCZYŃSKI"
+  },
+  {
+    "Temat":"Implementacja algorytmu rozdziału sygnału radiowego na podpasma na FPGA",
+    "Autor":"Dawid Wilhelm  ROSOŁOWSKI"
+  },
+  {
+    "Temat":"Implementacja bazy danych w układzie FPGA",
+    "Autor":"Krzysztof  POŹNIAK"
+  },
+  {
+    "Temat":"Implementacja biblioteki obsługi języka TCL w języku Scala",
+    "Autor":"Arkadiusz Władysław  ŁUCZYK"
+  },
+  {
+    "Temat":"Implementacja biblioteki obsługi komórek logicznych Verilog w języku Scala",
+    "Autor":"Arkadiusz Władysław  ŁUCZYK"
+  },
+  {
+    "Temat":"Implementacja biblioteki obsługi komórek logicznych Verilog w języku Scala",
+    "Autor":"Arkadiusz Władysław  ŁUCZYK"
+  },
+  {
+    "Temat":"Implementacja biblioteki obsługi plików technologicznych LEF w języku Scala",
+    "Autor":"Arkadiusz Władysław  ŁUCZYK"
+  },
+  {
+    "Temat":"Implementacja biblioteki obsługi plików technologicznych LIBERTY  w języku Scala",
+    "Autor":"Arkadiusz Władysław  ŁUCZYK"
+  },
+  {
+    "Temat":"Implementacja gier z wykorzystaniem logiki temporalnej",
+    "Autor":"Jan  MULAWKA"
+  },
+  {
+    "Temat":"Implementacja i przebadanie nowych metod pomiaru charakterystyk jakości adaptacyjnych przetworników A/C",
+    "Autor":"Łukasz Michał  MAŁKIEWICZ"
+  },
+  {
+    "Temat":"Implementacja i weryfikacja algorytmu do symulacji układów cyfrowych metastabilnych",
+    "Autor":"Leszek  OPALSKI"
+  },
+  {
+    "Temat":"Implementacja konwertera częstotliwości próbkowania w języku Verilog i w programie Matlab (możliwość kontynuacji tematyki na studiach II-ego stopnia)",
+    "Autor":"Witold  PLESKACZ"
+  },
+  {
+    "Temat":"Implementacja koprocesora dla obliczeń kryptograficznych",
+    "Autor":"Arkadiusz Władysław  ŁUCZYK"
+  },
+  {
+    "Temat":"Implementacja modelu interfejsu I2C w języku Scala z wykorzystaniem biblioteki Chisel",
+    "Autor":"Arkadiusz Władysław  ŁUCZYK"
+  },
+  {
+    "Temat":"Implementacja modelu pamięci DDR2 w języku Scala z wykorzystaniem biblioteki Chisel",
+    "Autor":"Arkadiusz Władysław  ŁUCZYK"
+  },
+  {
+    "Temat":"Implementacja programowa algorytmu FDTD typu blokowego, “cache aware” i “cache oblivious” na CPU i GPU w celu maksymalnego wykorzystania pamięci cache",
+    "Autor":"Maciej  SYPNIEWSKI"
+  },
+  {
+    "Temat":"Implementacja programowa algorytmu FDTD typu blokowego, “cache aware” i “cache oblivious” na CPU i GPU w celu maksymalnego wykorzystania pamięci cache",
+    "Autor":"Maciej  SYPNIEWSKI"
+  },
+  {
+    "Temat":"Implementacja protokołów Space Wire/MIL STD w FPGA",
+    "Autor":"Grzegorz Henryk  KASPROWICZ"
+  },
+  {
+    "Temat":"Implementacja radarowego układu śledzenia",
+    "Autor":"Mateusz Piotr  MALANOWSKI"
+  },
+  {
+    "Temat":"Implementacja scalonego generatora przestrajanego napięciem (VCO)",
+    "Autor":"Witold  PLESKACZ"
+  },
+  {
+    "Temat":"Implementacja scalonego wzmacniacza mocy do nadajnika Bluetooth Low Energy lub do radaru FMCW pracującego w paśmie K (możliwość kontynuacji tematyki na studiach II-ego stopnia)",
+    "Autor":"Witold  PLESKACZ"
+  },
+  {
+    "Temat":"Implementacja sprzętowa algorytmu przetwarzania obrazów prążkowych",
+    "Autor":"Piotr  GARBAT"
+  },
+  {
+    "Temat":"Implementacja sprzętowa elementów konfigurowalnej sieci neuronowej",
+    "Autor":"Grzegorz  PASTUSZAK"
+  },
+  {
+    "Temat":"Implementacja sprzętowa elementów konfigurowalnej sieci neuronowej",
+    "Autor":"Grzegorz  PASTUSZAK"
+  },
+  {
+    "Temat":"Implementacja sprzętowa modułu kompensacji ruchu dla dekodera H.264/AVC",
+    "Autor":"Grzegorz  PASTUSZAK"
+  },
+  {
+    "Temat":"Implementacja sprzętowa modułu SAO dekodera wideo H.265/HEVC",
+    "Autor":"Grzegorz  PASTUSZAK"
+  },
+  {
+    "Temat":"Implementacja sprzętowa modułu SAO dekodera wideo H.265/HEVC",
+    "Autor":"Grzegorz  PASTUSZAK"
+  },
+  {
+    "Temat":"Implementacja symulatora sygnałów radarowych działającego w czasie rzeczywistym",
+    "Autor":"Mateusz Piotr  MALANOWSKI"
+  },
+  {
+    "Temat":"Implementacja systemu przetwarzającego sygnał przepływomierza dopplerowskiego w układzie programowalnym FPGA",
+    "Autor":"Wojciech  ZABOŁOTNY"
+  },
+  {
+    "Temat":"Implementacja tablicowych modeli tranzystorów w programie Spice",
+    "Autor":"Dominik Krzysztof  KASPROWICZ"
+  },
+  {
+    "Temat":"Implementacja układu pętli fazowej odbiornika GNSS w technologii CMOS FD-SOI 28 nm",
+    "Autor":"Tomasz Marek  BOREJKO"
+  },
+  {
+    "Temat":"Implementacja układu zasilania dla scalonych systemów elektronicznych w technologii CMOS 130 nm",
+    "Autor":"Witold  PLESKACZ"
+  },
+  {
+    "Temat":"Implementacja urządzeń pomiarowych na platformie USRP",
+    "Autor":"Dawid Wilhelm  ROSOŁOWSKI"
+  },
+  {
+    "Temat":"Implementacja wizualizacji grafu stanów osiągalnych dla języka EMLAN",
+    "Autor":"Artur  KRYSTOSIK"
+  },
+  {
+    "Temat":"Implementacja wybranych algorytmów diagnostyki analogowych układów elektronicznych",
+    "Autor":"Dominik Krzysztof  KASPROWICZ"
+  },
+  {
+    "Temat":"Implementacja wybranych algorytmów klasyfikacji do diagnostyki analogowych układów elektronicznych",
+    "Autor":"Dominik Krzysztof  KASPROWICZ"
+  },
+  {
+    "Temat":"Implementacja wybranych algorytmów minimalizacji funkcji rozmytych",
+    "Autor":"Andrzej  WIELGUS"
+  },
+  {
+    "Temat":"Implementacja wzmacniacza mocy o architekturze wzmacniacza operacyjnego pracującego w klasie AB w technologii CMOS 55 nm (możliwość kontynuacji tematyki na studiach II-ego stopnia)",
+    "Autor":"Witold  PLESKACZ"
+  },
+  {
+    "Temat":"Implementacja źródła odniesienia w technologii CMOS FD-SOI 28 nm",
+    "Autor":"Tomasz Marek  BOREJKO"
+  },
+  {
+    "Temat":"Implermentacja VHDL i badanie pamięci podręcznych wielopoziomowych",
+    "Autor":"Jan  OGRODZKI"
+  },
+  {
+    "Temat":"Inteligentny włącznik oświetlenia z kamerą termowizyjną",
+    "Autor":"Grzegorz Henryk  KASPROWICZ"
+  },
+  {
+    "Temat":"Interaktywny system multimedialny",
+    "Autor":"Marek  SUTKOWSKI"
+  },
+  {
+    "Temat":"Interfejs bezprzewodowy \"Wireless LAN\" do transmisji danych z systemu pomiarowego",
+    "Autor":"Tomasz  OLSZEWSKI"
+  },
+  {
+    "Temat":"Interfejs dla przetworników CMOS/CCD Aptina",
+    "Autor":"Piotr  GARBAT"
+  },
+  {
+    "Temat":"Interfejs programowy pomiędzy łączem Ethernet a magistralą GPIB",
+    "Autor":"Wojciech  WIATR"
+  },
+  {
+    "Temat":"Interfejs programowy pomiędzy łączem Ethernet a magistralą GPIB",
+    "Autor":"Wojciech  WIATR"
+  },
+  {
+    "Temat":"Interfejs www dla elektrycznego tomografu pojemnościowego",
+    "Autor":"Jacek  KRYSZYN"
+  },
+  {
+    "Temat":"Internetowy interfejs użytkownika dla bazodanowego system identyfikacji białek",
+    "Autor":"Tymon Edwin  RUBEL"
+  },
+  {
+    "Temat":"Internetowy interfejs użytkownika dla bazodanowego system identyfikacji białek",
+    "Autor":"Tymon Edwin  RUBEL"
+  },
+  {
+    "Temat":"Internetowy interfejs użytkownika dla bazodanowego system identyfikacji białek",
+    "Autor":"Tymon Edwin  RUBEL"
+  },
+  {
+    "Temat":"Iteracyjny algorytm rekonstrukcji obrazów dla tomografu rentgenowskiego",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"Kalibracja apartu fotograficznego/kamery",
+    "Autor":"Grzegorz Krzysztof  NIERADKA"
+  },
+  {
+    "Temat":"Kalibracja przestrzeni 3D dla potrzeb mobilnych urządzeń multimedialnych",
+    "Autor":"Piotr  GARBAT"
+  },
+  {
+    "Temat":"Kalibracja przestrzeni pomiarowej dla potrzeb systemu cyfrowej generacji hologramów",
+    "Autor":"Marek  SUTKOWSKI"
+  },
+  {
+    "Temat":"Kalibrowane źódło światła LED o zmiennej długości fali",
+    "Autor":"Ryszard  ROMANIUK"
+  },
+  {
+    "Temat":"Katalog charakterystyk pojemnościowo-napięciowych struktur metal-izolator-półprzewodnik",
+    "Autor":"Bogdan  MAJKUSIAK"
+  },
+  {
+    "Temat":"Komórki cyfrowe CMOS odporne na promieniowanie jonizujące (możliwość kontynuacji tematyki na studiach II-ego stopnia)",
+    "Autor":"Tomasz Marek  BOREJKO"
+  },
+  {
+    "Temat":"Komputerowe odkrywanie wiedzy w medycynie",
+    "Autor":"Jan  MULAWKA"
+  },
+  {
+    "Temat":"Konstrukcja i badanie własności sprzężonych generatorów pierścieniowych",
+    "Autor":"Leszek  OPALSKI"
+  },
+  {
+    "Temat":"Łączenie i lokalizacja obrazów THz w przestrzeni 3D i 4D",
+    "Autor":"Piotr  GARBAT"
+  },
+  {
+    "Temat":"lokalizacja obiektów i obrazowanie  z wykorzystaniem sygnałów telewizji cyfrowej",
+    "Autor":"Krzysztof  KULPA"
+  },
+  {
+    "Temat":"Lokalizator modelu latającego",
+    "Autor":"Jerzy  WEREMCZUK"
+  },
+  {
+    "Temat":"Mapa sceny 2D w oparciu o 2 klatki obrazowe z kamery wi-fi tworzące obraz stereoskopowy",
+    "Autor":"Henryk  DOBROWOLSKI"
+  },
+  {
+    "Temat":"Maszyna wirtualna Forth realizowana w układzie FPGA, zintegrowana z magistralą Wishbone",
+    "Autor":"Wojciech  ZABOŁOTNY"
+  },
+  {
+    "Temat":"Maszynowe dowodzenie twierdzeń w wybranej logice  rozszerzonej",
+    "Autor":"Jan  MULAWKA"
+  },
+  {
+    "Temat":"Matematyczny model wspomagania decyzji diagnostycznych",
+    "Autor":"Zbigniew  WAWRZYNIAK"
+  },
+  {
+    "Temat":"mechaniczny modulator optyczny z silnikiem prądu stałego",
+    "Autor":"Mariusz Jarosław  SUCHENEK"
+  },
+  {
+    "Temat":"Metoda EMD (Empirical Mode Decomposition) w obrazowaniu medycznym",
+    "Autor":"Kajetana Marta  SNOPEK"
+  },
+  {
+    "Temat":"Metoda EMD (Empirical Mode Decomposition) w obrazowaniu medycznym",
+    "Autor":"Kajetana Marta  SNOPEK"
+  },
+  {
+    "Temat":"Metoda Linear Back Projection (Liniowego Rzutu Wstecznego)  i symulacja rekonstrukcji obrazu w tomografie impedancyjnym.",
+    "Autor":"Tomasz  OLSZEWSKI"
+  },
+  {
+    "Temat":"Metoda rozpoznawania i śledzenia kształtu ust zaimplementowane na bazie układów DSP",
+    "Autor":"Antoni  GRZANKA"
+  },
+  {
+    "Temat":"Metody diagnostyki analogowych układów scalonych",
+    "Autor":"Dominik Krzysztof  KASPROWICZ"
+  },
+  {
+    "Temat":"Metodyka i narzędzia do wstępnej oceny zawartości obrazu dysku zabezpieczonego na potrzeby informatycznego śledztwa",
+    "Autor":"Magdalena  SZEŻYŃSKA"
+  },
+  {
+    "Temat":"Metody kalibracji szyków antenowych z cyfrowym formowaniem wiązki",
+    "Autor":"Mateusz Piotr  MALANOWSKI"
+  },
+  {
+    "Temat":"Metody oceny zajętości widma dla inteligentnych systemów radiokomunikacyjnych.",
+    "Autor":"Tomasz  KOSIŁO"
+  },
+  {
+    "Temat":"Metody optoelektroniczne analizy jednorodności tkanki miekkiej",
+    "Autor":"Michał  BORECKI"
+  },
+  {
+    "Temat":"Metody optymalizacji obliczeń na danych otrzymywanych z systemu pomiarowego GEM dla eksperymentu WEST",
+    "Autor":"Krzysztof  POŹNIAK"
+  },
+  {
+    "Temat":"Metody poprawy liniowości przetworników cyfrowo-analogowych (C/A).",
+    "Autor":"Łukasz Michał  MAŁKIEWICZ"
+  },
+  {
+    "Temat":"Metody segmentacji lokalnej obrazów w wynikach pomiarowych",
+    "Autor":"Zbigniew  WAWRZYNIAK"
+  },
+  {
+    "Temat":"Middleware dla robota mobilnego / agenta upostaciowionego w oparciu o 802.11",
+    "Autor":"Henryk  DOBROWOLSKI"
+  },
+  {
+    "Temat":"Miernik dobroci cewek - badanie metody",
+    "Autor":"Aleksander  BURD"
+  },
+  {
+    "Temat":"Migracja treści między platformami Wiki",
+    "Autor":"Jerzy  CHRZĄSZCZ"
+  },
+  {
+    "Temat":"Mikrofalowy pomiar wilgotności materiałów metodą transmisyjną",
+    "Autor":"Jerzy  SKULSKI"
+  },
+  {
+    "Temat":"Mikrofalowy wzmacniacz  z obwodami adaptacyjnymi  na pasmo L lub S",
+    "Autor":"Dawid Wilhelm  ROSOŁOWSKI"
+  },
+  {
+    "Temat":"Mikromocowy układ implantowalny dla eksperymentów optogenetycznych",
+    "Autor":"Grzegorz Henryk  KASPROWICZ"
+  },
+  {
+    "Temat":"Mikropaskowy pasmowo-przepustowy pseudo-eliptyczny filtr w paśmie L",
+    "Autor":"Jerzy  PIOTROWSKI"
+  },
+  {
+    "Temat":"Mikroprocesorowy moduł pomiarowy z interfejsem Ethernet",
+    "Autor":"Krzysztof  MROCZEK"
+  },
+  {
+    "Temat":"Mikroprocesorowy moduł  sterowania do mikrofalowego wzmacniacza z obwodami dopasowującymi",
+    "Autor":"Dawid Wilhelm  ROSOŁOWSKI"
+  },
+  {
+    "Temat":"Mikroprocesorowy moduł zasilania wykorzystujący ogniwa fotowoltaiczne i chemiczne",
+    "Autor":"Sławomir  SZOSTAK"
+  },
+  {
+    "Temat":"Mikroprocesorowy sterownik fotoakustycznego detektor poziomu stężenia gazu",
+    "Autor":"Mariusz Jarosław  SUCHENEK"
+  },
+  {
+    "Temat":"Miniaturowe sprzęgacze LC.",
+    "Autor":"Adam  ABRAMOWICZ"
+  },
+  {
+    "Temat":"Miniaturowy, bateryjny czujnik wykrywający fazę oddechu i umożliwiający bezprzewodową transmisję danych.",
+    "Autor":"Gerard  CYBULSKI"
+  },
+  {
+    "Temat":"Miniaturowy pulsometr bateryjny umożliwiający bezprzewodową transmisję danych.",
+    "Autor":"Gerard  CYBULSKI"
+  },
+  {
+    "Temat":"Miniaturowy wzmacniacz fazoczuły",
+    "Autor":"Mariusz Jarosław  SUCHENEK"
+  },
+  {
+    "Temat":"Minimalnie inwazyjny glukometr - modeowanie parametrow poboru limfy",
+    "Autor":"Michał  BORECKI"
+  },
+  {
+    "Temat":"Mobilne narzędzie do oceny pożądanej intensywności leczenia u pacjentów z przewlekłymi chorobach układu oddechowego",
+    "Autor":"Jan  MULAWKA"
+  },
+  {
+    "Temat":"Model dydaktyczny układu mikroprogramowanego w FPGA",
+    "Autor":"Marek  PAWŁOWSKI"
+  },
+  {
+    "Temat":"Model interfejsu sieciowego dla symulatora VHDL do kosymulacji sprzętowo-programowej",
+    "Autor":"Wojciech  ZABOŁOTNY"
+  },
+  {
+    "Temat":"Model kinetyki fotoprzewodnictwa w pórzewodnikach o szerokiej przerwie energetycznej",
+    "Autor":"Antoni  SIENNICKI"
+  },
+  {
+    "Temat":"Model kompensacji ładunkowej w półprzewodnikach o szerokiej przerwie energetycznej",
+    "Autor":"Antoni  SIENNICKI"
+  },
+  {
+    "Temat":"Modelowanie i badanie wpływu metody zakończenia złącza Schottky’ego na parametry elektryczne diod wytwarzanych na podłożu SiC",
+    "Autor":"Jan  SZMIDT"
+  },
+  {
+    "Temat":"Modelowanie i symulacja linii transisyjnych z uwzględnieniem efektów dyspersji",
+    "Autor":"Jan  OGRODZKI"
+  },
+  {
+    "Temat":"Modelowanie i wizualizacja zjawiska mirażu optycznego",
+    "Autor":"Jacek  RACZKOWSKI"
+  },
+  {
+    "Temat":"Modelowanie matematyczne zjawiska ścieżki wirowej von Karmana   z wykorzystaniem oprogramowania ANSYS-FLUENT",
+    "Autor":"Grzegorz  PANKANIN"
+  },
+  {
+    "Temat":"Modelowanie rozkładu pola w elektrycznej tomografii pojemnościowej – procedury dla pakietu ectsim (Matlab)",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"Modelowanie rozkładu pola w elektrycznej tomografii pojemnościowej – procedury dla pakietu ectsim (Matlab)",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"modelowanie wzorów stali damasceńskiej",
+    "Autor":"Jerzy  CHRZĄSZCZ"
+  },
+  {
+    "Temat":"MODELOWANIE ZACHOWAŃ W SYSTEMACH WSPÓŁBIEŻNYCH Z ZASTOSOWANIEM AUTOMATÓW CSM I RACHUNKU PROCESÓW IMDS",
+    "Autor":"Wiktor  DASZCZUK"
+  },
+  {
+    "Temat":"Modelowanie zasięgu urządzeń radiolokacyjnych na podstawie cyfrowej mapy terenu",
+    "Autor":"Jacek  MISIUREWICZ"
+  },
+  {
+    "Temat":"Moduł debugera sprzętowego JTAG z interfejsem Ethernet",
+    "Autor":"Grzegorz Henryk  KASPROWICZ"
+  },
+  {
+    "Temat":"Moduł FMC wejść i wyjść video",
+    "Autor":"Grzegorz Henryk  KASPROWICZ"
+  },
+  {
+    "Temat":"Moduł kompresji video oparty o układy SoC ZynQ (FPGA+ARM) Xilinx",
+    "Autor":"Krzysztof  POŹNIAK"
+  },
+  {
+    "Temat":"Moduł laboratoryjny do badania właściwości stabilizatorów napięcia stałego",
+    "Autor":"Maciej  RADTKE"
+  },
+  {
+    "Temat":"Moduł oprogramowania do przechwytywania wybranych klatek ze strumienia wideo dla rekonstrukcji  sceny 2D/3D",
+    "Autor":"Henryk  DOBROWOLSKI"
+  },
+  {
+    "Temat":"Moduł oprogramowania (plugin) do systemu obróbki danych medycznych 3D Slicer",
+    "Autor":"Piotr  BOGORODZKI"
+  },
+  {
+    "Temat":"Moduł oprogramowania (plugin) do systemu obróbki danych medycznych 3D Slicer",
+    "Autor":"Piotr  BOGORODZKI"
+  },
+  {
+    "Temat":"Moduł przemiany częstotliwości do zastosowania w szyku antenowym z modulacją czasową",
+    "Autor":"Yevhen  YASHCHYSHYN"
+  },
+  {
+    "Temat":"Moduł System on a Chip z interfejsem FMC",
+    "Autor":"Ryszard  ROMANIUK"
+  },
+  {
+    "Temat":"Moduł wizualizacji wyników symulacji elektromagnetycznej dla formatu hdf5.",
+    "Autor":"Maciej  SYPNIEWSKI"
+  },
+  {
+    "Temat":"Monitor ruchu palców do czynnościowego rezonansu magnetycznego",
+    "Autor":"Piotr  BOGORODZKI"
+  },
+  {
+    "Temat":"Nanoszenie światłowodowych siatek Bragga metodą interferometru maski fazowej przy użyciu lasera impulsowego",
+    "Autor":"Paweł Jan  GĄSIOR"
+  },
+  {
+    "Temat":"Narzędzie automatyzujące kontrolę jakości danych pozyskiwanych w procesie eDiscovery z kontenerów OST i PST aplikacji MS Outlook",
+    "Autor":"Magdalena  SZEŻYŃSKA"
+  },
+  {
+    "Temat":"Narzędzie do automatycznej kalibracji modeli tranzystorów",
+    "Autor":"Dominik Krzysztof  KASPROWICZ"
+  },
+  {
+    "Temat":"Narzędzie do budowania graficznego interfejsu użytkownika w języku Java z wykorzystaniem pakietu AWT",
+    "Autor":"Piotr  WITOŃSKI"
+  },
+  {
+    "Temat":"Narzędzie do budowania graficznego interfejsu użytkownika w języku Java z wykorzystaniem pakietu SWING",
+    "Autor":"Piotr  WITOŃSKI"
+  },
+  {
+    "Temat":"Narzędzie wspomagania decyzji wykorzystujące wiedzę z eksperymentalną",
+    "Autor":"Zbigniew  WAWRZYNIAK"
+  },
+  {
+    "Temat":"Nowoczesny mikrofalowy filtr szerokopasmowy do zastosowań w systemach UWB",
+    "Autor":"Adam  ABRAMOWICZ"
+  },
+  {
+    "Temat":"Obliczenia wartości własnych w zagadnieniach elektromagnetycznych 2D/3D FD - porównanie sprawności bibliotek programowych C/C++",
+    "Autor":"Maciej  SYPNIEWSKI"
+  },
+  {
+    "Temat":"obrazowanie przedmiotów w paśmie terahercowym",
+    "Autor":"Krzysztof  KULPA"
+  },
+  {
+    "Temat":"Obrazowanie termograficzne twarzy ludzkiej jako projekcja pola temperatury",
+    "Autor":"Zbigniew  WAWRZYNIAK"
+  },
+  {
+    "Temat":"Obrazowanie USG właściwości tkanek metodami analizy obrazu",
+    "Autor":"Zbigniew  WAWRZYNIAK"
+  },
+  {
+    "Temat":"Ocena jakości testów dla programów w Pythonie",
+    "Autor":"Anna  DEREZIŃSKA"
+  },
+  {
+    "Temat":"Ocena nadciśnienia tętniczego w przypadkach z nadciśnieniem wewnątrzczaszkowym",
+    "Autor":"Antoni  GRZANKA"
+  },
+  {
+    "Temat":"Ocena wysiłku testowania",
+    "Autor":"Ilona  BLUEMKE"
+  },
+  {
+    "Temat":"Odbiornik radiofoniczny SDR z układem Si4735 sterowany z komputera PC",
+    "Autor":"Wojciech  KAZUBSKI"
+  },
+  {
+    "Temat":"Odbiornik typu WebSDR",
+    "Autor":"Dawid Wilhelm  ROSOŁOWSKI"
+  },
+  {
+    "Temat":"Odczyt pozycyjny i energetyczny w układzie FPGA dla 3-wymiarowego detektora GEM",
+    "Autor":"Krzysztof  POŹNIAK"
+  },
+  {
+    "Temat":"Odczyt pozycyjny i energetyczny w układzie FPGA dla 3-wymiarowego detektora GEM",
+    "Autor":"Krzysztof  POŹNIAK"
+  },
+  {
+    "Temat":"Odporny za zaklócenia światłowodowy układ transmisji danych na pokładzie autonomicznej platformy latającej (drona)",
+    "Autor":"Paweł  KOPYT"
+  },
+  {
+    "Temat":"Odtwarzacz sekwencji wizyjnych z detekcją ruchu",
+    "Autor":"Andrzej  BUCHOWICZ"
+  },
+  {
+    "Temat":"Oparty na pętli fazowej układ synchronizacji częstotliwości pracy lasera półprzewodnikowego",
+    "Autor":"Paweł  KOPYT"
+  },
+  {
+    "Temat":"Opracowanie algorytmów kompensacji ruchu platformy w radarach SAR",
+    "Autor":"Piotr Jerzy  SAMCZYŃSKI"
+  },
+  {
+    "Temat":"Opracowanie algorytmów kompensacji ruchu platformy w radarach SAR",
+    "Autor":"Piotr Jerzy  SAMCZYŃSKI"
+  },
+  {
+    "Temat":"Opracowanie algorytmów zobrazowań terahercowych",
+    "Autor":"Mateusz Piotr  MALANOWSKI"
+  },
+  {
+    "Temat":"Opracowanie chmury obliczeniowej w układzie FPGA dla parsera XML",
+    "Autor":"Krzysztof  POŹNIAK"
+  },
+  {
+    "Temat":"Opracowanie diplexera na 5/6 GHz",
+    "Autor":"Adam  ABRAMOWICZ"
+  },
+  {
+    "Temat":"Opracowanie i charakteryzacja głowicy czujników oblodzenia dla samolotów  z silnikiem odrzutowym",
+    "Autor":"Michał  BORECKI"
+  },
+  {
+    "Temat":"Opracowanie i implementacja algorytmów detekcji obiektów ruchomych w zobrazowaniach radarowych SAR",
+    "Autor":"Piotr Jerzy  SAMCZYŃSKI"
+  },
+  {
+    "Temat":"Opracowanie i oprogramowanie laboratoryjnego stanowiska do pomiaru częstotliwości granicznej f tranzystorów bipolarnych małej mocy i małej częstotliwości",
+    "Autor":"Józef  MACIAK"
+  },
+  {
+    "Temat":"Opracowanie i przebadanie modelu adaptacyjnie przestrajanego banku mikroakcelerometrów z cyfrowym  blokiem przetwarzania danych i sterowania szerokozakresowego i precyzyjnego pomiaru przyspieszeń.",
+    "Autor":"Anatolij  PŁATONOW"
+  },
+  {
+    "Temat":"Opracowanie i realizacja modułu dydaktycznego w oparciu o mikrokontroler ARM",
+    "Autor":"Sławomir  SZOSTAK"
+  },
+  {
+    "Temat":"Opracowanie i testy zestawu bibliotek użytkowych dla najnowszej generacji oscyloskopu Tektronix",
+    "Autor":"Krzysztof  POŹNIAK"
+  },
+  {
+    "Temat":"Opracowanie i wdrożenie serwera danych pomiarowych dla oscyloskopu Tektronix",
+    "Autor":"Krzysztof  POŹNIAK"
+  },
+  {
+    "Temat":"Opracowanie komponentów akwizycji danych w standardzie CII dla stanowiska pomiarowego",
+    "Autor":"Krzysztof  POŹNIAK"
+  },
+  {
+    "Temat":"Opracowanie komponentów numerycznego przetwarzania sygnałów w standardzie CII dla stanowiska pomiarowego",
+    "Autor":"Krzysztof  POŹNIAK"
+  },
+  {
+    "Temat":"Opracowanie komputera do automatycznego phoroptera (urządzenie do badania jakosci widzenia)",
+    "Autor":"Krzysztof  ZAREMBA"
+  },
+  {
+    "Temat":"Opracowanie komputera do automatycznego phoroptera (urządzenie do badania jakosci widzenia)",
+    "Autor":"Krzysztof  ZAREMBA"
+  },
+  {
+    "Temat":"Opracowanie komputera pozwalającego na równoczesną rejestrację obrazów z dwóch źródeł (2 sensory CMOS)",
+    "Autor":"Krzysztof  ZAREMBA"
+  },
+  {
+    "Temat":"Opracowanie komputera pozwalającego na równoczesną rejestrację obrazów z dwóch źródeł (2 sensory CMOS)",
+    "Autor":"Krzysztof  ZAREMBA"
+  },
+  {
+    "Temat":"Opracowanie konstrukcji modułów elektronicznych filtrów i detektorów RMS.",
+    "Autor":"Michał  BORECKI"
+  },
+  {
+    "Temat":"Opracowanie konstrukcji przetworników optoelektronicznych przeznaczonych do detekcji światła modulowanego.",
+    "Autor":"Michał  BORECKI"
+  },
+  {
+    "Temat":"Opracowanie metody pomiaru ferroelektryków w rezonatorach cylindrycznych TE01n",
+    "Autor":"Jerzy  KRUPKA"
+  },
+  {
+    "Temat":"Opracowanie modelu bezprzewodowego mikrofonu wykorzystującego nową zasadę przesyłania sygnałów i przebadanie zmian jakości transmisji naróżnych odległościach od satcji bazowej.",
+    "Autor":"Anatolij  PŁATONOW"
+  },
+  {
+    "Temat":"Opracowanie modelu nadajnika adaptacyjnego systemu łączności z satelitą LEO - część radiowa",
+    "Autor":"Krzysztof  KUREK"
+  },
+  {
+    "Temat":"Opracowanie modułu kalibracji kolorymetrycznej wyświetlaczy obrazu",
+    "Autor":"Marek  SUTKOWSKI"
+  },
+  {
+    "Temat":"Opracowanie narzędzia do analizy parametrów przebiegów elektrycznych pochodzących z pomiarów odbiorników energii elektrycznych",
+    "Autor":"Wiesław  WINIECKI"
+  },
+  {
+    "Temat":"Opracowanie narzędzia do analizy parametrów przebiegów elektrycznych pochodzących z pomiarów odbiorników energii elektrycznych",
+    "Autor":"Wiesław  WINIECKI"
+  },
+  {
+    "Temat":"Opracowanie narzędzia do planowania misji dla radaru pasywnego",
+    "Autor":"Mateusz Piotr  MALANOWSKI"
+  },
+  {
+    "Temat":"Opracowanie procesu domieszkowania krzemu przez metaliczną maskę samocentrującą (możliwość kontynuacji tematyki na studiach II-ego stopnia)",
+    "Autor":"Romuald  BECK"
+  },
+  {
+    "Temat":"Opracowanie programu do stereoskopowej wizualizacji detektora ALICE",
+    "Autor":"Julian  MYRCHA"
+  },
+  {
+    "Temat":"Opracowanie programu do wizualizacji detektora ALICE za pomocą przeglądarki",
+    "Autor":"Julian  MYRCHA"
+  },
+  {
+    "Temat":"Opracowanie środowiska graficznego do przetwarzania, analizy i wizualizacji obrazów wielomodalnych i wielowymiarowych",
+    "Autor":"Piotr  GARBAT"
+  },
+  {
+    "Temat":"Opracowanie środowiska graficznego (GUI) do wizualizacji i analizy rozkładów pola w jednowymiarowym krysztale fotonicznym metodą macierzy transferu",
+    "Autor":"Agnieszka  MOSSAKOWSKA-WYSZYŃSKA"
+  },
+  {
+    "Temat":"Opracowanie środowiska graficznego (GUI) do wizualizacji i analizy rozkładów pola w krysztale fotonicznym metodą FDTD",
+    "Autor":"Agnieszka  MOSSAKOWSKA-WYSZYŃSKA"
+  },
+  {
+    "Temat":"Opracowanie stanowiska do zautomatyzowanego pomiaru rozdzielczości statycznej wyświetlaczy obrazu (kont. na stopniu II)",
+    "Autor":"Marek  SUTKOWSKI"
+  },
+  {
+    "Temat":"Opracowanie sterownika aparatu cyfrowego na złączu USB",
+    "Autor":"Marek  SUTKOWSKI"
+  },
+  {
+    "Temat":"Opracowanie sterownika aparatu cyfrowego na złączu USB",
+    "Autor":"Marek  SUTKOWSKI"
+  },
+  {
+    "Temat":"Opracowanie symulatora systemów rozmytych z wykorzystaniem symulacji mieszanej w środowiskach CADENCE oraz Matlab/Simulink",
+    "Autor":"Andrzej  WIELGUS"
+  },
+  {
+    "Temat":"Opracowanie technologii  połączeń na potrzeby wielowarstwowych układów dla elastycznej elektroniki drukowanej.",
+    "Autor":"Grzegorz Józef  TARAPATA"
+  },
+  {
+    "Temat":"Opracowanie technologii samocentrującej oraz charakteryzacja struktur testowych MOSFET",
+    "Autor":"Robert Paweł  MROCZYŃSKI"
+  },
+  {
+    "Temat":"Opracowanie technologii wytwarzania nanorezonatorów Fabry-Perot na potrzeby czujników światłowodowych do badania cieczy",
+    "Autor":"Mateusz Jakub  ŚMIETANA"
+  },
+  {
+    "Temat":"Opracowanie układów źródła LED modulowanego sygnałem sinusoidalnym",
+    "Autor":"Michał  BORECKI"
+  },
+  {
+    "Temat":"Opracowanie układu przetwarzania sygnału do przepływomierza wirowego opartego o wykorzystanie procesora sygnałowego",
+    "Autor":"Grzegorz  PANKANIN"
+  },
+  {
+    "Temat":"Opracowanie układu wysokorozdzielczej kamery cyfrowej do rejestracji obrazów medycznych",
+    "Autor":"Krzysztof  ZAREMBA"
+  },
+  {
+    "Temat":"Opracowanie układu wysokorozdzielczej kamery cyfrowej do rejestracji obrazów medycznych",
+    "Autor":"Krzysztof  ZAREMBA"
+  },
+  {
+    "Temat":"Opracowanie uniwersalnych bibliotek w języku JAVA do szybkiej i niezawodnej komunikacji z układami FPGA",
+    "Autor":"Krzysztof  POŹNIAK"
+  },
+  {
+    "Temat":"Opracowanie urządzenia do liczenia energii łuku elektrycznego",
+    "Autor":"Krzysztof  POŹNIAK"
+  },
+  {
+    "Temat":"Opracowanie warunków umożliwiających sprawny proces mieszania czterofalowego w mikrostrukturalnych włóknach światłowodowych",
+    "Autor":"Bartłomiej Wacław  SALSKI"
+  },
+  {
+    "Temat":"Opracowanie wskaźnika radarowego w technologii 3D",
+    "Autor":"Piotr Jerzy  SAMCZYŃSKI"
+  },
+  {
+    "Temat":"Opracowanie w środowisku LabVIEW aplikacji obsługującej pomiary półprzewodnikowych źródeł promieniowania elektromagnetycznego",
+    "Autor":"Piotr  WARDA"
+  },
+  {
+    "Temat":"Opracowanie w środowisku LabVIEW aplikacji obsługującej pomiary wyładowczych źródeł promieniowania elektromagnetycznego",
+    "Autor":"Piotr  WARDA"
+  },
+  {
+    "Temat":"Opracowanie \"wyświetlarki\" off-line procesu symulacji",
+    "Autor":"Wiktor  DASZCZUK"
+  },
+  {
+    "Temat":"Opracowanie wzmacniacza do przetworników ładunkowych do współpracy z przyrządami pomiarowymi posiadającymi wejście IEPE",
+    "Autor":"Andrzej  PODGÓRSKI"
+  },
+  {
+    "Temat":"Oprogramowanie do akwizycji danych i sterowania funkcjami mikroprocesorowego testera lamp elektronowych",
+    "Autor":"Grzegorz  MAKAREWICZ"
+  },
+  {
+    "Temat":"Oprogramowanie do konwersji formatów zapisu widm mas z techniki LC-MS",
+    "Autor":"Tymon Edwin  RUBEL"
+  },
+  {
+    "Temat":"Oprogramowanie do konwersji formatów zapisu widm mas z techniki LC-MS",
+    "Autor":"Tymon Edwin  RUBEL"
+  },
+  {
+    "Temat":"Oprogramowanie do modelowania światłowodowych siatek Bragga",
+    "Autor":"Tomasz Przemysław  OSUCH"
+  },
+  {
+    "Temat":"Oprogramowanie do projektowania i sterowania badaniem czynnościowym fMRI",
+    "Autor":"Ewa  PIĄTKOWSKA-JANKO"
+  },
+  {
+    "Temat":"Oprogramowanie do przetwarzania wstępnego danych z ilościowych eksperymentów proteomicznych",
+    "Autor":"Tymon Edwin  RUBEL"
+  },
+  {
+    "Temat":"Oprogramowanie do rekonstrukcji obrazu w tomografii nanocząstek magnetycznych",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"Oprogramowanie do rekonstrukcji obrazu w tomografii nanocząstek magnetycznych",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"Oprogramowanie do rekonstrukcji obrazu w tomografii nanocząstek magnetycznych",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"·\tOprogramowanie do renderowania obrazów medycznych w architekturze SaS (Software as Service)",
+    "Autor":"Piotr  BOGORODZKI"
+  },
+  {
+    "Temat":"Oprogramowanie do symulacji rozkładu pola i generacji sygnału w tomografii nanocząstek magnetycznych",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"Oprogramowanie do symulacji rozkładu pola i generacji sygnału w tomografii nanocząstek magnetycznych",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"Oprogramowanie do symulacji rozkładu pola i generacji sygnału w tomografii nanocząstek magnetycznych,",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"Oprogramowanie do wizualizacji danych z tandemowej spektrometrii mas na potrzeby badań proteomicznych",
+    "Autor":"Tymon Edwin  RUBEL"
+  },
+  {
+    "Temat":"Oprogramowanie do wizualizacji danych z tandemowej spektrometrii mas na potrzeby badań proteomicznych",
+    "Autor":"Tymon Edwin  RUBEL"
+  },
+  {
+    "Temat":"Oprogramowanie do wizualizacji danych z tandemowej spektrometrii mas na potrzeby badań proteomicznych",
+    "Autor":"Tymon Edwin  RUBEL"
+  },
+  {
+    "Temat":"Oprogramowanie do wizualizacji sekwencji białek",
+    "Autor":"Tymon Edwin  RUBEL"
+  },
+  {
+    "Temat":"Oprogramowanie do wizualizacji sekwencji białek",
+    "Autor":"Tymon Edwin  RUBEL"
+  },
+  {
+    "Temat":"Oprogramowanie do wizualizacji widm mas próbek biologicznych",
+    "Autor":"Tymon Edwin  RUBEL"
+  },
+  {
+    "Temat":"Oprogramowanie do wizualizacji widm mas próbek biologicznych",
+    "Autor":"Tymon Edwin  RUBEL"
+  },
+  {
+    "Temat":"Oprogramowanie do wizualizacji widm mas próbek biologicznych",
+    "Autor":"Tymon Edwin  RUBEL"
+  },
+  {
+    "Temat":"Oprogramowanie do zobrazowania zawartości depesz nawigacyjnych GPS współpracujace z programem gnss-sdr",
+    "Autor":"Wojciech  KAZUBSKI"
+  },
+  {
+    "Temat":"Oprogramowanie dydaktyczne wspomagające naukę metod planowania sekwencji akcji",
+    "Autor":"Piotr  PAREWICZ"
+  },
+  {
+    "Temat":"Oprogramowanie stanowiska badawczo-pomiarowego do analizy charakterystyk jakości prototypów adaptacyjnych przetworników A/C",
+    "Autor":"Łukasz Michał  MAŁKIEWICZ"
+  },
+  {
+    "Temat":"Oprogramowanie stanowiska pomiarowego w środowisku LabView",
+    "Autor":"Grzegorz  PANKANIN"
+  },
+  {
+    "Temat":"Oprogramowanie sterownika nadajnika DRM z dostępem przez stronę WWW",
+    "Autor":"Wojciech  KAZUBSKI"
+  },
+  {
+    "Temat":"Oprogramowanie sterujące pracą stacji pomiarowej \"on-wafer\"",
+    "Autor":"Paweł  KOPYT"
+  },
+  {
+    "Temat":"Oprogramowanie systemu do pomiaru widmowej gęstości mocy sygnałów",
+    "Autor":"Wojciech  WIATR"
+  },
+  {
+    "Temat":"Oprogramowanie systemu do pomiaru widmowej gęstości mocy szumów",
+    "Autor":"Wojciech  WIATR"
+  },
+  {
+    "Temat":"Oprogramowanie systemu do pomiaru widmowej gęstości mocy szumów",
+    "Autor":"Wojciech  WIATR"
+  },
+  {
+    "Temat":"Oprogramowanie układów FPGA na potrzeby systemów bezpośredniego przetwarzania sygnałów w akceleratorach cząstek elementarnych (FLASH oraz XFEL)",
+    "Autor":"Samer  BOU HABIB"
+  },
+  {
+    "Temat":"Optoelektroniczna detekcja zmian w tkankach podskórnych",
+    "Autor":"Michał  BORECKI"
+  },
+  {
+    "Temat":"Optymalizacja hiperparametrów aszyny wektorów nośnych metodą ewolucji różnicowej i zastosowanie do analizy sygnałów elektrokardiograficznych",
+    "Autor":"Jacek  DUSZA"
+  },
+  {
+    "Temat":"Optymalizacja komunikacji między układem programowalnym FPGA a systemem wbudowanym z wykorzystaniem interfejsu Ethernet",
+    "Autor":"Wojciech  ZABOŁOTNY"
+  },
+  {
+    "Temat":"Optymalizacja konstrukcji inwerterów w technologii VeSTIC",
+    "Autor":"Andrzej  PFITZNER"
+  },
+  {
+    "Temat":"Optymalizacja wykorzystania języka Python do obiektowej komunikacji z systemami realizowanymi w układach FPGA",
+    "Autor":"Wojciech  ZABOŁOTNY"
+  },
+  {
+    "Temat":"Optymalizacja wytwarzania i rekrystalizacji warstw amorficznego krzemu dla zastosowań w strukturach pamięciowych (możliwość kontynuacji tematyki  na studiach II-ego stopnia)",
+    "Autor":"Robert Paweł  MROCZYŃSKI"
+  },
+  {
+    "Temat":"Optymalizacja wzmacniacza mocy małej częstotliwości pod kątem szybkości narastania napięcia wyjściowego",
+    "Autor":"Grzegorz  MAKAREWICZ"
+  },
+  {
+    "Temat":"Ortogonalna regresja postępująca jako metoda modelowania i wizualizacji powierzchni warstw geologicznych",
+    "Autor":"Stanisław  JANKOWSKI"
+  },
+  {
+    "Temat":"Parametryzowana biblioreka DSP dla układów FPGA do zastosowań w pomiarach detektorowych",
+    "Autor":"Krzysztof  POŹNIAK"
+  },
+  {
+    "Temat":"Parametryzowana procedury przetwarzania obrazu dla układów FPGA do zastosowań w systemach kamerowych",
+    "Autor":"Krzysztof  POŹNIAK"
+  },
+  {
+    "Temat":"Planarny przesuwnik fazy z metamateriałem",
+    "Autor":"Jerzy  PIOTROWSKI"
+  },
+  {
+    "Temat":"Platforma do wspomagania decyzji diagnostyczno – terapeutycznych w stabilnej chorobie wieńcowej",
+    "Autor":"Jan  MULAWKA"
+  },
+  {
+    "Temat":"Podstawy fizyczne i technologiczne integracji materiałów półprzewodnikowych",
+    "Autor":"Jan  SZMIDT"
+  },
+  {
+    "Temat":"Podwajacz częstotliwości",
+    "Autor":"Wojciech  WIATR"
+  },
+  {
+    "Temat":"Podwójnie strojona cewka nadawczo odbiorcza do pomiarów próbek biologicznych",
+    "Autor":"Ewa  PIĄTKOWSKA-JANKO"
+  },
+  {
+    "Temat":"Pomiar krzywej magnetyzacji nanocząstek superparamagnetycznych",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"Pomiar krzywej magnetyzacji nanocząstek superparamagnetycznych",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"Pomiarowa charakteryzacja systemu radiografii cyfrowej",
+    "Autor":"Janusz  MARZEC"
+  },
+  {
+    "Temat":"Pomiar prędkości obiektu z wykorzystaniem ultradźwięków",
+    "Autor":"Marek Wojciech  RUPNIEWSKI"
+  },
+  {
+    "Temat":"Poręczny MOBILIZATOR zakresu ruchu",
+    "Autor":"Antoni  GRZANKA"
+  },
+  {
+    "Temat":"·\tPorównanie cech użytkowych systemów prezentacji obrazowych danych medycznych",
+    "Autor":"Piotr  BOGORODZKI"
+  },
+  {
+    "Temat":"Porównanie Open GL z Direct X w kontekście teselacji",
+    "Autor":"Jan  ZABRODZKI"
+  },
+  {
+    "Temat":"Porównanie sprzętowych realizacji wybranych algorytmów dzielenia liczb całkowitych",
+    "Autor":"Andrzej  WIELGUS"
+  },
+  {
+    "Temat":"Precyzyjny miernik odcinków czasu",
+    "Autor":"Tomasz  STARECKI"
+  },
+  {
+    "Temat":"Problemy testowania oprogramowania",
+    "Autor":"Janusz  SOSNOWSKI"
+  },
+  {
+    "Temat":"Procesor z języka Delphi na język C++",
+    "Autor":"Ilona  BLUEMKE"
+  },
+  {
+    "Temat":"Prognozowanie danych finansowych z wykorzystaniem metod cyfrowego przetwarzania sygnałów",
+    "Autor":"Konrad  JĘDRZEJEWSKI"
+  },
+  {
+    "Temat":"Program analizy cylindrycznego rezonatora dielektrycznego metodą dopasowania rodzajów osiowych",
+    "Autor":"Krzysztof  DERZAKOWSKI"
+  },
+  {
+    "Temat":"Program do automatycznej kalibracji modeli tranzystorów",
+    "Autor":"Dominik Krzysztof  KASPROWICZ"
+  },
+  {
+    "Temat":"Program dokładnego obliczania wykorzystania zasobów symulatorów EM dla systemu komputerowego.",
+    "Autor":"Maciej  SYPNIEWSKI"
+  },
+  {
+    "Temat":"Program do konwersji zapisu EKG z pliku typu obrazowego na szereg czasowy.",
+    "Autor":"Gerard  CYBULSKI"
+  },
+  {
+    "Temat":"Program do testowania wydajności sprzętu komputerowego",
+    "Autor":"Piotr  WITOŃSKI"
+  },
+  {
+    "Temat":"Program do testowania wydajności sprzętu komputerowego w warunkach pracy maszyny wirtualnej Javy",
+    "Autor":"Piotr  WITOŃSKI"
+  },
+  {
+    "Temat":"Program do wizualizacji danych surowych z detektora fotoakustycznego",
+    "Autor":"Mariusz Jarosław  SUCHENEK"
+  },
+  {
+    "Temat":"Program do wizualizacji danych surowych z detektora fotoakustycznego",
+    "Autor":"Mariusz Jarosław  SUCHENEK"
+  },
+  {
+    "Temat":"Programowa kompensacja demodulatora I/Q",
+    "Autor":"Dawid Wilhelm  ROSOŁOWSKI"
+  },
+  {
+    "Temat":"Programowalny generator impulsów",
+    "Autor":"Tomasz  STARECKI"
+  },
+  {
+    "Temat":"Programowalny tor kondycjonowania sygnałów biologicznych",
+    "Autor":"Tomasz  STARECKI"
+  },
+  {
+    "Temat":"Programowalny wzmacniacz filtrujący",
+    "Autor":"Tomasz  STARECKI"
+  },
+  {
+    "Temat":"Programowanie w C++ algorytmu do symulacji układów z przełącznikami",
+    "Autor":"Jan  OGRODZKI"
+  },
+  {
+    "Temat":"Programowy emulator procesora obsługującego listę rozkazów MIPS-I",
+    "Autor":"Marek  NIEWIŃSKI"
+  },
+  {
+    "Temat":"Programowy emulator procesora obsługującego listę rozkazów MIPS-I",
+    "Autor":"Marek  NIEWIŃSKI"
+  },
+  {
+    "Temat":"Programowy kodek obrazów bazujący na uposzczonej predykcji międzypikselowej",
+    "Autor":"Grzegorz  PASTUSZAK"
+  },
+  {
+    "Temat":"Program prezentacji danych symulacji EM w srodowisku .NET Autocad Inventor",
+    "Autor":"Maciej  SYPNIEWSKI"
+  },
+  {
+    "Temat":"Program symulacji rozchodzenia się fal elekromagentycznych dla wybranych scenariuszy w środowisku mobilnym (Qt Android, IOS, WIndows 8.1). (pomoc dydaktyczna dla studentow przedmiotow EPHY2 i POFA)",
+    "Autor":"Maciej  SYPNIEWSKI"
+  },
+  {
+    "Temat":"Program symulacji rozchodzenia się fal elekromagentycznych dla wybranych scenariuszy w środowisku mobilnym (Qt Android, IOS, WIndows 8.1). (pomoc dydaktyczna dla studentow przedmiotow EPHY2 i POFA)",
+    "Autor":"Maciej  SYPNIEWSKI"
+  },
+  {
+    "Temat":"Program ułatwiający projektowanie radiowe w oparciu o ITU-R P1546",
+    "Autor":"Tomasz  KOSIŁO"
+  },
+  {
+    "Temat":"Program weryfikacji dyskretyzacji obwodu dla celów symulacji elektromagnetycznej",
+    "Autor":"Maciej  SYPNIEWSKI"
+  },
+  {
+    "Temat":"Program weryfikacji dyskretyzacji obwodu dla celów symulacji elektromagnetycznej",
+    "Autor":"Maciej  SYPNIEWSKI"
+  },
+  {
+    "Temat":"Program wspomagania diagnozy sygnału elektrograficznego w zapisie Holtera z wykorzystaniem klasyfikacji transdukcyjnej",
+    "Autor":"Stanisław  JANKOWSKI"
+  },
+  {
+    "Temat":"Programy do selekcji istotnych parametrów sygnałów EKG wysokiej rozdzielczości w celu poprawy efektywności diagnostycznej",
+    "Autor":"Stanisław  JANKOWSKI"
+  },
+  {
+    "Temat":"Programy do selekcji parametrów opisujących sygnały EKG wysokiej rozdzielczości w celu porawy efektywności diagnostycznej",
+    "Autor":"Stanisław  JANKOWSKI"
+  },
+  {
+    "Temat":"Projekt anteny szczelinowej z rezonatorem dielektrycznym o przełączanej częstotliwości pracy.",
+    "Autor":"Krzysztof  DERZAKOWSKI"
+  },
+  {
+    "Temat":"Projekt dzielnika mocy na pasmo subterahercowe przeznaczonego do realizacji w technologii LTCC",
+    "Autor":"Paweł  BAJURKO"
+  },
+  {
+    "Temat":"Projekt filtru memristorowego",
+    "Autor":"Stanisław  JANKOWSKI"
+  },
+  {
+    "Temat":"Projekt generatora programów testowych dla procesora o architekturze RISC-V w języku Scala",
+    "Autor":"Arkadiusz Władysław  ŁUCZYK"
+  },
+  {
+    "Temat":"Projekt i implementacja biblioteki programistycznej wspomagającej  szacowanie niepewności wyznaczania pozycji w systemach nawigacji satelitarnej.",
+    "Autor":"Marek  NIEWIŃSKI"
+  },
+  {
+    "Temat":"Projekt i implementacja biblioteki programistycznej wspomagającej wyznaczanie pozycji metodami fazowymi w systemach nawigacji satelitarnej.",
+    "Autor":"Marek  NIEWIŃSKI"
+  },
+  {
+    "Temat":"Projekt i implementacja systemu projektowania połączeń w US i na pakietach druk.",
+    "Autor":"Michał  RUDOWSKI"
+  },
+  {
+    "Temat":"Projekt i implementacja wybranych funkcji, w arytmetyce stałoprzecinkowej, wspomagających obliczenia  w algorytmach przetwarzania danych systemów nawigacji satelitarnych.",
+    "Autor":"Marek  NIEWIŃSKI"
+  },
+  {
+    "Temat":"Projekt i realizacja przejścia mikrofalowego pomiędzy falowodem prostokątnym WR-15 a linią koplanarną.",
+    "Autor":"Yevhen  YASHCHYSHYN"
+  },
+  {
+    "Temat":"Projekt i wykonanie komputerowego stanowiska do pomiaru parametrów układów fotoniki mikrofalowej",
+    "Autor":"Krzysztof Michał  MADZIAR"
+  },
+  {
+    "Temat":"Projekt i wykonanie modelu funkcjonalnego urządzania Motion Capture w oparciu o technologię MEMS.",
+    "Autor":"Szymon  CYGAN"
+  },
+  {
+    "Temat":"Projekt karty dźwiękowej USB do komputera z obróbką dźwięku dla osób niedosłyszących.",
+    "Autor":"Maciej Grzegorz  LINCZUK"
+  },
+  {
+    "Temat":"Projekt modułu zarządzania wątkami w kontenerze serwletów",
+    "Autor":"Piotr  BILSKI"
+  },
+  {
+    "Temat":"Projektowanie filtrów wielopasmowych.",
+    "Autor":"Adam  ABRAMOWICZ"
+  },
+  {
+    "Temat":"Projektowanie układów scalonych w nanometrowych i submikrometrowych technologiach CMOS",
+    "Autor":"Witold  PLESKACZ"
+  },
+  {
+    "Temat":"Projekt podbloków kontrolera pamięci z magistralą AMBA AHB (możliwość kontynuacji tematyki na studiach II-ego stopnia)",
+    "Autor":"Witold  PLESKACZ"
+  },
+  {
+    "Temat":"Projekt podbloków koprocesora zmiennoprzecinkowego dla procesora o architekturze MIPS",
+    "Autor":"Tomasz Marek  BOREJKO"
+  },
+  {
+    "Temat":"Projekt podbloków przełącznika (router) do realizacji sieci typu NoC (Network-on-Chip) z magistralą AMBA APB (możliwość kontynuacji tematyki na studiach II-ego stopnia)",
+    "Autor":"Witold  PLESKACZ"
+  },
+  {
+    "Temat":"Projekt pojedynczego promiennika na pasmo subterahercowe przeznaczonego do realizacji w technologii LTCC",
+    "Autor":"Paweł  BAJURKO"
+  },
+  {
+    "Temat":"Projekt przejścia linia koplanarna - falowód na pasmo subterahercowe przeznaczonego do realizacji w technologii LTCC",
+    "Autor":"Yevhen  YASHCHYSHYN"
+  },
+  {
+    "Temat":"Projekt, realizacja i charakteryzacja elastycznego wyświetlacza elektroluminescencyjnego wykonanego w technologii druku strumieniowego",
+    "Autor":"Grzegorz Józef  TARAPATA"
+  },
+  {
+    "Temat":"Projekt realizacji i analiza symulacyjna właściwości kontaktów elektrycznych w układach VeSTIC",
+    "Autor":"Andrzej  PFITZNER"
+  },
+  {
+    "Temat":"Projekt rozmytego układu sterowania",
+    "Autor":"Grzegorz Krzysztof  NIERADKA"
+  },
+  {
+    "Temat":"Projekt sprzęgacza 10-decybelowego na pasmo subterahertzowe przeznaczonego do realizacji w technologii LTCC",
+    "Autor":"Krzysztof  DERZAKOWSKI"
+  },
+  {
+    "Temat":"Projekt układu antenowego na pasmo 24 GHz w technologii LTCC",
+    "Autor":"Yevhen  YASHCHYSHYN"
+  },
+  {
+    "Temat":"Projekt układu antenowego na pasmo subterahercowe przeznaczonego do realizacji w technologii LTCC",
+    "Autor":"Yevhen  YASHCHYSHYN"
+  },
+  {
+    "Temat":"Projekt układu do sterowania napięciem progowym tranzystorów w technologii VeSTIC",
+    "Autor":"Andrzej  PFITZNER"
+  },
+  {
+    "Temat":"Projekt uniwersalnej karty pomiarowo-sterującej z interfejsem w MATLABie. Projekt PCB plus oprogramowanie.",
+    "Autor":"Maciej Grzegorz  LINCZUK"
+  },
+  {
+    "Temat":"Projekt wybranego typu przerzutnika dla scalonych układów cyfrowych VeSTIC",
+    "Autor":"Andrzej  PFITZNER"
+  },
+  {
+    "Temat":"Projekt, wykonanie i charakteryzacja tranzystorów MOS realizowanych w technologii „InkJet Printing”",
+    "Autor":"Grzegorz Józef  TARAPATA"
+  },
+  {
+    "Temat":"Projekt źródła napięcia odniesienia w technologii UMC 65 nm",
+    "Autor":"Zbigniew  JAWORSKI"
+  },
+  {
+    "Temat":"Prosty demonstrator radaru w paśmie WiFi z wykorzystaniem narzędzi Software radio",
+    "Autor":"Krzysztof  KULPA"
+  },
+  {
+    "Temat":"Prosty detektor sygnału fototermicznego",
+    "Autor":"Tomasz  STARECKI"
+  },
+  {
+    "Temat":"Prosty tester okablowania strukturalnego",
+    "Autor":"Tomasz  STARECKI"
+  },
+  {
+    "Temat":"Protokoły wymiany informacji w środowiskach medycznych",
+    "Autor":"Piotr  WĄSIEWICZ"
+  },
+  {
+    "Temat":"Przeglądarka obrazów dla medycyny nuklearnej",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"Przeglądarka obrazów dla medycyny nuklearnej",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"Przeglądarka obrazów tomograficznych",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"Przenośny system do diagnostyki i uruchamiania systemów cyfrowych realizowanych w układach FPGA",
+    "Autor":"Wojciech  ZABOŁOTNY"
+  },
+  {
+    "Temat":"Przestrzeń cech opisujących obiekty w ich klasyfikacji obrazowej",
+    "Autor":"Zbigniew  WAWRZYNIAK"
+  },
+  {
+    "Temat":"Przetwarzanie i analiza obrazów multispektralnych",
+    "Autor":"Piotr  GARBAT"
+  },
+  {
+    "Temat":"Przetwarzanie obrazów SAR",
+    "Autor":"Krzysztof  KULPA"
+  },
+  {
+    "Temat":"Przetwarzanie obrazu przez HVS (Human Visual System);",
+    "Autor":"Zbigniew  WAWRZYNIAK"
+  },
+  {
+    "Temat":"Przetwarzanie sygnałów w oparciu o procesory Adapteva ( Paralella)",
+    "Autor":"Grzegorz Henryk  KASPROWICZ"
+  },
+  {
+    "Temat":"Przyśpieszenie projektowania filtrów mikrofalowych i transformatorów impedancji przez zrównoleglenie procesu optymalizacji na wielo-procesorowym (wielo-rdzeniowym) komputerze z kilkoma GPU.",
+    "Autor":"Przemysław  MIAZGA"
+  },
+  {
+    "Temat":"Przyśpieszenie projektowania filtrów mikrofalowych i transformatorów impedancji przez zrównoleglenie procesu optymalizacji w chmurze",
+    "Autor":"Przemysław  MIAZGA"
+  },
+  {
+    "Temat":"Radar FMCW dla każdego - dydaktyczny model radaru",
+    "Autor":"Jacek  MISIUREWICZ"
+  },
+  {
+    "Temat":"Raspberry Pi jako zoptymalizowany pod względem kosztu sieciowy system akwizycji danych",
+    "Autor":"Wojciech  ZABOŁOTNY"
+  },
+  {
+    "Temat":"·\tRealizacja algorytmu fiber-tracking (traktografia włókien istoty białej w mózu) w obrazowaniu tensora dyfuzji",
+    "Autor":"Błażej  SAWIONEK"
+  },
+  {
+    "Temat":"·\tRealizacja algorytmu fiber-tracking (traktografia włókien istoty białej w mózu) w obrazowaniu tensora dyfuzji",
+    "Autor":"Piotr  BOGORODZKI"
+  },
+  {
+    "Temat":"Realizacja algorytmu pracy tomografu impedancyjnego za pomocą zestawu uruchomieniowego z układem MAX II firmy Altera",
+    "Autor":"Tomasz  OLSZEWSKI"
+  },
+  {
+    "Temat":"Realizacja i badanie charakterystyk spektralnych zmiennookresowych siatek Bragga.",
+    "Autor":"Kazimierz  JĘDRZEJEWSKI"
+  },
+  {
+    "Temat":"Realizacja i oprogramowanie stanowiska do nanoszenia długookresowych siatek światłowodowych",
+    "Autor":"Tomasz Przemysław  OSUCH"
+  },
+  {
+    "Temat":"Realizacja i oprogramowanie stanowiska do pomiaru własności polaryzacyjnych światłowodów i podzespołów światłowodowych",
+    "Autor":"Tomasz Przemysław  OSUCH"
+  },
+  {
+    "Temat":"Realizacja radaru szumowego typu MIMO",
+    "Autor":"Mateusz Piotr  MALANOWSKI"
+  },
+  {
+    "Temat":"Realizacja siatek Bragga w światłowodach aktywnych, wielopłaszczowych, fotonicznych i plastikowych.",
+    "Autor":"Kazimierz  JĘDRZEJEWSKI"
+  },
+  {
+    "Temat":"Realizacja symulatora szerokopasmowego kanału radiowego z wykorzystaniem techniki SDR",
+    "Autor":"Sebastian Bartłomiej  KOZŁOWSKI"
+  },
+  {
+    "Temat":"Realizacja wzmacniacza fazoczułego w oparciu o kartę muzyczną",
+    "Autor":"Mariusz Jarosław  SUCHENEK"
+  },
+  {
+    "Temat":"Realizacja wzmacniacza fazoczułego w oparciu o kartę muzyczną",
+    "Autor":"Mariusz Jarosław  SUCHENEK"
+  },
+  {
+    "Temat":"Realizacje równoległe algorytmu typu DIRECT dla optymalizacji planów eksperymentów",
+    "Autor":"Leszek  OPALSKI"
+  },
+  {
+    "Temat":"Regeneracyjny dzielnik czestotliwosci przez 3 na czestotliwosc 3,9 GHz (3,9 -> 1,3 GHz) dla akceleratora XFEL",
+    "Autor":"Krzysztof  ANTOSZKIEWICZ"
+  },
+  {
+    "Temat":"Regeneracyjny dzielnik częstotliwości przez 3 na częstotliwość 3,9 GHz (3,9 -> 1,3 GHz) dla akceleratora XFEL",
+    "Autor":"Krzysztof  ANTOSZKIEWICZ"
+  },
+  {
+    "Temat":"Regulator ogniwa paliwowego",
+    "Autor":"Jerzy  WEREMCZUK"
+  },
+  {
+    "Temat":"Regulowany tlumiik falowodowy na pasmo 220-330 GHz(WR3.4)",
+    "Autor":"Paweł  KOPYT"
+  },
+  {
+    "Temat":"Regulowany tlumiik falowodowy na pasmo 220-330 GHz(WR3.4)",
+    "Autor":"Paweł  KOPYT"
+  },
+  {
+    "Temat":"Rejestrator statystyk kodowania H.265/HEVC",
+    "Autor":"Grzegorz  PASTUSZAK"
+  },
+  {
+    "Temat":"Rekonstrukcja obrazów w tomografii komputerowej dla wiązki stożkowej",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"Rekonstrukcja sygnału mowy w systemie lokalizacji dźwięków",
+    "Autor":"Włodzimierz  KASPRZAK"
+  },
+  {
+    "Temat":"Rekonstrukcja sygnału pozyskiwanego przez układ DRS4 w eksperymencie NA61",
+    "Autor":"Wojciech  ZABOŁOTNY"
+  },
+  {
+    "Temat":"Reprezentacja czasu w języku EMLAN",
+    "Autor":"Artur  KRYSTOSIK"
+  },
+  {
+    "Temat":"Rozbudowa programu testowania szybkości przetwarzania FDTD z wykorzystaniem nowych technik informacyjnych",
+    "Autor":"Maciej  SYPNIEWSKI"
+  },
+  {
+    "Temat":"Rozbudowa programu testowania szybkości przetwarzania FDTD z wykorzystaniem nowych technik informacyjnych",
+    "Autor":"Maciej  SYPNIEWSKI"
+  },
+  {
+    "Temat":"Rozbudowa środowiska symulacyjnego Feniks - Edytor graficzny modelu",
+    "Autor":"Wiktor  DASZCZUK"
+  },
+  {
+    "Temat":"Rozbudowa środowiska symulacyjnego Feniks - Struktury danych oraz algorytm symulacji",
+    "Autor":"Wiktor  DASZCZUK"
+  },
+  {
+    "Temat":"Rozbudowa środowiska symulacyjnego Feniks - zarządzanie rozproszonymi symulacjami",
+    "Autor":"Waldemar  GRABSKI"
+  },
+  {
+    "Temat":"Rozbudowa systemu SML3 o moduły sensorów i elementów elektromechanicznych",
+    "Autor":"Marek  PAWŁOWSKI"
+  },
+  {
+    "Temat":"Rozpoznawanie i rejestracja ruchu z wykorzystaniem zintergowanych układów MEMS",
+    "Autor":"Sławomir  SZOSTAK"
+  },
+  {
+    "Temat":"Rozpoznawanie i rejestracja ruchu z wykorzystaniem zintergowanych układów MEMS",
+    "Autor":"Sławomir  SZOSTAK"
+  },
+  {
+    "Temat":"Rozpoznawanie obrazów z obiektami ziarnistymi z zastosowaniem metod statystycznych ,",
+    "Autor":"Zbigniew  WAWRZYNIAK"
+  },
+  {
+    "Temat":"Rozproszony system akwizycji sygnałów radiowych synchronizowany za pomocą GPS",
+    "Autor":"Dawid Wilhelm  ROSOŁOWSKI"
+  },
+  {
+    "Temat":"Rozszerzenie funkcjonalności soft procesora o dodatkowe funkcje matematyczne",
+    "Autor":"Mariusz Jarosław  SUCHENEK"
+  },
+  {
+    "Temat":"Rozszerzenie funkcjonalności systemu archiwizacji obrazu i komunikacji (PACS) o analizę uszkodzeń rdzenia kręgowego",
+    "Autor":"Piotr  BOGORODZKI"
+  },
+  {
+    "Temat":"Rozszerzenie interfejsu użytkownika modułu uruchomieniowego DEMOQE",
+    "Autor":"Tomasz  KRZYMIEŃ"
+  },
+  {
+    "Temat":"Rozwiązanie problemu odwrotnego w elektrycznej tomografii pojemnościowej z wykorzystaniem obliczeń równoległych w technologii CUDA",
+    "Autor":"Jacek  KRYSZYN"
+  },
+  {
+    "Temat":"Rozwiązanie problemu odwrotnego w elektrycznej tomografii pojemnościowej z wykorzystaniem obliczeń równoległych w technologii CUDA",
+    "Autor":"Jacek  KRYSZYN"
+  },
+  {
+    "Temat":"Rozwiązanie problemu odwrotnego w elektrycznej tomografii pojemnościowej z wykorzystaniem obliczeń równoległych w technologii CUDA",
+    "Autor":"Jacek  KRYSZYN"
+  },
+  {
+    "Temat":"Rozwiązanie problemu odwrotnego w elektrycznej tomografii pojemnościowej z wykorzystaniem obliczeń równoległych w technologii CUDA",
+    "Autor":"Jacek  KRYSZYN"
+  },
+  {
+    "Temat":"Rozwiązanie problemu odwrotnego w elektrycznej tomografii pojemnościowej z wykorzystaniem obliczeń równoległych w technologii CUDA",
+    "Autor":"Jacek  KRYSZYN"
+  },
+  {
+    "Temat":"Rozwiązanie problemu prostego w elektrycznej tomografii pojemnościowej z wykorzystaniem obliczeń równoległych w technologii CUDA",
+    "Autor":"Jacek  KRYSZYN"
+  },
+  {
+    "Temat":"Rozwiązanie problemu prostego w elektrycznej tomografii pojemnościowej z wykorzystaniem obliczeń równoległych w technologii CUDA",
+    "Autor":"Jacek  KRYSZYN"
+  },
+  {
+    "Temat":"Rozwiązanie problemu prostego w elektrycznej tomografii pojemnościowej z wykorzystaniem obliczeń równoległych w technologii CUDA",
+    "Autor":"Jacek  KRYSZYN"
+  },
+  {
+    "Temat":"Rozwiązanie problemu prostego w elektrycznej tomografii pojemnościowej z wykorzystaniem obliczeń równoległych w technologii CUDA",
+    "Autor":"Jacek  KRYSZYN"
+  },
+  {
+    "Temat":"Rozwiązanie problemu prostego w elektrycznej tomografii pojemnościowej z wykorzystaniem obliczeń równoległych w technologii CUDA",
+    "Autor":"Jacek  KRYSZYN"
+  },
+  {
+    "Temat":"Rozwiązanie równań transportu dla struktury tranzystora MOS z wykorzystaniem technologii programowania CUDA",
+    "Autor":"Jakub  WALCZAK"
+  },
+  {
+    "Temat":"Rozwój metod automatycznego rozpoznawania obrazów medycznych",
+    "Autor":"Jan  MULAWKA"
+  },
+  {
+    "Temat":"Rozwój modułów analitycznych rozproszonego systemu monitorowania Icinga",
+    "Autor":"Piotr  GAWKOWSKI"
+  },
+  {
+    "Temat":"Rozwój oprogramowania  dla automatycznego rozpoznawania sygnałów elektroencefalograficznych",
+    "Autor":"Jan  MULAWKA"
+  },
+  {
+    "Temat":"Rozwój oprogramowania w językach przetwarzania symbolicznego",
+    "Autor":"Jan  MULAWKA"
+  },
+  {
+    "Temat":"Sceniczny system śledzenia solistów",
+    "Autor":"Marek  SUTKOWSKI"
+  },
+  {
+    "Temat":"Sceniczny system śledzenia solistów",
+    "Autor":"Marek  SUTKOWSKI"
+  },
+  {
+    "Temat":"Scrambler audio z wykorzystaniem techniki rozdziału widma na podpasma",
+    "Autor":"Dawid Wilhelm  ROSOŁOWSKI"
+  },
+  {
+    "Temat":"Segmentacja lokalna obiektów w obrazowych wynikach pomiarowych",
+    "Autor":"Zbigniew  WAWRZYNIAK"
+  },
+  {
+    "Temat":"Segmentacja wybranej struktury z obrazów MRI",
+    "Autor":"Ewa  PIĄTKOWSKA-JANKO"
+  },
+  {
+    "Temat":"Serwer WWW do kontroli kodeka audiowizualnego",
+    "Autor":"Grzegorz  PASTUSZAK"
+  },
+  {
+    "Temat":"Siatki Bragga na światłowodach utrzymujących polaryzację",
+    "Autor":"Tomasz Przemysław  OSUCH"
+  },
+  {
+    "Temat":"Śledzenie języka w oparciu o USG z wykorzystaniem procesorów sygnałowych",
+    "Autor":"Antoni  GRZANKA"
+  },
+  {
+    "Temat":"Śledzenie obiektów w radarze pasywnym wykorzystującym radio FM",
+    "Autor":"Mateusz Piotr  MALANOWSKI"
+  },
+  {
+    "Temat":"Śledzenie obiektu na filmie",
+    "Autor":"Grzegorz Krzysztof  NIERADKA"
+  },
+  {
+    "Temat":"Spark notebook w postaci plugin'u IntelliJ Idea CE",
+    "Autor":"Jacek Marek  LEWANDOWSKI"
+  },
+  {
+    "Temat":"Sprzęgacz gałęziowy zawierający linie metamateriałowe",
+    "Autor":"Jerzy  PIOTROWSKI"
+  },
+  {
+    "Temat":"Srodowisko graficzne dla radrów pokładowych",
+    "Autor":"Krzysztof  KULPA"
+  },
+  {
+    "Temat":"Środowisko pomiarowe do wyznaczania modeli elementów biernych SMD",
+    "Autor":"Arkadiusz Cezary  LEWANDOWSKI"
+  },
+  {
+    "Temat":"Środowisko programowe do analizy widmowej zmienności rytmu serca.",
+    "Autor":"Krzysztof  KAŁUŻYŃSKI"
+  },
+  {
+    "Temat":"Środowisko programowe do doświadczeń z algorytmami uczenia maszynowego typu inductive logic programming",
+    "Autor":"Piotr  PAREWICZ"
+  },
+  {
+    "Temat":"Środowisko testowo-produkcyjne dla rozwiązań wbudowanych w oparciu o procesory ARM+x86",
+    "Autor":"Ryszard  ROMANIUK"
+  },
+  {
+    "Temat":"Środowisko wspomagające modelowanie urządzeń peryferyjnych w symulatorze QEMU.",
+    "Autor":"Wojciech  ZABOŁOTNY"
+  },
+  {
+    "Temat":"Środowisko z graficznym interfejsem użytkownika do wizualizacji stanów pracy dedykowanego procesora",
+    "Autor":"Tomasz Marek  BOREJKO"
+  },
+  {
+    "Temat":"Stabilizacja lotniczego filmu wideo",
+    "Autor":"Grzegorz Krzysztof  NIERADKA"
+  },
+  {
+    "Temat":"Stabilny generator przestrajany w  zakresie 1-2 GHz",
+    "Autor":"Krzysztof  ANTOSZKIEWICZ"
+  },
+  {
+    "Temat":"Stanowisko badawcze syntezerów PLL",
+    "Autor":"Krzysztof  ANTOSZKIEWICZ"
+  },
+  {
+    "Temat":"Stanowisko do automatycznych pomiarów generatorów odniesienia",
+    "Autor":"Jacek  CICHOCKI"
+  },
+  {
+    "Temat":"Stanowisko do badań charakterystyk emisyjnych - projekt i realizacja",
+    "Autor":"Marcin Piotr  KACZKAN"
+  },
+  {
+    "Temat":"Stanowisko do badań  rozdzielczych w czasie charakterystyk emisyjnych - projekt i realizacja",
+    "Autor":"Marcin Piotr  KACZKAN"
+  },
+  {
+    "Temat":"Stanowisko do badań transmisji sygnałów losowych przez filtry analogowe",
+    "Autor":"Karol  RADECKI"
+  },
+  {
+    "Temat":"Stanowisko do nanoszenia siatek Bragga w układzie interferometru Lloyda",
+    "Autor":"Paweł Jan  GĄSIOR"
+  },
+  {
+    "Temat":"Stanowisko do wspomagania wzorcowania wybranych obiektów",
+    "Autor":"Andrzej  PODGÓRSKI"
+  },
+  {
+    "Temat":"Stanowisko laboratoryjne do badania pętli synchronizacji fazowej (PLL)",
+    "Autor":"Krzysztof  ANTOSZKIEWICZ"
+  },
+  {
+    "Temat":"Stereoskopowa wizualizacja i analiza danych dla potrzeb eksperymentu fizyki wysokich energii CERN ALICE",
+    "Autor":"Przemysław  ROKITA"
+  },
+  {
+    "Temat":"Stereowizyjny, wielomodalny system  rejestracji obrazu",
+    "Autor":"Piotr  GARBAT"
+  },
+  {
+    "Temat":"Sterowanie robotem mobilnym z prostym systemem rozpoznawania obrazu",
+    "Autor":"Grzegorz  MAZUR"
+  },
+  {
+    "Temat":"Sterowanie silnikiem krokowym",
+    "Autor":"Janusz  RZESZUT"
+  },
+  {
+    "Temat":"Sterownik do systemu antenowego",
+    "Autor":"Dawid Wilhelm  ROSOŁOWSKI"
+  },
+  {
+    "Temat":"Sterownik kolimatora wiązki światła diody laserowej",
+    "Autor":"Mariusz Jarosław  SUCHENEK"
+  },
+  {
+    "Temat":"sterownik listwy zasilającej sterowany przez ethernet",
+    "Autor":"Mariusz Jarosław  SUCHENEK"
+  },
+  {
+    "Temat":"Sterownik mikroprocesorowy dla mikrofluidycznych układów elektrozwilżalnych",
+    "Autor":"Grzegorz Józef  TARAPATA"
+  },
+  {
+    "Temat":"Sterownik systemu akwizycji danych z interfejsem USB 3.0",
+    "Autor":"Krzysztof  MROCZEK"
+  },
+  {
+    "Temat":"Stworzenie oprogramowania do komunikacji komputera z układem FPGA oraz procesorami TigerSharc.",
+    "Autor":"Maciej Grzegorz  LINCZUK"
+  },
+  {
+    "Temat":"Światłowodowy sumator mocy optycznej do zastosowań w laserach włóknowych dużej mocy – technologia i wykonanie",
+    "Autor":"Ryszard  PIRAMIDOWICZ"
+  },
+  {
+    "Temat":"Symulacja odpowiedzi nanocząstek magnetycznych w tomografii MPI",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"Symulacja odpowiedzi nanocząstek magnetycznych w tomografii MPI",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"Symulacja rekonstrukcji i obrazu w tomografie impedancyjnym metodą liniowego rzutu wstecznego (LBP)",
+    "Autor":"Tomasz  OLSZEWSKI"
+  },
+  {
+    "Temat":"Symulacja rozkładów pola elektrycznego w tomografie impedancyjnym  z zastosowaniem metody elementów skończonych (FEM).",
+    "Autor":"Tomasz  OLSZEWSKI"
+  },
+  {
+    "Temat":"Symulacja rozwarć w cyfrowych bramkach CMOS",
+    "Autor":"Andrzej  WIELGUS"
+  },
+  {
+    "Temat":"Symulacja systemów w dziedzinie czasu - nowe metody zmiennokrokowe",
+    "Autor":"Jan  OGRODZKI"
+  },
+  {
+    "Temat":"Symulacja zakłóceń w torze transmisyjnym DVB-T",
+    "Autor":"Tomasz  KRZYMIEŃ"
+  },
+  {
+    "Temat":"Symulacje odpowiedzi struktur światłowodowych z zawieszonym rdzeniem na pokrycie substancją pochodzenia biologicznego",
+    "Autor":"Mateusz Jakub  ŚMIETANA"
+  },
+  {
+    "Temat":"Symulacje ruchu pojazdów z wykorzystaniem narzędzi Virtual Reality",
+    "Autor":"Krzysztof  KULPA"
+  },
+  {
+    "Temat":"Symulator celi produkcyjnej na potrzeby środowiska formalnej weryfikacji oprogramowania.",
+    "Autor":"Artur  KRYSTOSIK"
+  },
+  {
+    "Temat":"Symulator pacjenta i sygnału ECG do wspólpracy z modułem ADS1298ECG-FE firmy Texas Instruments.",
+    "Autor":"Krzysztof  KAŁUŻYŃSKI"
+  },
+  {
+    "Temat":"Syntezowalne modele SystemVerilog bloków systemu diagnostyki zaburzeń serca",
+    "Autor":"Elżbieta  PIWOWARSKA"
+  },
+  {
+    "Temat":"Syntezowalny model algorytmu kryptograficznego Blowfish w SystemVerilog",
+    "Autor":"Elżbieta  PIWOWARSKA"
+  },
+  {
+    "Temat":"System akwizycji danych dla komory Charpaka – projekt, realizacja i uruchomienie modułów elektronicznych",
+    "Autor":"Roman  SZABATIN"
+  },
+  {
+    "Temat":"System akwizycji danych z interfejsem USB 3.0",
+    "Autor":"Krzysztof  MROCZEK"
+  },
+  {
+    "Temat":"System bezpieczeństwa z dostępem sieciowym",
+    "Autor":"Gustaw Stanisław  MAZUREK"
+  },
+  {
+    "Temat":"System bezprzewodowego zasilania układów implantowalnych w eksperymencie optogenetycznym",
+    "Autor":"Grzegorz Henryk  KASPROWICZ"
+  },
+  {
+    "Temat":"System bezprzewodowej transmisji i wizualizacji danych pomiędzy systemem mikroprocesorowym i urządzeniem mobilnym",
+    "Autor":"Sławomir  SZOSTAK"
+  },
+  {
+    "Temat":"System bezprzewodowej transmisji i wizualizacji danych pomiędzy systemem mikroprocesorowym i urządzeniem mobilnym",
+    "Autor":"Sławomir  SZOSTAK"
+  },
+  {
+    "Temat":"System cyfrowego przetwarzania danych rozproszony na kilka układów FPGA do zastosowań kosmicznych - wariant potokowy",
+    "Autor":"Krzysztof  POŹNIAK"
+  },
+  {
+    "Temat":"System cyfrowego przetwarzania danych rozproszony na kilka układów FPGA do zastosowań kosmicznych - wariant wieloprocesorowy",
+    "Autor":"Krzysztof  POŹNIAK"
+  },
+  {
+    "Temat":"System do badania torów Y oscyloskopów szerokopasmowych.",
+    "Autor":"Aleksander  BURD"
+  },
+  {
+    "Temat":"System do identyfikacji linii laserowej spektroskopii optycznej",
+    "Autor":"Paweł Jan  GĄSIOR"
+  },
+  {
+    "Temat":"System do łączności w pasmie 23 cm poprzez odbicia od obiektów latających i atmosferycznych",
+    "Autor":"Dawid Wilhelm  ROSOŁOWSKI"
+  },
+  {
+    "Temat":"System ekspertowy do wstępnej analizy danych medycznych  z wykorzystaniem technik wnioskowania rozmytego",
+    "Autor":"Mikołaj  BASZUN"
+  },
+  {
+    "Temat":"System ekspertowy wspomagnia diagnostykę medyczną",
+    "Autor":"Grzegorz Krzysztof  NIERADKA"
+  },
+  {
+    "Temat":"System Internet of Things",
+    "Autor":"Ryszard  ROMANIUK"
+  },
+  {
+    "Temat":"System komputerowy dla elektrycznego tomografu pojemnościowego",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"System komputerowy dla elektrycznego tomografu pojemnościowego – technologia .Net",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"System komputerowy dla elektrycznego tomografu pojemnościowego – technologia ..Net",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"System komputerowy dla medycyny nuklearnej",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"System management environment design for the backend elecronics of the BCM1F detector system at CMS (CERN, Geneve)",
+    "Autor":"Krzysztof  POŹNIAK"
+  },
+  {
+    "Temat":"System mikroprocesorowy do sterowania stanowiskiem pomiarowym",
+    "Autor":"Grzegorz  PANKANIN"
+  },
+  {
+    "Temat":"System odczytu danych z wielkopowierzchniowego detektora scyntylacyjnego",
+    "Autor":"Wojciech  ZABOŁOTNY"
+  },
+  {
+    "Temat":"System oprogramowania dla mini-GAMMAKAMERY.",
+    "Autor":"Roman  SZABATIN"
+  },
+  {
+    "Temat":"System pozycjonowania w zamkniętych pomieszczeniach w oparciu o technologię RFID",
+    "Autor":"Ryszard  ROMANIUK"
+  },
+  {
+    "Temat":"System replikacji danych obrazowych",
+    "Autor":"Piotr  BOGORODZKI"
+  },
+  {
+    "Temat":"System rozpoznawania czynności człowieka z obrazu kamery – zastosowanie do analizy gier zespołowych",
+    "Autor":"Stanisław  JANKOWSKI"
+  },
+  {
+    "Temat":"System szeregowania dostępu do akceleratora obliczeniowego z układem FPGA dla systemu Linux",
+    "Autor":"Wojciech  ZABOŁOTNY"
+  },
+  {
+    "Temat":"System wspomagania cyfrowego śledztwa w postaci dystrybucji Linux/Win Live",
+    "Autor":"Magdalena  SZEŻYŃSKA"
+  },
+  {
+    "Temat":"System wspomagania decyzji medycznych wykorzystujący wiedzę z badań populacyjnych",
+    "Autor":"Zbigniew  WAWRZYNIAK"
+  },
+  {
+    "Temat":"System wspomagania decyzji medycznych wykorzystujący wiedzę z badań populacyjnych",
+    "Autor":"Zbigniew  WAWRZYNIAK"
+  },
+  {
+    "Temat":"System wspomagania zarządzania infrastrukturą badawczą",
+    "Autor":"Piotr  GARBAT"
+  },
+  {
+    "Temat":"System wykrywania niepożądanych interakcji między stanem pacjenta, lekami i procedurami medycznymi",
+    "Autor":"Wojciech  ZABOŁOTNY"
+  },
+  {
+    "Temat":"Systemy FreeRTOS i MQX - porównanie własności w świetle wymagań związanych z czasem rzeczywistym na platformie MCU Kinetis",
+    "Autor":"Henryk  DOBROWOLSKI"
+  },
+  {
+    "Temat":"Systemy mikroprocesorowe w technologii FPGA",
+    "Autor":"Gustaw Stanisław  MAZUREK"
+  },
+  {
+    "Temat":"Systemy mobilne e-Health w zarządzaniu chorobami przewlekłymi",
+    "Autor":"Zbigniew  WAWRZYNIAK"
+  },
+  {
+    "Temat":"Systemy mobilne e-Health w zarządzaniu informacjami medycznymi",
+    "Autor":"Zbigniew  WAWRZYNIAK"
+  },
+  {
+    "Temat":"System zarządzania informacją laboratoryjną dla pracowni spektrometrii mas",
+    "Autor":"Tymon Edwin  RUBEL"
+  },
+  {
+    "Temat":"System zarządzania informacją laboratoryjną dla pracowni spektrometrii mas",
+    "Autor":"Tymon Edwin  RUBEL"
+  },
+  {
+    "Temat":"System zarządzania informacją laboratoryjną dla pracowni spektrometrii mas",
+    "Autor":"Tymon Edwin  RUBEL"
+  },
+  {
+    "Temat":"Szczelina promieniująca sterowana układem MEMS",
+    "Autor":"Krzysztof  DERZAKOWSKI"
+  },
+  {
+    "Temat":"Szerokopasmowy mikrofalowy wzmacniacz mocy",
+    "Autor":"Arkadiusz Cezary  LEWANDOWSKI"
+  },
+  {
+    "Temat":"Szerokopasmowy obwód zasilania DC dla mikrofalowych tranzystorów dużej mocy",
+    "Autor":"Wojciech  WOJTASIAK"
+  },
+  {
+    "Temat":"Szerokopasmowy tor odbiorczy (FRONTEND) klasy SDR",
+    "Autor":"Dawid Wilhelm  ROSOŁOWSKI"
+  },
+  {
+    "Temat":"Szerokopasmowy układ do polaryzacji tranzystorów w wielkosygnałowym systemie pomiarowym",
+    "Autor":"Wojciech  WIATR"
+  },
+  {
+    "Temat":"Szerokopasmowy układ do polaryzacji tranzystorów w wielkosygnałowym systemie pomiarowym",
+    "Autor":"Wojciech  WIATR"
+  },
+  {
+    "Temat":"Szybkie łącze szeregowe z korektą błędów do połączeń między układami FPGA",
+    "Autor":"Wojciech  ZABOŁOTNY"
+  },
+  {
+    "Temat":"Technologia cienkich warstw na potrzeby zintegrowanych układów opto-mikroelektronicznych",
+    "Autor":"Jan  SZMIDT"
+  },
+  {
+    "Temat":"Technologia i charakteryzacja struktur cienkowarstwowych typu TFT dla zastosowań w wyświetlaczach nowych generacji",
+    "Autor":"Robert Paweł  MROCZYŃSKI"
+  },
+  {
+    "Temat":"Technologia i charakteryzacja struktur MIS/MISFET wykonanych na podłożach półprzewodnikowych zmodyfikowanych w procesach ultra-płytkiej plazmowej implantacji jonów",
+    "Autor":"Robert Paweł  MROCZYŃSKI"
+  },
+  {
+    "Temat":"Technologia i konstrukcja czujników z modyfikowanego tlenku grafenu",
+    "Autor":"Michał  BORECKI"
+  },
+  {
+    "Temat":"Technologia samocentrująca struktur testowych MOS/MIS (możliwość kontynuacji tematyki na studiach II-ego stopnia)",
+    "Autor":"Robert Paweł  MROCZYŃSKI"
+  },
+  {
+    "Temat":"Technologia struktur cienkowarstwowych (TFT) z zastosowaniem półprzewodników amorficznych (możliwość kontynuacji tematyki na studiach II-ego stopnia)",
+    "Autor":"Robert Paweł  MROCZYŃSKI"
+  },
+  {
+    "Temat":"Technologia struktur na podłożu SiC z warstwami amorficznymi i polikrystalicznymi SiC",
+    "Autor":"Jan  SZMIDT"
+  },
+  {
+    "Temat":"Technologia ultra-cienkich warstw dielektrycznych wytwarzanych metodą PECVD (możliwość kontynuacji tematyki na studiach II-ego stopnia)",
+    "Autor":"Robert Paweł  MROCZYŃSKI"
+  },
+  {
+    "Temat":"Technologie grubowarstwowe na potrzeby elastycznej elektroniki",
+    "Autor":"Jan  SZMIDT"
+  },
+  {
+    "Temat":"Testowanie struktury generatora LC",
+    "Autor":"Aleksander  BURD"
+  },
+  {
+    "Temat":"Testowanie układów wbudowanych (mikrokontrolerów)",
+    "Autor":"Janusz  SOSNOWSKI"
+  },
+  {
+    "Temat":"Transdukcyjny klasyfikator sygnałów EKG wysokiej rozdzielczości wykorzystujący statystyke wpływu",
+    "Autor":"Stanisław  JANKOWSKI"
+  },
+  {
+    "Temat":"Transformacje modeli",
+    "Autor":"Anna  DEREZIŃSKA"
+  },
+  {
+    "Temat":"Transmisja danych w trybie DMA w elektrycznym tomografie pojemnościowym",
+    "Autor":"Jacek  KRYSZYN"
+  },
+  {
+    "Temat":"Transmisja danych w trybie DMA w elektrycznym tomografie pojemnościowym",
+    "Autor":"Jacek  KRYSZYN"
+  },
+  {
+    "Temat":"Transponder symulujący obiekt ruchomy do badania radaru szumowego",
+    "Autor":"Jacek  MISIUREWICZ"
+  },
+  {
+    "Temat":"Trójwymiarowa rekonstrukcja obrazów w tomografii PET",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"Trójwymiarowa wizualizacja danych w pakiecie ECTsim 3.0 służącym do symulacji i modelowania w elektrycznej tomografii pojemnościowej",
+    "Autor":"Jacek  KRYSZYN"
+  },
+  {
+    "Temat":"Trójwymiarowa wizualizacja danych w pakiecie ECTsim 3.0 służącym do symulacji i modelowania w elektrycznej tomografii pojemnościowej",
+    "Autor":"Jacek  KRYSZYN"
+  },
+  {
+    "Temat":"Trójwymiarowa wizualizacja danych w pakiecie ECTsim 3.0 służącym do symulacji i modelowania w elektrycznej tomografii pojemnościowej",
+    "Autor":"Jacek  KRYSZYN"
+  },
+  {
+    "Temat":"Trójwymiarowa wizualizacja danych w pakiecie ECTsim 3.0 służącym do symulacji i modelowania w elektrycznej tomografii pojemnościowej",
+    "Autor":"Jacek  KRYSZYN"
+  },
+  {
+    "Temat":"Trójwymiarowa wizualizacja i animacja mobilnych sieci ad-hoc do monitorowania środowiska",
+    "Autor":"Przemysław  ROKITA"
+  },
+  {
+    "Temat":"Tworzenie narzędzi dla przetwarzania obrazów medycznych",
+    "Autor":"Jan  MULAWKA"
+  },
+  {
+    "Temat":"Tworzenie obrazów radarowych o wysokiej rozdzielczości",
+    "Autor":"Jacek  MISIUREWICZ"
+  },
+  {
+    "Temat":"Układ aktywnej redukcji hałasu wykorzystujący algorytm symulowanego wyżarzania",
+    "Autor":"Grzegorz  MAKAREWICZ"
+  },
+  {
+    "Temat":"Układ do elektronicznej kalibracji wektorowych analizatorów obwodów",
+    "Autor":"Wojciech  WIATR"
+  },
+  {
+    "Temat":"Układ do elektronicznej kalibracji wektorowych analizatorów obwodów",
+    "Autor":"Wojciech  WIATR"
+  },
+  {
+    "Temat":"Układ do pomiaru i rejestracji magnetyzacji podczas polaryzacji gazów szlachetnych",
+    "Autor":"Piotr  BOGORODZKI"
+  },
+  {
+    "Temat":"Układ do pomiaru i rejestracji magnetyzacji podczas polaryzacji gazów szlachetnych",
+    "Autor":"Piotr  BOGORODZKI"
+  },
+  {
+    "Temat":"Układ do pomiaru i rejestracji magnetyzacji podczas polaryzacji gazów szlachetnych",
+    "Autor":"Błażej  SAWIONEK"
+  },
+  {
+    "Temat":"Układ do pomiaru małych pojemności z idealnym integratorem  (symulacja komputerowa).",
+    "Autor":"Tomasz  OLSZEWSKI"
+  },
+  {
+    "Temat":"Układ do pomiaru małych pojemności z pobudzeniem sinusoidalnym z układem DDS (Direct Digital Synthesizer)",
+    "Autor":"Tomasz  OLSZEWSKI"
+  },
+  {
+    "Temat":"Układ do pomiaru małych pojemności z zastosowaniem układu CDC (Capacitance-to-Digital Converter)",
+    "Autor":"Tomasz  OLSZEWSKI"
+  },
+  {
+    "Temat":"Układ do pomiaru prężności CO2 w płynach z czujnikiem zawierającym ISFET",
+    "Autor":"Tadeusz  PAŁKO"
+  },
+  {
+    "Temat":"Układ do wielopunktowego pomiaru pola magnetycznego w zakresie 2-10mT z dokładnością 1ppm",
+    "Autor":"Błażej  SAWIONEK"
+  },
+  {
+    "Temat":"Układ do wielopunktowego pomiaru pola magnetycznego w zakresie 2-10mT z dokładnością 1ppm.",
+    "Autor":"Błażej  SAWIONEK"
+  },
+  {
+    "Temat":"Układ do wielopunktowego pomiaru pola magnetycznego w zakresie 2-10mT z dokładnością 1ppm.",
+    "Autor":"Piotr  BOGORODZKI"
+  },
+  {
+    "Temat":"Układ do wielopunktowego pomiaru pola magnetycznego w zakresie 2-10mT z dokładnością 1ppm.",
+    "Autor":"Piotr  BOGORODZKI"
+  },
+  {
+    "Temat":"Układ do wielopunktowego pomiaru pola magnetycznego w zakresie 2-10mT z dokładnością 1ppm.",
+    "Autor":"Błażej  SAWIONEK"
+  },
+  {
+    "Temat":"Układ dystrybucji zegarów odniesienia synchronizowany sygnałem GPS",
+    "Autor":"Dawid Wilhelm  ROSOŁOWSKI"
+  },
+  {
+    "Temat":"Układ elektroniczny do pomiaru impedancji elektrycznej wybranych segmentów tkankowych.",
+    "Autor":"Tadeusz  PAŁKO"
+  },
+  {
+    "Temat":"Układ \"ładuj-rozładuj\" do pomiaru małych pojemności dla elektrycznej tomografii pojemnościowej",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"Układ próbkujący do oscyloskopu szerokopasmowego",
+    "Autor":"Aleksander  BURD"
+  },
+  {
+    "Temat":"Układ sterowania fazowego głowicą ultrasonograficzną przy nadawaniu.",
+    "Autor":"Krzysztof  KAŁUŻYŃSKI"
+  },
+  {
+    "Temat":"Układ sterujący mikroprocesorowego układu do automatycznego pomiaru charakterystyk lamp elektronowych",
+    "Autor":"Grzegorz  MAKAREWICZ"
+  },
+  {
+    "Temat":"Układy zasilania węzłów czujnikowych pracujących w ramach Internetu Rzeczy",
+    "Autor":"Daniel  PACZESNY"
+  },
+  {
+    "Temat":"Ultra-płytka plazmowa implantacja jonów do podłoży krzemowych  i węgliko-  krzemowych (możliwość kontynuacji tematyki na studiach II-ego stopnia)",
+    "Autor":"Robert Paweł  MROCZYŃSKI"
+  },
+  {
+    "Temat":"Uniwersalne urządzenie do akwizycji sygnałów bioelektrycznych",
+    "Autor":"Michał  DZIEWIECKI"
+  },
+  {
+    "Temat":"Uniwersalny parser sch-ucf dla narzędzi FPGA",
+    "Autor":"Ryszard  ROMANIUK"
+  },
+  {
+    "Temat":"Uruchomienie i integracja stosu protokołów Bluetooth na wybranej platformie sprzętowej",
+    "Autor":"Arkadiusz Władysław  ŁUCZYK"
+  },
+  {
+    "Temat":"Urządzenie do 4-kanałowej, bezprzewodowej transmisji sygnałów biologicznych.",
+    "Autor":"Gerard  CYBULSKI"
+  },
+  {
+    "Temat":"Urządzenie do szybkiego wykonywania kopii dysków SATA w procesie zabezpieczania dowodów elektronicznych",
+    "Autor":"Magdalena  SZEŻYŃSKA"
+  },
+  {
+    "Temat":"Urządzenie laboratoryjne do pomiarów sygnałów biologicznych",
+    "Autor":"Piotr  BOGORODZKI"
+  },
+  {
+    "Temat":"Utlenianie plazmowe jako metoda wytwarzania ultra-cienkich warstw dielektrycznych na podłożach krzemowych i węgliko-krzemowych (możliwość kontynuacji tematyki na studiach II-ego stopnia)",
+    "Autor":"Robert Paweł  MROCZYŃSKI"
+  },
+  {
+    "Temat":"Wariograf",
+    "Autor":"Tomasz  STARECKI"
+  },
+  {
+    "Temat":"warunki łączenia materiałów na potrzebyelektroniki zintegrowanej",
+    "Autor":"Jan  SZMIDT"
+  },
+  {
+    "Temat":"Weryfikacja reguł projektowania topografii układu scalonego z użyciem przetwarzania równoległego",
+    "Autor":"Adam  WOJTASIK"
+  },
+  {
+    "Temat":"Wielokamerowy układ akwizycji wideo",
+    "Autor":"Piotr  GARBAT"
+  },
+  {
+    "Temat":"Wielokanałowy odbiornik/nadajnik radiowy w technologii SDR w postaci modułu FMC",
+    "Autor":"Ryszard  ROMANIUK"
+  },
+  {
+    "Temat":"Wielopoziomowy system uczący się do rozpoznawania przeszkód z wykorzystaniem kamery",
+    "Autor":"Stanisław  JANKOWSKI"
+  },
+  {
+    "Temat":"Wieloprojektorowy układ wyświetlania obrazu",
+    "Autor":"Piotr  GARBAT"
+  },
+  {
+    "Temat":"Wielowątkowy i rozproszony system diagnostyczny implementowany w układach FPGA dla systemu akwizycji danych z detektora GEM",
+    "Autor":"Krzysztof  POŹNIAK"
+  },
+  {
+    "Temat":"Wirtualne środowisko do symulacji procesu rejestracji obrazu",
+    "Autor":"Marek  SUTKOWSKI"
+  },
+  {
+    "Temat":"Wirtualny modem OFDM",
+    "Autor":"Tomasz  KRZYMIEŃ"
+  },
+  {
+    "Temat":"Wizualizacja danych wolumetrycznych metodą dzielenia wokseli (dividing cubes)",
+    "Autor":"Jacek  RACZKOWSKI"
+  },
+  {
+    "Temat":"Wizualizacja efektów występujących przy uwzględnieniu skończonej prędkości rozchodzenia się światła",
+    "Autor":"Jan  ZABRODZKI"
+  },
+  {
+    "Temat":"Wizualizacja ścieżki wirowej von Karmana z wykorzystaniem szybkiej kamery o dużej rozdzielczości",
+    "Autor":"Grzegorz  PANKANIN"
+  },
+  {
+    "Temat":"Wizualny kalibrator modeli elektrycznych tranzystorów MOS",
+    "Autor":"Grzegorz  JANCZYK"
+  },
+  {
+    "Temat":"Wobuloskop z układem programowalnym",
+    "Autor":"Mariusz Jarosław  SUCHENEK"
+  },
+  {
+    "Temat":"Wobuloskop z układem programowalnym",
+    "Autor":"Mariusz Jarosław  SUCHENEK"
+  },
+  {
+    "Temat":"Wobuloskop z układem programowalnym",
+    "Autor":"Mariusz Jarosław  SUCHENEK"
+  },
+  {
+    "Temat":"Woltomierz fazoczuły",
+    "Autor":"Mariusz Jarosław  SUCHENEK"
+  },
+  {
+    "Temat":"Wpływ stanu fizycznego otoczenia na charakterystyki pojemnościowo-napięciowe struktury metal-izolato-półprzewodnik",
+    "Autor":"Bogdan  MAJKUSIAK"
+  },
+  {
+    "Temat":"Współczesne adaptacyjne metody estymacji widma sygnałów",
+    "Autor":"Konrad  JĘDRZEJEWSKI"
+  },
+  {
+    "Temat":"Wspomaganie procesu rejestracji ruchu do wykorzystania w scenach 3ds Max",
+    "Autor":"Cezary  STĘPIEŃ"
+  },
+  {
+    "Temat":"Wtyczka do Eclipse IDE - edytor szablonów Velocity dla szkieletu aplikacyjnego Object Ledge",
+    "Autor":"Jarosław  DAWIDCZYK"
+  },
+  {
+    "Temat":"Wydajny konwerter: serial – Wishbone dla FPGA",
+    "Autor":"Ryszard  ROMANIUK"
+  },
+  {
+    "Temat":"Wykonanie stanowiska pomiarowe i charakteryzacja układu elektrozwilżalnego wykonanego w technologii druku strumieniowego",
+    "Autor":"Grzegorz Józef  TARAPATA"
+  },
+  {
+    "Temat":"Wykorzystanie lasera do cięcia podłoży krzemowych",
+    "Autor":"Piotr  FIREK"
+  },
+  {
+    "Temat":"Wykorzystanie metod rozmytego grupowania pojęciowego do analizy danych geotechnicznych",
+    "Autor":"Piotr  BILSKI"
+  },
+  {
+    "Temat":"Wykorzystanie metod statystycznych do analizy cech upraw buraka cukrowego",
+    "Autor":"Piotr  BILSKI"
+  },
+  {
+    "Temat":"Wykorzystanie środowiska MATLAB do realizacji komputerowego stanowiska pomiarowego z wykorzystaniem układów FPGA",
+    "Autor":"Krzysztof  POŹNIAK"
+  },
+  {
+    "Temat":"Wykorzystanie suszarki  termicznej oraz IR  do utwardzania tuszy przewodzących dla technologii druku strumieniowego.",
+    "Autor":"Grzegorz Józef  TARAPATA"
+  },
+  {
+    "Temat":"Wykorzystanie systemów regułowych w diagnostyce układów elektronicznych",
+    "Autor":"Piotr  BILSKI"
+  },
+  {
+    "Temat":"Wykorzystanie technik wirtualizacji w informatyce śledczej",
+    "Autor":"Magdalena  SZEŻYŃSKA"
+  },
+  {
+    "Temat":"Wykrywanie ludzi na falach hercowych",
+    "Autor":"Krzysztof  KULPA"
+  },
+  {
+    "Temat":"Wykrywanie obiektów ruchomych w obrazach SAR",
+    "Autor":"Jacek  MISIUREWICZ"
+  },
+  {
+    "Temat":"Wyłanianie klinicznie istotnych różnic somatycznych na podstawie wyników sekwencjonowania genomowego/eksomowego",
+    "Autor":"Jan  MULAWKA"
+  },
+  {
+    "Temat":"Wysokosprawny wzmacniacz sygnału FM (chirp) do nadajnika na pasmo S",
+    "Autor":"Wojciech  WOJTASIAK"
+  },
+  {
+    "Temat":"Wytwarzanie i charakteryzacja cienkich warstw azotu i tlenku-azotu krzemu na potrzeby czujnikowych struktur światłowodowych",
+    "Autor":"Mateusz Jakub  ŚMIETANA"
+  },
+  {
+    "Temat":"Wytwarzanie i charakteryzacja cienkich warstw tlenków przewodzących na potrzeby czujnikowych struktur światłowodowych",
+    "Autor":"Mateusz Jakub  ŚMIETANA"
+  },
+  {
+    "Temat":"Wytwarzanie i charakteryzacja elektryczna złącza p – n wytwarzanego w technologii SiC",
+    "Autor":"Jan  SZMIDT"
+  },
+  {
+    "Temat":"Wytwarzanie i charakteryzacja kondensatorów MIM dla zastosowań pamięciowych (możliwość kontynuacji tematyki na studiach II-ego stopnia)",
+    "Autor":"Robert Paweł  MROCZYŃSKI"
+  },
+  {
+    "Temat":"Wytwarzanie i charakteryzacja transparentnych kontaktów omowych do węglika krzemu na bazie cienkich warstw tlenku cynku (ZnO).",
+    "Autor":"Jan  SZMIDT"
+  },
+  {
+    "Temat":"Wytwarzanie i charakteryzacja warstw azotku glinu na podłożach SiC",
+    "Autor":"Piotr  FIREK"
+  },
+  {
+    "Temat":"Wytwarzanie i charakteryzacja warstw tlenku glinu na podłożach SiC",
+    "Autor":"Piotr  FIREK"
+  },
+  {
+    "Temat":"Wytwarzanie metalizacji na potrzeby wielozłączowych ogniw słonecznych",
+    "Autor":"Piotr  FIREK"
+  },
+  {
+    "Temat":"Wytwarzanie nanocząstek srebra na warstwach tlenku tytanu",
+    "Autor":"Piotr  FIREK"
+  },
+  {
+    "Temat":"Wytwarzanie struktur MIS/MISFET z podwójną lub potrójną warstwą dielektryka bramkowego dla zastosowań w nieulotnych pamięciach półprzewodnikowych (NVSM)",
+    "Autor":"Robert Paweł  MROCZYŃSKI"
+  },
+  {
+    "Temat":"Wyznaczanie dokładnej pozycji geograficznej w czasie rzeczywistym (RTK) w dwusystemowym, wielopasmowym scalonym odbiorniku GNSS",
+    "Autor":"Witold  PLESKACZ"
+  },
+  {
+    "Temat":"Wyznaczanie dokładnej pozycji geograficznej w czasie rzeczywistym (RTK) w dwusystemowym, wielopasmowym scalonym odbiorniku GNSS",
+    "Autor":"Witold  PLESKACZ"
+  },
+  {
+    "Temat":"Wyznaczanie parametrów elektrycznych tranzystorów MOS na podłożu SOI",
+    "Autor":"Lidia  ŁUKASIAK"
+  },
+  {
+    "Temat":"Wyznaczenie rekombinacyjnego wskaźnika jakości (RIQ) promieniowania rtg.",
+    "Autor":"Natalia  GOLNIK"
+  },
+  {
+    "Temat":"Wzmacniacz biologiczny dostosowany do pracy w wysokim polu magnetycznym",
+    "Autor":"Piotr  BOGORODZKI"
+  },
+  {
+    "Temat":"Wzmacniacz mocy do modułu ultraszerokopasmowej transmisji danych DW 1000",
+    "Autor":"Ryszard  MICHNOWSKI"
+  },
+  {
+    "Temat":"Wzmacniacz sygnałów biologicznych w technologii FDSOI",
+    "Autor":"Elżbieta  PIWOWARSKA"
+  },
+  {
+    "Temat":"Wzorce kontrastujące w grupowaniu danych",
+    "Autor":"Krzysztof  WALCZAK"
+  },
+  {
+    "Temat":"Zaprojektowanie przestrajalnych przetworników metamateriałowych na zakres podczerwieni i ocena jego właściwości.",
+    "Autor":"Janusz  PARKA"
+  },
+  {
+    "Temat":"Zasilacz do generacji pola gradientowego w tomografii nanocząstek magnetycznych",
+    "Autor":"Waldemar  SMOLIK"
+  },
+  {
+    "Temat":"Zastosowania metod Compressive Sensing do wykrywania obiektów i estymacji ich parametrów za pomocą radarów impulsowych.",
+    "Autor":"Jacek  MISIUREWICZ"
+  },
+  {
+    "Temat":"Zastosowania metod Compressive Sensing w obrazowaniu radarowym SAR/ISAR",
+    "Autor":"Jacek  MISIUREWICZ"
+  },
+  {
+    "Temat":"Zastosowanie macierzy rzadkich w symulacjach rozkładu pola elektrycznego w elektrycznej tomografii pojemnościowej",
+    "Autor":"Jacek  KRYSZYN"
+  },
+  {
+    "Temat":"Zastosowanie macierzy rzadkich w symulacjach rozkładu pola w elektrycznej tomografii pojemnościowej",
+    "Autor":"Jacek  KRYSZYN"
+  },
+  {
+    "Temat":"Zastosowanie macierzy rzadkich w symulacjach rozkładu pola w elektrycznej tomografii pojemnościowej",
+    "Autor":"Jacek  KRYSZYN"
+  },
+  {
+    "Temat":"Zastosowanie metod cyfrowego przetwarzania sygnałów w handlu elektronicznym (Electronic Trading) na rynkach finansowych",
+    "Autor":"Konrad  JĘDRZEJEWSKI"
+  },
+  {
+    "Temat":"Zastosowanie metody elementów skończonych (FEM) do symulacji pola w tomografie impedancyjnym",
+    "Autor":"Tomasz  OLSZEWSKI"
+  },
+  {
+    "Temat":"Zastosowanie metody różnic skończonych do matematyczngo modelowania  pól i prądów w tomografie impedancyjnym",
+    "Autor":"Tomasz  OLSZEWSKI"
+  },
+  {
+    "Temat":"Zastosowanie mikroskopii sił atomowych do badania powierzchni cienkich warstw",
+    "Autor":"Piotr  FIREK"
+  },
+  {
+    "Temat":"Zastosowaniem układu CDC (Capacitance-to-Digital Converter)  do pomiaru małych pojemności elektrycznych.",
+    "Autor":"Tomasz  OLSZEWSKI"
+  },
+  {
+    "Temat":"Zastosowanie plazmy w.cz. do modyfikacji właściwości powierzchni podłoży (możliwość kontynuacji tematyki na studiach II-ego stopnia)",
+    "Autor":"Romuald  BECK"
+  },
+  {
+    "Temat":"Zastosowanie rdzeni „open core” w strukturze FPGA do sterowania systemem pomiarowym",
+    "Autor":"Tomasz  OLSZEWSKI"
+  },
+  {
+    "Temat":"Zastosowanie sieci neuronowych do budowy modelu geologicznego",
+    "Autor":"Stanisław  JANKOWSKI"
+  },
+  {
+    "Temat":"Zastosowanie układów CDC (Capacitance-to-Digital Converters) do pomiarów małych pojemności",
+    "Autor":"Tomasz  OLSZEWSKI"
+  },
+  {
+    "Temat":"Zdalna obsługa radiostacji",
+    "Autor":"Dawid Wilhelm  ROSOŁOWSKI"
+  },
+  {
+    "Temat":"Zintegrowane narzędzie do realizacji wybuchów w scenach 3ds Max",
+    "Autor":"Cezary  STĘPIEŃ"
+  },
+  {
+    "Temat":"Znacznik RFID pracujący w paśmie 24 GHz",
+    "Autor":"Paweł  KOPYT"
+  }
+]

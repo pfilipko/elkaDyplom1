@@ -1,4 +1,4 @@
-<div ng-controller="testowyCtrl">
+<div ng-controller="assignCtrl">
 
     <div class="row">
         <div class="page-header">
@@ -56,24 +56,24 @@
         <div class="col-md-6">
             <h4>Karol Matusiak - wybrane tematy</h4>
             <ul class="nav nav-tabs">
-                <li class="nav-item" data-toggle="collapse" data-target="#topics1" >
-                    <a href="">Temat1</a>
+                <li class="nav-item" ng-class="{ active:isSelected(1) }">
+                    <a href ng-click="selectTab(1)">Temat 1</a>
                 </li>
-                <li class="nav-item" data-toggle="collapse" data-target="#topics2" >
-                    <a href="">Temat 2</a>
+                <li class="nav-item" ng-class="{active:isSelected(2)}">
+                    <a href ng-click="selectTab(2)">Temat 2</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Temat 3</a>
+                <li class="nav-item" ng-class="{active:isSelected(3)}">
+                    <a href ng-click="selectTab(3)">Temat 3</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Temat 4</a>
+                <li class="nav-item" ng-class="{active:isSelected(4)}">
+                    <a href ng-click="selectTab(4)">Temat 4</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Temat 5</a>
+                <li class="nav-item" ng-class="{active:isSelected(5)}">
+                    <a href ng-click="selectTab(5)">Temat 5</a>
                 </li>
             </ul>
             <br />
-            <div class="accordion-toggle" data-toggle="collapse" data-target="#details" id="topics1">
+            <div id="topic1" ng-show="isSelected(1)">
                 <b>Tytuł:</b>
                 <p>Implementacja bezpiecznego przechowywania i udostępniania poufnych danych biomedycznych z wykorzystaniem telefonu komórkowego.</p>
                 <b>Typ:</b>
@@ -109,7 +109,7 @@
 
             </div><!-- /.tab-pane -->
 
-            <div class="hiddenRow accordian-body collapse" data-toggle="collapse" data-target="#details" id="topics2">
+            <div ng-show="isSelected(2)" id="topic2">
                 <b>Tytuł:</b>
                 <p>TEMAT2</p>
                 <b>Typ:</b>

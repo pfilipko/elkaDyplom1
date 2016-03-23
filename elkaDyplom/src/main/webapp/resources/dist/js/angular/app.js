@@ -6,19 +6,15 @@ angular.module('myApp.factories',[]);
 
 mlApp.config(['$routeProvider', '$locationProvider', function AppConfig($routeProvider, $locationProvider) {
     $routeProvider.
-
     when('/', {
-        /*templateUrl: 'resources/templates/sample.html'*/
-        templateUrl: 'resources/templates/student/topic/index.html',
-        /*controller: 'testowyCtrl'*/
+        templateUrl: 'resources/templates/student/topic/index.html'
     }).
     when('/student/topic', {
-        templateUrl: 'resources/templates/student/topic/index.html',
-        controller: 'studentIndexCtrl'
+        templateUrl: 'resources/templates/student/topic/index.html'
     }).
     when('/student/topic/list', {
         templateUrl: 'resources/templates/student/topic/list.html',
-        controller: 'testowyCtrl'
+        controller: 'listCtrl'
     }).
 
     when('/supervisor/student', {
@@ -70,21 +66,8 @@ mlApp.config(['$routeProvider', '$locationProvider', function AppConfig($routePr
             template: 'there is no page here!'
         }
     )
+
 }]);
-
-mlApp.controller('testowyCtrl', function ($scope, $http){
-
-    $http.get('resources/dist/js/angular/topics.json')
-        .then(function(res){
-            $scope.topics = res.data;
-        });
-
-    $scope.chooseTopic = function() {
-
-        $scope.selected = "1.Technologia i charakteryzacja struktur MISFET z dielektrykami bramkowymi w postaci ultra-cienkich warstw dielektrycznych wytwarzanych metodą PECVD ";
-    };
-
-});
 
 mlApp.controller('acceptCtrl', function ($scope, $http){
 
@@ -92,8 +75,6 @@ mlApp.controller('acceptCtrl', function ($scope, $http){
         .then(function(res){
             $scope.topics = res.data;
         });
-
-
 
 });
 
@@ -103,6 +84,16 @@ mlApp.controller('assignCtrl', function ($scope, $http){
         .then(function(res){
             $scope.students = res.data;
         });
+
+    $scope.selectedTab = 1;
+
+    $scope.selectTab = function(tab){
+        $scope.selectedTab = tab;
+    }
+
+    $scope.isSelected = function(tab) {
+        return tab == $scope.selectedTab;
+    }
 
 });
 
@@ -115,6 +106,25 @@ mlApp.controller('myStudentCtrl', function ($scope, $http){
 
 });
 
+mlApp.controller('rankingCtrl', function ($scope, $http){
+
+    var technologies = [
+        {name: "C#", likes: 0, dislikes: 0},
+        {name: "asp", likes: 0, dislikes: 0},
+        {name: "sql server", likes: 0, dislikes: 0},
+        {name: "angularjs", likes: 0, dislikes: 0}
+    ];
+
+    $scope.technologies = technologies;
+
+    $scope.incrementLikes = function(technology) {
+        ++technology.likes;
+    };
+
+    $scope.incrementDislikes = function(technology) {
+        ++technology.dislikes;
+    };
+});
 
 mlApp.controller('supervisorTopicCtrl', function ($scope, $http){
 
