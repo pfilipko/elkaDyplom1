@@ -97,12 +97,24 @@ mlApp.controller('assignCtrl', function ($scope, $http){
 
 });
 
+mlApp.filter('selectDiplomaType', function($filter){
+    return function(students){
+        var chceckedType = $filter('filter')()
+
+    }
+});
+
 mlApp.controller('myStudentCtrl', function ($scope, $http){
 
     $http.get('resources/dist/js/angular/students.json')
         .then(function(res){
             $scope.students = res.data;
         });
+
+    $scope.toggleDetail = function($index) {
+        //$scope.isVisible = $scope.isVisible == 0 ? true : false;
+        $scope.activePosition = $scope.activePosition == $index ? -1 : $index;
+    };
 
 });
 

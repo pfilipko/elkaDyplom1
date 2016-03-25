@@ -60,7 +60,7 @@
             </ol>-->
         </div>
 
-        <input class="form-group" placeholder=" wyszukaj..."/>
+        <input type="text" class="form-group" placeholder=" wyszukaj..." ng-model="searchText"/>
         <span class="label label-default">java ee</span>
         <span class="label label-primary">oracle</span>
         <span class="label label-success">spring</span>
@@ -89,45 +89,45 @@
                     </thead>
                     <tbody>
 
-                    <tr ng-repeat="topic in topics" >
-                        <th class="select-column">{{$index}}</th>
-                        <td class="title-column accordion-toggle" data-toggle="collapse" data-target="{{ '#demo' + $index }}">
-                            {{topic.title}}
+                        <tr ng-repeat="topic in topics | filter:searchText" >
+                            <th class="select-column">{{$index}}</th>
+                            <td class="title-column accordion-toggle" data-toggle="collapse" data-target="{{ '#demo' + $index }}">
+                                {{topic.title}}
 
-                            <div class="hiddenRow accordian-body collapse" id="{{ 'demo' + $index }}">
-                                <table class="table table table-borderless">
-                                    <tr>
-                                        <th>typ</th>
-                                        <th>instytut prowadzący</th>
-                                        <th>specjalność</th>
-                                        <th>temat prywatny</th>
-                                        <th>może być realizowany po angielsku</th>
-                                    </tr>
-                                    <tr>
-                                        <td>{{topic.type}}</td>
-                                        <td>{{topic.institute}}</td>
-                                        <td>{{topic.specialty}}</td>
-                                        <td>{{topic.private}}</td>
-                                        <td>{{topic.english}}</td>
-                                    </tr>
-                                </table>
+                                <div class="hiddenRow accordian-body collapse" id="{{ 'demo' + $index }}">
+                                    <table class="table table table-borderless">
+                                        <tr>
+                                            <th>typ</th>
+                                            <th>instytut prowadzący</th>
+                                            <th>specjalność</th>
+                                            <th>temat prywatny</th>
+                                            <th>może być realizowany po angielsku</th>
+                                        </tr>
+                                        <tr>
+                                            <td>{{topic.type}}</td>
+                                            <td>{{topic.institute}}</td>
+                                            <td>{{topic.specialty}}</td>
+                                            <td>{{topic.private}}</td>
+                                            <td>{{topic.english}}</td>
+                                        </tr>
+                                    </table>
 
-                                <b>Zakres prac w przeciągu dwóch semestrów:</b>
-                                <p>{{topic.scope}}</p>
-                                <b>Wykorzystywane narzędzia (sprzęt, typ komputera, oprogramowanie, inne):</b>
-                                <p>{{topic.tools}}</p>
+                                    <b>Zakres prac w przeciągu dwóch semestrów:</b>
+                                    <p>{{topic.scope}}</p>
+                                    <b>Wykorzystywane narzędzia (sprzęt, typ komputera, oprogramowanie, inne):</b>
+                                    <p>{{topic.tools}}</p>
 
-                            </div>
+                                </div>
 
-                        </td>
-                        <td>{{topic.author}}</td>
-                        <td class="select-column">
+                            </td>
+                            <td>{{topic.author}}</td>
+                            <td class="select-column">
 
-                            <button type="button" ng-click="selectTopic(topic)" class="btn btn-xs btn-success">
-                                <span class="glyphicon glyphicon-plus"></span>
-                            </button>
-                        </td>
-                    </tr>
+                                <button type="button" ng-click="selectTopic(topic)" class="btn btn-xs btn-success">
+                                    <span class="glyphicon glyphicon-plus"></span>
+                                </button>
+                            </td>
+                        </tr>
 
                     </tbody>
                 </table>

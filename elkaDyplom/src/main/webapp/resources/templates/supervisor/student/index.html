@@ -7,15 +7,15 @@
         </div>
 
         <div class="row">
-            {{ message }}
+
             <div class="form-group col-xs-2">
-                <input type="text" class="form-control" ng-model="message" placeholder="wyszukaj...">
+                <input type="text" class="form-control" placeholder="wyszukaj..." ng-model="searchText">
             </div>
 
             <div class="form-group col-xs-3 ">
 
-                <label class="checkbox-inline"><input type="checkbox" value="">Inżynierskie</label>
-                <label class="checkbox-inline"><input type="checkbox" value="">Magisterskie</label>
+                <label class="checkbox-inline"><input type="checkbox" ng-model="engineer">Inżynierskie</label>
+                <label class="checkbox-inline"><input type="checkbox" ng-model="master">Magisterskie</label>
             </div>
         </div>
 
@@ -35,36 +35,74 @@
                         <th>Rozpoczęcie</th>
                     </tr>
                     </thead>
-                    <tbody>
 
-                    <tr ng-repeat="student in students" data-toggle="collapse" data-target="{{ '#demo' + $index }}" class="accordion-toggle">
-                        <th>{{$index}}</th>
-                        <td>
-                            {{student.lastname}}
-                        </td>
-                        <td>
-                            {{student.name}}
-                        </td>
-                        <td>
-                            {{student.mail}}
-                        </td>
-                        <td>
-                            {{student.title}}
+                    <!--<tbody ng-repeat="student in students | filter:searchText" >
+                        <tr class="accordion-toggle" data-toggle="collapse" data-target="{{ '#demo' + $index }}">
+                            <th>
+                                {{$index}}
+                            </th>
+                            <td>
+                                {{student.lastname}}
+                            </td>
+                            <td>
+                                {{student.name}}
+                            </td>
+                            <td>
+                                {{student.mail}}
+                            </td>
+                            <td style="width: 100%;">
+                                {{student.title}}
+                            </td>
+                            <td>
+                                {{student.type}}
+                            </td>
+                            <td>
+                                {{student.start}}
+                            </td>
+                        </tr>
 
-                            <div class="hiddenRow accordian-body collapse" id="{{ 'demo' + $index }}">
-
+                        <tr class="hiddenRow accordian-body collapse" id="{{ 'demo' + $index }}">
+                            <td colspan="7">
                                 <b>Szczegóły</b>
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequaturr</p>
-                            </div>
+                            </td>
+                        </tr>
+                    </tbody>
+-->
 
-                        </td>
-                        <td>
-                            {{student.type}}
-                        </td>
-                        <td>
-                            {{student.start}}
-                        </td>
-                    </tr>
+                    <tbody ng-repeat="student in students | filter:searchText" >
+
+
+                        <tr ng-click="toggleDetail($index)">
+                            <th>
+                                {{$index}}
+                            </th>
+                            <td>
+                                {{student.lastname}}
+                            </td>
+                            <td>
+                                {{student.name}}
+                            </td>
+                            <td>
+                                {{student.mail}}
+                            </td>
+                            <td style="width: 100%;">
+                                {{student.title}}
+                            </td>
+                            <td>
+                                {{student.type}}
+                            </td>
+                            <td>
+                                {{student.start}}
+                            </td>
+                        </tr>
+
+                        <tr class="extra-row" ng-show="activePosition == $index">
+                            <td colspan="7">
+                                <b>Szczegóły</b>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequaturr</p>
+                            </td>
+                        </tr>
 
                     </tbody>
                 </table>
