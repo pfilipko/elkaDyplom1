@@ -83,6 +83,7 @@
                         <th>Data dodania</th>
                         <th>Status</th>
                         <th>Popularność</th>
+                        <th></th>
 
                     </tr>
                     </thead>
@@ -132,6 +133,12 @@
                             </td>
 
                             <td>{{topic.popularity}}</td>
+
+                            <td>
+                                <a target="_blank" ng-href="{{url}}" ng-mousedown="edit()" class="btn">
+                                    <span class="glyphicon glyphicon-pencil"></span>
+                                </a>
+                            </td>
                         </tr>
 
                     </tbody>

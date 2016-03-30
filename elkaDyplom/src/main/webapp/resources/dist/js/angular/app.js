@@ -29,6 +29,7 @@ mlApp.config(['$routeProvider', '$locationProvider', function AppConfig($routePr
         templateUrl: 'resources/templates/supervisor/topic/add.html',
         controller: 'topics/addCtrl'
     }).
+
     when('/supervisor/topic/clone', {
         templateUrl: 'resources/templates/supervisor/topic/clone.html',
         controller: 'topics/cloneCtrl'
@@ -162,6 +163,10 @@ mlApp.controller('directorTopicCtrl', function ($scope, $http){
         $scope.url = '#/director/topic/edit';
     }
 
+    $scope.clone = function() {
+        $scope.url = '#/supervisor/topic/clone';
+    }
+
 });
 
 mlApp.controller('supervisorTopicCtrl', function ($scope, $http){
@@ -173,6 +178,10 @@ mlApp.controller('supervisorTopicCtrl', function ($scope, $http){
 
     $scope.newTopic = function() {
         $scope.url = '#/supervisor/topic/add';
+    }
+
+    $scope.edit = function() {
+        $scope.url = '#/supervisor/topic/edit';
     }
 
     $scope.clone = function() {

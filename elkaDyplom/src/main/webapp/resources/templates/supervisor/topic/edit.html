@@ -1,166 +1,132 @@
-<div ng-controller="topics/editCtrl">
+<div ng-controller="">
 
     <div class="row">
-        <div class="col-md-6">
-            <div class="box box-default">
-                <div class="box-header with-border">
-                    <h3 class="box-title">Moje tematy</h3>
-                </div><!-- /.box-header -->
-                <div class="box-body">
-                    <table id="example1" class="table table-bordered table-striped">
-                        <thead>
-                        <tr>
-                            <th>Id</th>
-                            <th>Temat</th>
-                            <th>Data dodania</th>
-                            <th>Status</th>
-                            <th>Edytuj</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Technologia i charakteryzacja struktur MISFET z dielektrykami...</td>
-                            <td>01.02.2003</td>
-                            <td>Zatwierdzony</td>
-                            <td>X</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Warstwy dielektryczne o wysokiej wartości przenikalności elektrycznej...</td>
-                            <td>01.02.2008</td>
-                            <td>Realizowany</td>
-                            <td>C</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Nowa wersja systemu detekcji pola dla systemów LLRF z falą ciągłą</td>
-                            <td>01.02.2016</td>
-                            <td>Obroniony</td>
-
-                            <td>A</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Adaptacyjne cykliczne przetworniki analogowo-cyfrowe - modelowanie i...</td>
-                            <td>30.06.20016</td>
-                            <td>Odrzucony</td>
-
-                            <td>A</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Adaptacyjne metody wyostrzania i odszumiania obrazów...</td>
-                            <td>18.12.2009</td>
-                            <td>Zatwierdzony</td>
-                            <td>A</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>AOL browser (AOL desktop)</td>
-                            <td>18.11.1999</td>
-                            <td>Win XP</td>
-                            <td>A</td>
-                        </tr>
-                        <tr>
-                            <td>7</td>
-                            <td>Firefox 1.0</td>
-                            <td>12.01.2010</td>
-                            <td>Win 98+ / OSX.2+</td>
-
-                            <td>A</td>
-                        </tr>
-                        <tr>
-                            <td>8</td>
-                            <td>AOL browser (AOL desktop)</td>
-                            <td>12.01.2015</td>
-                            <td>Win XP</td>
-
-                            <td>A</td>
-                        </tr>
-                        <tr>
-                            <td>9</td>
-                            <td>AOL browser (AOL desktop)</td>
-                            <td>04.08.2012</td>
-                            <td>Win XP</td>
-
-                            <td>A</td>
-                        </tr>
-
-                        </tbody>
-
-                    </table>
-
-                </div>
-            </div>
+        <div class="page-header">
+            <h2>
+                Edytuj temat
+                <a href="#supervisor/topic" class="btn btn-default pull-right">
+                    Moje tematy
+                </a>
+            </h2>
         </div>
 
-        <div class="col-md-6">
-            <div class="box box-default">
-                <div class="box-header with-border">
-                    <h3 class="box-title">Edytuj temat</h3>
-                </div><!-- /.box-header -->
-                <div class="box-body">
+        <div class="row">
 
-                    <form role="form">
-                        <div class="box-body">
-                            <div class="form-group">
-                                <label>Tytuł</label>
-                                <textarea class="form-control" rows="3" placeholder="Enter title ...">Adaptacyjne metody wyostrzania i odszumiania obrazów. (dekonwolucja) z wykorzystaniem biblioteki CUDA</textarea>
-                            </div>
-                            <div class="form-group">
-                                <label>Typ</label>
-                                <select class="form-control">
-                                    <option>inzynierski</option>
-                                    <option>magisterski</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label>Instytut prowadzący</label>
-                                <select class="form-control">
-                                    <option>Instytut Automatyki i Informatyki Stosowanej</option>
-                                    <option>Instytut Informatyki</option>
-                                    <option>Instytut Mikroelektroniki i Optoelektroniki</option>
-                                    <option>
-                                        Instytut Radioelektroniki i Technik Multimedialnych
-                                    </option>
-                                    <option>Instytut Systemów Elektronicznych</option>
-                                    <option>Instytut Telekomunikacji</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label>Specjalność</label>
-                                <select class="form-control">
-                                    <option>Inżynieria systemów informatycznych </option>
-                                    <option>Systemy informacyjno - decyzyjne</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label>Proponowana liczba studentów </label>
-                                <select class="form-control">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                </select>
-                            </div>
+            <div class="form-group col-xs-12">
 
-                            <div class="form-group">
-                                <label>Zakres prac w przeciągu dwóch semestrów</label>
-                                <textarea class="form-control" rows="10" placeholder="Enter ...">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
-                            </div>
-                            <div class="form-group">
-                                <label>Wykorzystywane narzędzia (sprzęt, typ komputera, oprogramowanie, inne)</label>
-                                <textarea class="form-control" rows="5" placeholder="Enter ..."></textarea>
-                            </div>
-                        </div><!-- /.box-body -->
+                <p>
+                    <b>
+                        Adaptacyjne metody wyostrzania i odszumiania obrazów. (dekonwolucja) z wykorzystaniem biblioteki CUDA
+                    </b>
+                </p>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>Autor</th>
+                        <th>Data dodania</th>
+                        <th>Przypisanie studenci</th>
+                        <th>Status</th>
+                        <th>Chętnych</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <td>
+                        Jan Kowalski
+                    </td>
+                    <td>
+                        20.01.2014
+                    </td>
+                    <td>
+                        Arek Jankowski
 
-                        <div class="box-footer">
-                            <button type="submit" class="btn btn-primary">Edytuj</button>
-                        </div>
-                    </form>
+                    </td>
+                    <td>
+                        Przydzielony
+                    </td>
+                    <td>
+                        15
+                    </td>
+                    </tbody>
+                </table>
 
-                </div>
+
             </div>
-        </div> <!--.col-md-6-->
-    </div> <!--.row-->
+            <br/>
+            <div class="col-md-12 with-margin-bottom">
+                <form role="form">
+                    <div class="box-body">
+                        <div class="form-group">
+                            <label>Tytuł</label>
+                            <textarea class="form-control" rows="3" placeholder="Enter title ...">Adaptacyjne metody wyostrzania i odszumiania obrazów. (dekonwolucja) z wykorzystaniem biblioteki CUDA</textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>Typ</label>
+                            <select class="form-control">
+                                <option>inzynierski</option>
+                                <option>magisterski</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Instytut prowadzący</label>
+                            <select class="form-control">
+                                <option>Instytut Automatyki i Informatyki Stosowanej</option>
+                                <option>Instytut Informatyki</option>
+                                <option>Instytut Mikroelektroniki i Optoelektroniki</option>
+                                <option>
+                                    Instytut Radioelektroniki i Technik Multimedialnych
+                                </option>
+                                <option>Instytut Systemów Elektronicznych</option>
+                                <option>Instytut Telekomunikacji</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Specjalność</label>
+                            <select class="form-control">
+                                <option>Inżynieria systemów informatycznych </option>
+                                <option>Systemy informacyjno - decyzyjne</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Proponowana liczba studentów </label>
+                            <select class="form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Widoczność tematu</label><br/>
+                            <div class="radio-inline">
+                                <label><input type="radio" name="optradio">Temat prywatny</label>
+                            </div>
+                            <div class="radio-inline">
+                                <label><input type="radio" name="optradio">Temat widoczny dla wszystkich</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Język</label>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Możliwość realizacji w języku angielskim</label>
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <label>Zakres prac w przeciągu dwóch semestrów</label>
+                            <textarea class="form-control" rows="10" placeholder="Enter ...">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>Wykorzystywane narzędzia (sprzęt, typ komputera, oprogramowanie, inne)</label>
+                            <textarea class="form-control" rows="5"></textarea>
+                        </div>
+                    </div><!-- /.box-body -->
+                    <div class="box-footer">
+                        <button type="button" class="btn btn-primary pull-right">Zapisz zmiany</button>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
 </div>
