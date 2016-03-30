@@ -85,6 +85,11 @@ mlApp.controller('acceptCtrl', function ($scope, $http){
             $scope.topics = res.data;
         });
 
+    $scope.newTopic = function() {
+        $scope.url = '#/supervisor/topic/add';
+    }
+
+
 });
 
 mlApp.controller('assignCtrl', function ($scope, $http){
@@ -95,14 +100,24 @@ mlApp.controller('assignCtrl', function ($scope, $http){
         });
 
     $scope.selectedTab = 1;
+    $scope.selectedStudent;
 
     $scope.selectTab = function(tab){
         $scope.selectedTab = tab;
-    }
+    };
 
     $scope.isSelected = function(tab) {
         return tab == $scope.selectedTab;
+    };
+
+    $scope.showStudent = function(student){
+        $scope.selectedStudent = student;
+    };
+
+    $scope.newTopic = function() {
+        $scope.url = '#/supervisor/topic/add';
     }
+
 
 });
 

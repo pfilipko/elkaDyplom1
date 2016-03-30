@@ -5,9 +5,9 @@
             <h2>
                 Przydziel temat
 
-                <button class="btn btn-primary pull-right" data-toggle="modal" data-target="#myModal">
+                <a class="btn btn-primary pull-right" target="_blank" ng-href="{{url}}" ng-mousedown="newTopic()">
                     Dodaj temat
-                </button>
+                </a>
                 <a href="#director/topic/accept" class="btn btn-default pull-right">
                     Akceptacja
                 </a>
@@ -38,7 +38,7 @@
                     </thead>
                     <tbody>
 
-                    <tr ng-repeat="student in students" >
+                    <tr ng-repeat="student in students" ng-click="showStudent(student)" class="row-with-pointer">
                         <th class="select-column">{{$index}}</th>
                         <td>
                             {{student.average}}
@@ -75,29 +75,42 @@
             <br />
             <div id="topic1" ng-show="isSelected(1)">
                 <b>Tytuł:</b>
-                <p>Implementacja bezpiecznego przechowywania i udostępniania poufnych danych biomedycznych z wykorzystaniem telefonu komórkowego.</p>
+                <p>
+                    {{ selectedStudent.title }}
+                </p>
                 <b>Typ:</b>
-                <p>Inżynierski</p>
+                <p>
+                    {{ selectedStudent.type }}
+                </p>
                 <b>Autor:</b>
-                <p>dr mgr inż. Stanisław Stanisławski</p>
+                <p>
+                    {{ selectedStudent.author }}
+                </p>
                 <b>Instytut prowadzący:</b>
-                <p>Instytut Systemów Elektronicznych</p>
+                <p>
+                    {{ selectedStudent.institute }}
+                </p>
                 <b>Liczba osób:</b>
-                <p>0/1</p>
+                <p>
+                    {{ selectedStudent.number_of_students }}
+                </p>
                 <b>Ilość dyplomantów autora:</b>
                 <p>2</p>
                 <p>
-                    <b>Szczegóły tematu...</b>
+                    <div  class="accordion-toggle row-with-pointer" data-toggle="collapse" data-target="{{ '#details' }}">
+                        <b>Szczegóły tematu...</b>
 
-                    <div class="hiddenRow accordian-body collapse" id="details">
-                        <b>Zakres prac w przeciągu dwóch semestrów:</b>
-                         <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
-                        </p>
-                        <b>Wykorzystywane narzędzia (sprzęt, typ komputera, oprogramowanie, inne):</b>
-                        <p>
-                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
-                        </p>
+                        <div class="hiddenRow accordian-body collapse" id="details">
+                            <b>Zakres prac w przeciągu dwóch semestrów:</b>
+                             <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
+                            </p>
+                            <b>Wykorzystywane narzędzia (sprzęt, typ komputera, oprogramowanie, inne):</b>
+                            <p>
+                    But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
+                            </p>
+                        </div>
+
                     </div>
                 </p>
 
