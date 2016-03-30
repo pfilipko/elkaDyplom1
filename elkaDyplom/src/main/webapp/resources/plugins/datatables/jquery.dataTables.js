@@ -1993,7 +1993,7 @@
 		var iDisplayStart = oSettings._iDisplayStart;
 		var iDisplayEnd = oSettings.fnDisplayEnd();
 	
-		/* Server-side processing draw intercept */
+		/* server-side processing draw intercept */
 		if ( oSettings.bDeferLoading )
 		{
 			oSettings.bDeferLoading = false;
@@ -3302,7 +3302,7 @@
 		// data (show 'loading' message possibly)
 		_fnReDraw( settings );
 	
-		// Server-side processing init complete is done by _fnAjaxUpdateDraw
+		// server-side processing init complete is done by _fnAjaxUpdateDraw
 		var dataSrc = _fnDataSource( settings );
 		if ( dataSrc != 'ssp' ) {
 			// if there is an ajax source load the data
@@ -12694,7 +12694,7 @@
 			"bProcessing": null,
 	
 			/**
-			 * Server-side processing enabled flag - when enabled DataTables will
+			 * server-side processing enabled flag - when enabled DataTables will
 			 * get all data from the server for every draw - there is no filtering,
 			 * sorting or paging done on the client-side.
 			 * Note that this parameter will be set by the initialisation routine. To
@@ -13304,7 +13304,7 @@
 		"_iDisplayStart": 0,
 	
 		/**
-		 * Server-side processing - number of records in the result set
+		 * server-side processing - number of records in the result set
 		 * (i.e. before filtering), Use fnRecordsTotal rather than
 		 * this property to get the value of the number of records, regardless of
 		 * the server-side processing setting.
@@ -13315,7 +13315,7 @@
 		"_iRecordsTotal": 0,
 	
 		/**
-		 * Server-side processing - number of records in the current display set
+		 * server-side processing - number of records in the current display set
 		 * (i.e. after filtering). Use fnRecordsDisplay rather than
 		 * this property to get the value of the number of records, regardless of
 		 * the server-side processing setting.

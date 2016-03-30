@@ -1,9 +1,9 @@
-<div ng-controller="topics/addCtrl">
+<div ng-controller="topics/cloneCtrl">
 
     <div class="row">
         <div class="page-header">
             <h2>
-                Nowy temat
+                Klonuj temat
                 <a href="#supervisor/topic" class="btn btn-default pull-right">
                     Moje tematy
                 </a>
@@ -15,16 +15,8 @@
                 <form role="form">
                     <div class="box-body">
                         <div class="form-group">
-                            <label>Duplikuj</label>
-                            <input class="form-control" rows="1" placeholder="Wpisz tagi aby wyszukać szablon"></input>
-                        </div>
-                        <div class="form-group">
                             <label>Tytuł</label>
-                            <textarea class="form-control" rows="3"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <label>Słowa kluczowe (tagi)</label>
-                            <input class="form-control" rows="1" placeholder=""></input>
+                            <textarea class="form-control" rows="3" placeholder="Enter title ...">Adaptacyjne metody wyostrzania i odszumiania obrazów. (dekonwolucja) z wykorzystaniem biblioteki CUDA</textarea>
                         </div>
                         <div class="form-group">
                             <label>Typ</label>
@@ -64,7 +56,6 @@
                         <div class="form-group">
                             <label>Widoczność tematu</label><br/>
                             <div class="radio-inline">
-                                <!--wybranie prytwatnego powoduje rozwiniecie wyszkiwarki sutdentow-->
                                 <label><input type="radio" name="optradio">Temat prywatny</label>
                             </div>
                             <div class="radio-inline">
@@ -80,7 +71,7 @@
                         </div>
                         <div class="form-group">
                             <label>Zakres prac w przeciągu dwóch semestrów</label>
-                            <textarea class="form-control" rows="10"></textarea>
+                            <textarea class="form-control" rows="10" placeholder="Enter ...">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
                         </div>
                         <div class="form-group">
                             <label>Wykorzystywane narzędzia (sprzęt, typ komputera, oprogramowanie, inne)</label>
@@ -88,7 +79,7 @@
                         </div>
                     </div><!-- /.box-body -->
                     <div class="box-footer">
-                        <button type="button" class="btn btn-primary pull-right">Dodaj</button>
+                        <button type="button" class="btn btn-primary pull-right">Zapisz zmiany</button>
 
                     </div>
                 </form>

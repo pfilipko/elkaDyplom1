@@ -6,7 +6,8 @@
     "type": "inzynierskie",
     "start": "12z",
     "mail": "marek.rudzinski@gmail.com",
-    "average": "5.0"
+    "average": "5.0",
+    "dissertation_semester": "1"
   },
   {
     "name":"Piotr",
@@ -15,7 +16,8 @@
     "type": "inzynierskie",
     "start": "12z",
     "mail": "marek.rudzinski@gmail.com",
-    "average": "3.78"
+    "average": "3.78",
+    "dissertation_semester": "0"
   },
   {
     "name":"Piotr",
@@ -24,7 +26,8 @@
     "type": "inzynierskie",
     "start": "12z",
     "mail": "marek.rudzinski@gmail.com",
-    "average": "4.07"
+    "average": "4.07",
+    "dissertation_semester": "2"
   },
   {
     "name":"Piotr",
@@ -33,7 +36,8 @@
     "type": "inzynierskie",
     "start": "12z",
     "mail": "marek.rudzinski@gmail.com",
-    "average": "3.16"
+    "average": "3.16",
+    "dissertation_semester": "3"
   },
   {
     "name":"Piotr",
@@ -42,7 +46,8 @@
     "type": "inzynierskie",
     "start": "12z",
     "mail": "marek.rudzinski@gmail.com",
-    "average": "4.41"
+    "average": "4.41",
+    "dissertation_semester": "2"
   },
   {
     "name":"Piotr",
@@ -51,7 +56,8 @@
     "type": "inzynierskie",
     "start": "12z",
     "mail": "marek.rudzinski@gmail.com",
-    "average": "3.3"
+    "average": "3.3",
+    "dissertation_semester": "4"
   },
   {
     "name":"Piotr",
@@ -60,7 +66,8 @@
     "type": "inzynierskie",
     "start": "12z",
     "mail": "marek.rudzinski@gmail.com",
-    "average": "3.01"
+    "average": "3.01",
+    "dissertation_semester": "1"
   },
   {
     "name":"Andrzej",
@@ -69,7 +76,8 @@
     "type": "inzynierskie",
     "start": "12z",
     "mail": "marek.rudzinski@gmail.com",
-    "average": "4.22"
+    "average": "4.22",
+    "dissertation_semester": "3"
   },
   {
     "name":"Przemysław",
@@ -78,7 +86,8 @@
     "type": "inzynierskie",
     "start": "12z",
     "mail": "marek.rudzinski@gmail.com",
-    "average": "3.98"
+    "average": "3.98",
+    "dissertation_semester": "1"
   },
   {
     "name":"Daniel",
@@ -87,7 +96,8 @@
     "type": "inzynierskie",
     "start": "12z",
     "mail": "marek.rudzinski@gmail.com",
-    "average": "3.70"
+    "average": "3.70",
+    "dissertation_semester": "2"
   },
   {
     "name":"Ryszard",
@@ -96,6 +106,7 @@
     "type": "inzynierskie",
     "start": "12z",
     "mail": "marek.rudzinski@gmail.com",
-    "average": "4.14"
+    "average": "4.14",
+    "dissertation_semester": "0"
   }
 ]

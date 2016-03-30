@@ -32,7 +32,7 @@
                         <th>e-mail</th>
                         <th>Tytuł pracy</th>
                         <th>Typ</th>
-                        <th>Rozpoczęcie</th>
+                        <th>Semestr</th>
                     </tr>
                     </thead>
 
@@ -73,7 +73,7 @@
                     <tbody ng-repeat="student in students | filter:searchText" >
 
 
-                        <tr ng-click="toggleDetail($index)">
+                        <tr ng-click="toggleDetail($index)" class="row-with-pointer">
                             <th>
                                 {{$index}}
                             </th>
@@ -93,7 +93,7 @@
                                 {{student.type}}
                             </td>
                             <td>
-                                {{student.start}}
+                                {{student.dissertation_semester}}
                             </td>
                         </tr>
 

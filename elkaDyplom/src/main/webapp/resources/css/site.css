@@ -10,8 +10,14 @@ body {
 }
 
 .title-column {
+    cursor: pointer;
+    cursor: hand;
     width: 900px;
     overflow: hidden;
+}
+.row-with-pointer {
+    cursor: pointer;
+    cursor: hand;
 }
 .select-column {
     width: 2px;
@@ -24,6 +30,10 @@ body {
 
 .td-inline {
     white-space:nowrap;
+}
+
+.with-margin-bottom{
+    margin-bottom: 40px;
 }
 /*
 

@@ -1,6 +1,6 @@
 var mlApp = angular.module('myApp',['ngRoute']);
 
-angular.module('myApp.controllers',[]);
+angular.module('myApp.controller',[]);
 angular.module('myApp.factories',[]);
 /*angular.module('myApp',['ui.bootstrap']);*/
 
@@ -29,6 +29,10 @@ mlApp.config(['$routeProvider', '$locationProvider', function AppConfig($routePr
         templateUrl: 'resources/templates/supervisor/topic/add.html',
         controller: 'topics/addCtrl'
     }).
+    when('/supervisor/topic/clone', {
+        templateUrl: 'resources/templates/supervisor/topic/clone.html',
+        controller: 'topics/cloneCtrl'
+    }).
     when('/supervisor/topic/edit', {
         templateUrl: 'resources/templates/supervisor/topic/edit.html',
         controller: 'topics/editCtrl'
@@ -39,11 +43,15 @@ mlApp.config(['$routeProvider', '$locationProvider', function AppConfig($routePr
     }).
     when('/director/topic', {
         templateUrl: 'resources/templates/director/topic/index.html',
-        controller: ''
+        controller: 'directorTopicCtrl'
     }).
     when('/director/topic/accept', {
         templateUrl: 'resources/templates/director/topic/accept.html',
         controller: 'acceptCtrl'
+    }).
+    when('/director/topic/edit', {
+        templateUrl: 'resources/templates/director/topic/edit.html',
+        controller: ''
     }).
     when('/director/topic/assign', {
         templateUrl: 'resources/templates/director/topic/assign.html',
@@ -109,6 +117,7 @@ mlApp.controller('myStudentCtrl', function ($scope, $http){
     $http.get('resources/dist/js/angular/students.json')
         .then(function(res){
             $scope.students = res.data;
+
         });
 
     $scope.toggleDetail = function($index) {
@@ -138,12 +147,37 @@ mlApp.controller('rankingCtrl', function ($scope, $http){
     };
 });
 
+mlApp.controller('directorTopicCtrl', function ($scope, $http){
+
+    $http.get('resources/dist/js/angular/topics.json')
+        .then(function(res){
+            $scope.topics = res.data;
+        });
+
+    $scope.newTopic = function() {
+        $scope.url = '#/supervisor/topic/add';
+    }
+
+    $scope.edit = function() {
+        $scope.url = '#/director/topic/edit';
+    }
+
+});
+
 mlApp.controller('supervisorTopicCtrl', function ($scope, $http){
 
     $http.get('resources/dist/js/angular/topics.json')
         .then(function(res){
             $scope.topics = res.data;
         });
+
+    $scope.newTopic = function() {
+        $scope.url = '#/supervisor/topic/add';
+    }
+
+    $scope.clone = function() {
+        $scope.url = '#/supervisor/topic/clone';
+    }
 
 });
 
