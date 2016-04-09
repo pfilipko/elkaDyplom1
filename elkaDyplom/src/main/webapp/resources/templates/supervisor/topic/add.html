@@ -1,12 +1,9 @@
-<div ng-controller="topics/addCtrl">
+<div>
 
     <div class="row">
         <div class="page-header">
             <h2>
                 Nowy temat
-                <a href="#supervisor/topic" class="btn btn-default pull-right">
-                    Moje tematy
-                </a>
             </h2>
         </div>
 
@@ -15,8 +12,8 @@
                 <form role="form">
                     <div class="box-body">
                         <div class="form-group">
-                            <label>Duplikuj</label>
-                            <input class="form-control" rows="1" placeholder="Wpisz tagi aby wyszukać szablon"></input>
+                            <label>Klonuj</label>
+                            <input class="form-control" rows="1" placeholder="Wpisz tagi aby wyszukać szablon..." />
                         </div>
                         <div class="form-group">
                             <label>Tytuł</label>
@@ -24,7 +21,7 @@
                         </div>
                         <div class="form-group">
                             <label>Słowa kluczowe (tagi)</label>
-                            <input class="form-control" rows="1" placeholder=""></input>
+                            <input class="form-control" rows="1" placeholder=""/>
                         </div>
                         <div class="form-group">
                             <label>Typ</label>
@@ -65,11 +62,20 @@
                             <label>Widoczność tematu</label><br/>
                             <div class="radio-inline">
                                 <!--wybranie prytwatnego powoduje rozwiniecie wyszkiwarki sutdentow-->
-                                <label><input type="radio" name="optradio">Temat prywatny</label>
+                                <label><input type="radio" name="optradio" ng-model="isPrivate" value="1">Temat prywatny</label>
                             </div>
                             <div class="radio-inline">
-                                <label><input type="radio" name="optradio">Temat widoczny dla wszystkich</label>
+                                <label><input type="radio" name="optradio" ng-model="isPrivate" value="2" >Temat widoczny dla wszystkich</label>
                             </div>
+                        </div>
+                        <div class="form-group" ng-show="isPrivate == '1'">
+                            <label>Wybierz studenta z listy chętnych</label>
+                            <select class="form-control">
+                                <option>Pierwszy chętny</option>
+                                <option>Drugi chętny</option>
+                                <option>Trzeci chętny</option>
+                                <option>Czwarty chętny</option>
+                            </select>
                         </div>
                         <div class="form-group">
                             <label>Język</label>

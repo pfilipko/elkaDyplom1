@@ -2,7 +2,9 @@
  * Created by piotrek on 21.03.16.
  */
 
-angular.module('myApp').controller('listCtrl',function ($scope, $http) {
+angular.module('myApp').controller('listCtrl',function ($scope, $http/*, StudentTopicIndex*/) {
+
+
 
     $http.get('resources/dist/js/angular/topics.json')
         .then(function(res){

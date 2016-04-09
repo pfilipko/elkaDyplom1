@@ -7,16 +7,15 @@
                 <a class="btn btn-primary pull-right" target="_blank" ng-href="{{url}}" ng-mousedown="newTopic()">
                     Dodaj temat
                 </a>
-                <a href="#director/topic/accept" class="btn btn-default pull-right">
-                    Akceptacja
+
+                <a href="#director/topic" class="btn btn-default pull-right">
+                    Zarządzaj tagami
                 </a>
-                </button>
+
                 <a href="#director/topic/assign" class="btn btn-default pull-right">
                     Przydziel studentom
                 </a>
-                <a href="#supervisor/topic" class="btn btn-default pull-right">
-                    Moje tematy
-                </a>
+
             </h2>
         </div>
 
@@ -71,9 +70,9 @@
 
 
         <div>
-            <span class="label label-default">java ee</span>
-            <span class="label label-primary">oracle</span>
-            <span class="label label-success">spring</span>
+            <span class="label label-default">tag1</span>
+            <span class="label label-primary">tag2</span>
+            <span class="label label-success">tag3</span>
             <span class="label label-info">angularjs</span>
             <span class="label label-warning">jquery</span>
             <span class="label label-danger">matlab</span>
@@ -129,20 +128,16 @@
                                 <p>{{topic.scope}}</p>
                                 <b>Wykorzystywane narzędzia (sprzęt, typ komputera, oprogramowanie, inne):</b>
                                 <p>{{topic.tools}}</p>
-                                <p>
-                                    <a target="_blank" ng-href="{{url}}" ng-mousedown="clone()">
-                                        <span class="glyphicon glyphicon-duplicate"></span> <b>Klonuj...</b>
-                                    </a>
-                                </p>
+
                             </div>
 
                         </td>
                         <td>01.01.1999</td>
                         <td class="select-column">
-                            {{topic.status}}
+                            <!--{{topic.status}}--> Przydzielony
                         </td>
                         <td>
-                            <a target="_blank" ng-href="{{url}}" ng-mousedown="edit()" class="btn">
+                            <a target="_blank" ng-href="{{url}}" ng-mousedown="edit()" title="Edytuj temat" class="btn">
                                 <span class="glyphicon glyphicon-pencil"></span>
                             </a>
                         </td>

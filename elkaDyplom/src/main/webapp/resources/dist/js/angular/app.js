@@ -7,7 +7,8 @@ angular.module('myApp.factories',[]);
 mlApp.config(['$routeProvider', '$locationProvider', function AppConfig($routeProvider, $locationProvider) {
     $routeProvider.
     when('/', {
-        templateUrl: 'resources/templates/student/topic/index.html'
+        templateUrl: 'resources/templates/student/topic/index.html',
+        controller: 'studentTopicIndexCtrl'
     }).
     when('/student/topic', {
         templateUrl: 'resources/templates/student/topic/index.html'
@@ -27,16 +28,23 @@ mlApp.config(['$routeProvider', '$locationProvider', function AppConfig($routePr
     }).
     when('/supervisor/topic/add', {
         templateUrl: 'resources/templates/supervisor/topic/add.html',
-        controller: 'topics/addCtrl'
+        controller: 'addTopicCtrl'
     }).
-
+    when('/director/topic/add', {
+        templateUrl: 'resources/templates/director/topic/add.html',
+        controller: 'addTopicCtrl'
+    }).
+    when('/supervisor/topic/interested', {
+        templateUrl: 'resources/templates/supervisor/topic/interested.html',
+        controller: 'interestedCtrl'
+    }).
     when('/supervisor/topic/clone', {
         templateUrl: 'resources/templates/supervisor/topic/clone.html',
-        controller: 'topics/cloneCtrl'
+        controller: 'cloneTopicCtrl'
     }).
     when('/supervisor/topic/edit', {
         templateUrl: 'resources/templates/supervisor/topic/edit.html',
-        controller: 'topics/editCtrl'
+        controller: 'editTopicCtrl'
     }).
     when('/supervisor/ranking', {
         templateUrl: 'resources/templates/supervisor/ranking/index.html',
@@ -46,8 +54,8 @@ mlApp.config(['$routeProvider', '$locationProvider', function AppConfig($routePr
         templateUrl: 'resources/templates/director/topic/index.html',
         controller: 'directorTopicCtrl'
     }).
-    when('/director/topic/accept', {
-        templateUrl: 'resources/templates/director/topic/accept.html',
+    when('/manager/topic', {
+        templateUrl: 'resources/templates/manager/topic/accept.html',
         controller: 'acceptCtrl'
     }).
     when('/director/topic/edit', {
@@ -112,6 +120,7 @@ mlApp.controller('assignCtrl', function ($scope, $http){
 
     $scope.showStudent = function(student){
         $scope.selectedStudent = student;
+        $scope.selectedTab = 1;
     };
 
     $scope.newTopic = function() {
@@ -171,7 +180,7 @@ mlApp.controller('directorTopicCtrl', function ($scope, $http){
         });
 
     $scope.newTopic = function() {
-        $scope.url = '#/supervisor/topic/add';
+        $scope.url = '#/director/topic/add';
     }
 
     $scope.edit = function() {
@@ -190,6 +199,10 @@ mlApp.controller('supervisorTopicCtrl', function ($scope, $http){
         .then(function(res){
             $scope.topics = res.data;
         });
+
+    $scope.interestedStudents = function() {
+        $scope.url = '#/supervisor/topic/interested';
+    }
 
     $scope.newTopic = function() {
         $scope.url = '#/supervisor/topic/add';

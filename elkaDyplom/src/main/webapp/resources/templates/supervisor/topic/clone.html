@@ -1,12 +1,9 @@
-<div ng-controller="topics/cloneCtrl">
+<div>
 
     <div class="row">
         <div class="page-header">
             <h2>
                 Klonuj temat
-                <a href="#supervisor/topic" class="btn btn-default pull-right">
-                    Moje tematy
-                </a>
             </h2>
         </div>
 
@@ -56,11 +53,16 @@
                         <div class="form-group">
                             <label>Widoczność tematu</label><br/>
                             <div class="radio-inline">
-                                <label><input type="radio" name="optradio">Temat prywatny</label>
+                                <!--wybranie prytwatnego powoduje rozwiniecie wyszkiwarki sutdentow-->
+                                <label><input type="radio" name="optradio" ng-model="isPrivate" value="1">Temat prywatny</label>
                             </div>
                             <div class="radio-inline">
-                                <label><input type="radio" name="optradio">Temat widoczny dla wszystkich</label>
+                                <label><input type="radio" name="optradio" ng-model="isPrivate" value="2" >Temat widoczny dla wszystkich</label>
                             </div>
+                        </div>
+                        <div class="form-group" ng-show="isPrivate == '1'">
+                            <label>Wybierz studenta</label>
+                            <input class="form-control" rows="1" placeholder="wyszkiwarka studentów"/>
                         </div>
                         <div class="form-group">
                             <label>Język</label>

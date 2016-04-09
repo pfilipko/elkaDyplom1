@@ -24,7 +24,7 @@
                     <option>Przydzielony</option>
                     <option>Skończony</option>
                     <option>Zamknięty</option>
-                    <option>Zatwierdzony/option>
+                    <option>Zatwierdzony</option>
                     <option>Do modyfikacji</option>
                 </select>
             </div>
@@ -59,16 +59,16 @@
 
 
         <div>
-            <span class="label label-default">java ee</span>
-            <span class="label label-primary">oracle</span>
-            <span class="label label-success">spring</span>
+            <span class="label label-default">tag1</span>
+            <span class="label label-primary">tag2</span>
+            <span class="label label-success">tag3</span>
             <span class="label label-info">angularjs</span>
             <span class="label label-warning">jquery</span>
-            <span class="label label-danger">matlab</span>
+            <span class="label label-danger">aplikacje mobilne</span>
             <span class="label label-default">javascript</span>
             <span class="label label-primary">mysql</span>
             <span class="label label-success">c++</span>
-            <span class="label label-info">python</span>
+            <span class="label label-info">grafika</span>
             <span class="label label-warning">django</span>
             <span class="label label-danger">c#</span>
         </div>
@@ -93,6 +93,8 @@
                             <th class="select-column">{{$index}}</th>
                             <td data-toggle="collapse" data-target="{{ '#demo' + $index }}" class="title-column accordion-toggle">
                                 {{topic.title}}
+
+                                <p><b>Student: {{topic.student}}</b></p>
                                 <p><i>{{topic.tags}}</i></p>
 
                                 <div class="hiddenRow accordian-body collapse" id="{{ 'demo' + $index }}">
@@ -126,16 +128,21 @@
                                 </div>
 
                             </td>
-                            <td>01.01.1999</td>
+                            <td>01.01.2015</td>
 
                             <td class="select-column">
                                 {{topic.status}}
                             </td>
 
-                            <td>{{topic.popularity}}</td>
+                            <td>
+                                {{topic.popularity}}
+                                <a target="_blank" ng-href="{{url}}" ng-mousedown="interestedStudents()" title="Studenci, którzy wybrali temat"  class="btn">
+                                    <span class="glyphicon glyphicon-info-sign"></span>
+                                </a>
+                            </td>
 
                             <td>
-                                <a target="_blank" ng-href="{{url}}" ng-mousedown="edit()" class="btn">
+                                <a target="_blank" ng-href="{{url}}" ng-mousedown="edit()" title="Edytuj temat" class="btn">
                                     <span class="glyphicon glyphicon-pencil"></span>
                                 </a>
                             </td>

@@ -64,18 +64,17 @@
         </div>
 
         <input type="text" class="form-group" placeholder=" wyszukaj..." ng-model="searchText"/>
-        <span class="label label-default">java ee</span>
-        <span class="label label-primary">oracle</span>
-        <span class="label label-success">spring</span>
+        <span class="label label-default">tag1</span>
+        <span class="label label-primary">tag2</span>
+        <span class="label label-success">tag3</span>
         <span class="label label-info">angularjs</span>
         <span class="label label-warning">jquery</span>
-        <span class="label label-danger">matlab</span>
         <span class="label label-default">javascript</span>
         <span class="label label-primary">mysql</span>
         <span class="label label-success">c++</span>
-        <span class="label label-info">python</span>
-        <span class="label label-warning">django</span>
-        <span class="label label-danger">c#</span>
+        <span class="label label-info">c#</span>
+        <span class="label label-warning">grafika</span>
+        <span class="label label-danger">modelowanie 3d</span>
 
         <div class="col-md-12">
 
@@ -96,6 +95,7 @@
                             <th class="select-column">{{$index}}</th>
                             <td class="title-column accordion-toggle" data-toggle="collapse" data-target="{{ '#demo' + $index }}">
                                 {{topic.title}}
+                                <p><b><i>{{topic.tags}}</i></b></p>
 
                                 <div class="hiddenRow accordian-body collapse" id="{{ 'demo' + $index }}">
                                     <table class="table table table-borderless">

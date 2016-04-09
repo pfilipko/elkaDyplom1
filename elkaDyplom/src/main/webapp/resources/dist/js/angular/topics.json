@@ -10,9 +10,10 @@
     "english": "tak",
     "scope": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
     "tools": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
-    "status": "Przydzielony",
+    "status": "Do modyfikacji",
     "popularity": "4",
-    "tags": "html php mysql"
+    "tags": "html php mysql",
+    "student": "-"
   },
   {
     "title":"Warstwy dielektryczne o wysokiej wartości przenikalności elektrycznej dla zastosowań w przyrządach MOS/MOSFET",
@@ -27,7 +28,25 @@
     "tools": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
     "status": "Do modyfikacji",
     "popularity": "3",
-    "tags": "java spring postgresql"
+    "tags": "java spring postgresql",
+    "student": "-"
+
+  },
+  {
+    "title":"Przyśpieszenie projektowania filtrów mikrofalowych i transformatorów impedancji przez zrównoleglenie procesu optymalizacji w chmurze",
+    "author":"Przemysław MIAZGA",
+    "type": "inzynierski",
+    "institute": "Radioelektroniki",
+    "specialty": "Mikroelektronika, Fotonika i Nanotechnologie",
+    "number_of_students": "1",
+    "private": "nie",
+    "english": "tak",
+    "scope": "Semestr 1: Implementacja algorytmu optymalizacji z gruboziarnistym zrównolegleniem obliczania funkcji celu. Każda funkcja będzie obliczana na jednej maszynie wirtualnej w chmurze na platformie Azure. Do wyboru jest jeden z następujących algorytmów -bezgradientowy Hooke-Jeevsa (pattern search) z modyfikacjami Torczon-bezgradientowy Powella (Quasi-Newtonowski)-zmiennej metryki (Davidon-Fletcher-Powell)-Neldera-Meada (simplex) Semestr 2: Analiza synchronizacji procesów i działania programu pod kątem szybkości znajdowania rozwiązania. Wykonanie projektu filtru lub transformatora impedancji.",
+    "tools": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
+    "status": "Niezatwierdzony",
+    "popularity": "1",
+    "tags": "javaee oracle angularjs",
+    "student": "-"
 
   },
   {
@@ -41,9 +60,27 @@
     "english": "tak",
     "scope": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
     "tools": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
-    "status": "Zakończony",
+    "status": "Niezatwierdzony",
     "popularity": "1",
-    "tags": "javaee oracle angularjs"
+    "tags": "javaee oracle angularjs",
+    "student": "-"
+
+  },
+  {
+    "title":"Nowa wersja systemu detekcji pola dla systemów LLRF z falą ciągłą",
+    "author":"Krzysztof Marek CZUBA",
+    "type": "inzynierski",
+    "institute": "Radioelektroniki",
+    "specialty": "Mikroelektronika, Fotonika i Nanotechnologie",
+    "number_of_students": "1",
+    "private": "nie",
+    "english": "tak",
+    "scope": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
+    "tools": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
+    "status": "Zatwierdzony",
+    "popularity": "1",
+    "tags": "javaee oracle angularjs",
+    "student": "-"
 
   },
   {
@@ -57,9 +94,10 @@
     "english": "tak",
     "scope": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
     "tools": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
-    "status": "Zatwierdzony",
+    "status": "Przydzielony",
     "popularity": "0",
-    "tags": "hibernate jboss maven angular2"
+    "tags": "hibernate jboss maven angular2",
+    "student": "Maciek Okrzeja"
   },
   {
     "title":"Adaptacyjne metody wyostrzania i odszumiania obrazów. (dekonwolucja) z wykorzystaniem biblioteki CUDA",
@@ -72,9 +110,10 @@
     "english": "tak",
     "scope": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
     "tools": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
-    "status": "Zatwierdzony",
+    "status": "Odrzucony",
     "popularity": "4",
-    "tags": "javascript angularjs tomcat"
+    "tags": "javascript angularjs tomcat",
+    "student": "-"
   },
   {
     "title":"Adaptacyjnie dostrajany akcelerometr o zwiększonej dokładności i rozszerzonym zakresie zastosowań.",
@@ -87,9 +126,10 @@
     "english": "tak",
     "scope": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
     "tools": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
-    "status": "Do modyfikacji",
+    "status": "Zakończony",
     "popularity": "2",
-    "tags": "html php mysql"
+    "tags": "html php mysql",
+    "student": "Janusz Kowalski"
   },
   {
     "title":"Nieadaptacyjnie dostrajany akcelerometr o zwiększonej dokładności i rozszerzonym zakresie zastosowań.",
@@ -102,8 +142,9 @@
     "english": "tak",
     "scope": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
     "tools": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
-    "status": "Niezatwierdzony",
+    "status": "Zakończony",
     "popularity": "1",
-    "tags": "html php mysql"
+    "tags": "html php mysql",
+    "student": "Janusz Kowalski"
   }
 ]

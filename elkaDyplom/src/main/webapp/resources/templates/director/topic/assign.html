@@ -1,4 +1,4 @@
-<div ng-controller="assignCtrl">
+<div>
 
     <div class="row">
         <div class="page-header">
@@ -8,17 +8,32 @@
                 <a class="btn btn-primary pull-right" target="_blank" ng-href="{{url}}" ng-mousedown="newTopic()">
                     Dodaj temat
                 </a>
-                <a href="#director/topic/accept" class="btn btn-default pull-right">
-                    Akceptacja
-                </a>
                 </button>
-
-                <button class="btn btn-default pull-right">
-                    Moje tematy
                 </button>
                 <a href="#director/topic" class="btn btn-default pull-right">Lista tematów</a>
             </h2>
 
+        </div>
+
+        <div class="row">
+            <div class="form-group col-xs-2">
+                <label>Wyszukiwarka:</label>
+                <input type="text" class="form-control" placeholder="wyszukaj...">
+            </div>
+
+            <div class="form-group col-xs-2">
+                <label>Specjalność:</label>
+                <select class="form-control" id="sel1">
+                    <option></option>
+                    <option>Inżynieria systemów informatycznych</option>
+                    <option>Systemy informacyjno - decyzyjne</option>
+                    <option>Elektronika i inżynieria komputerowa</option>
+                    <option>Elektronika i informatyka w medycynie</option>
+                    <option>Radiokomunikacja i techniki multimedialne</option>
+                    <option>Teleinformatyka i zarządzanie w telekomunikacji </option>
+                    <option>Systemy i sieci telekomunikacyjne</option>
+                </select>
+            </div>
         </div>
 
 
@@ -32,8 +47,7 @@
                     <tr>
                         <th>#</th>
                         <th>Średnia</th>
-                        <th>Nazwisko</th>
-                        <th>Imię</th>
+                        <th>Nazwisko i imię</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -43,8 +57,7 @@
                         <td>
                             {{student.average}}
                         </td>
-                        <td>{{student.lastname}}</td>
-                        <td>{{student.name}}</td>
+                        <td>{{student.lastname}} {{student.name}}</td>
 
                     </tr>
 
@@ -54,7 +67,7 @@
             </div>
         </div>
         <div class="col-md-6">
-            <h4>Karol Matusiak - wybrane tematy</h4>
+            <h4>{{ selectedStudent.name }} {{selectedStudent.lastname }} - wybrane tematy</h4>
             <ul class="nav nav-tabs">
                 <li class="nav-item" ng-class="{ active:isSelected(1) }">
                     <a href ng-click="selectTab(1)">Temat 1</a>
@@ -92,13 +105,13 @@
                 </p>
                 <b>Liczba osób:</b>
                 <p>
-                    {{ selectedStudent.number_of_students }}
+                    0/{{ selectedStudent.number_of_students }}
                 </p>
                 <b>Ilość dyplomantów autora:</b>
                 <p>2</p>
                 <p>
                     <div  class="accordion-toggle row-with-pointer" data-toggle="collapse" data-target="{{ '#details' }}">
-                        <b>Szczegóły tematu...</b>
+                        <b><i>Szczegóły tematu...</i></b>
 
                         <div class="hiddenRow accordian-body collapse" id="details">
                             <b>Zakres prac w przeciągu dwóch semestrów:</b>

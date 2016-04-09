@@ -4,20 +4,6 @@
         <div class="page-header">
             <h2>
                 Tematy niezaakceptowane
-                <a class="btn btn-primary pull-right" target="_blank" ng-href="{{url}}" ng-mousedown="newTopic()">
-                    Dodaj temat
-                </a>
-
-                </button>
-                <a href="#director/topic/assign" class="btn btn-default pull-right">
-                    Przydziel studentom
-                </a>
-                <button class="btn btn-default pull-right">
-                    Moje tematy
-                </button>
-                <a href="#director/topic" class="btn btn-default pull-right">
-                    Lista tematów
-                </a>
             </h2>
         </div>
 
@@ -62,7 +48,9 @@
                             <th>#</th>
                             <th>Temat</th>
                             <th>Data dodania</th>
-                            <th>Akcje</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -71,7 +59,7 @@
                         <th class="select-column">{{$index}}</th>
                         <td data-toggle="collapse" data-target="{{ '#demo' + $index }}" class="title-column accordion-toggle">
                             {{topic.title}}
-
+                            <p><i><b>{{topic.tags}}</b></i></p>
                             <div class="hiddenRow accordian-body collapse" id="{{ 'demo' + $index }}">
                                 <table class="table table table-borderless">
                                     <tr>
@@ -100,12 +88,29 @@
                         </td>
                         <td>01.01.1999</td>
                         <td>
-                            <button title="Zarządaj poprawek" type="button" data-toggle="modal" data-target="#edit" class="btn btn-xs btn-warning">
+                            <a type="button" title="Odrzuć" class="btn">
+                                <span class="glyphicon glyphicon-remove"></span>
+                            </a>
+                        </td>
+                        <td>
+
+                            <a type="button" data-toggle="modal" data-target="#edit" title="Zarządaj poprawek" class="btn">
+                                <span class="glyphicon glyphicon-edit"></span>
+                            </a>
+                        </td>
+                        <td>
+                            <a type="button" title="Akceptuj" class="btn">
+                                <span class="glyphicon glyphicon-ok"></span>
+                            </a>
+                        </td>
+
+
+                      <!--      <button title="Zarządaj poprawek" type="button" data-toggle="modal" data-target="#edit" class="btn btn-xs btn-warning">
                                 <span class="glyphicon glyphicon-edit"></span>
                             </button>
                             <button title="Akceptuj" type="button" class="btn btn-xs btn-success">
                                 <span class="glyphicon glyphicon-ok"></span>
-                            </button>
+                            </button>-->
                         </td>
 
                     </tr>
