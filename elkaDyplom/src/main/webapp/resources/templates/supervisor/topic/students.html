@@ -1,0 +1,72 @@
+<div>
+
+    <div class="row">
+        <div class="page-header">
+            <h2>
+                Studenci, którzy wybrali temat:
+            </h2>
+            <h3>
+                Adaptacyjne cykliczne przetworniki analogowo-cyfrowe - modelowanie i badania symulacyjne
+            </h3>
+        </div>
+        <div class="row">
+            <div class="form-group col-xs-2">
+                <label>Wyszukiwarka:</label>
+                <input type="text" class="form-control" placeholder="wyszukaj...">
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-12 with-margin-bottom">
+
+                <div class="box-body">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Nazwisko imię</th>
+                            <th>Instytut</th>
+                            <th></th>
+                        </tr>
+                        </thead>
+
+                        <tbody ng-repeat="student in students | filter:searchText" >
+
+
+                        <tr>
+                            <th>
+                                {{$index}}
+                            </th>
+                            <td>
+                                {{student.lastname}}
+
+                                {{student.name}}
+                            </td>
+
+                            <td>
+                                {{ student.institute }}
+                            </td>
+
+                            <td>
+                                <a title="Wyślij e-mail" data-toggle="modal" data-target="#mail" class="btn">
+                                    <span class="glyphicon glyphicon-envelope"></span>
+                                </a>
+
+                                <a title="Przypisz studenta do tematu" data-toggle="modal" data-target="#mail" class="btn">
+                                    <span class="glyphicon glyphicon-ok"></span>
+                                </a>
+
+                            </td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>

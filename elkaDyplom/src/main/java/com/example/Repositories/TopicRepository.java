@@ -8,9 +8,9 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
  * Created by piotrek on 03.04.16.
  */
 
-@RepositoryRestResource
+@RepositoryRestResource(path = "/topic")
 public interface TopicRepository extends JpaRepository<Topic, Long> {
 
-
+    public Topic findById(Long id);
 
 }

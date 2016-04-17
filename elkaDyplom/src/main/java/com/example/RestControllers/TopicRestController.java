@@ -20,25 +20,25 @@ public class TopicRestController {
     @Autowired
     TopicRepository topicRepository;
 
-    /*@RequestMapping(value = "/",method = RequestMethod.GET)
-    public ResponseEntity<List<Topic>> getTopic(){
-        List<Topic> topics = topicRepository.findAll();
-
-        if(topics.isEmpty())
-            return new ResponseEntity<List<Topic>>(HttpStatus.NO_CONTENT);
-
-
-
-        return new ResponseEntity<List<Topic>>(topics,HttpStatus.OK);
-    }*/
-
     @RequestMapping(value = "/",method = RequestMethod.GET)
-    public Topic greeting()
+    public ResponseEntity<Topic> getLoggedStudentInfo()
     {
-        return new Topic("testowy");
+        Topic topic = topicRepository.findById((long) 5);
+
+        if(topic == null) {
+            return new ResponseEntity<Topic>(HttpStatus.NOT_FOUND);
+        }
+
+        return new ResponseEntity<Topic>(topic,HttpStatus.OK);
     }
 
+    @RequestMapping(value = "/",method = RequestMethod.POST)
+    public ResponseEntity<Topic> create(@RequestBody(required = false) Topic topic) {
+        if(topic==null)
+            return new ResponseEntity<Topic>(HttpStatus.NOT_FOUND);
+        topicRepository.save(topic);
+        return new ResponseEntity<Topic>(topic,HttpStatus.OK);
 
-
+    }
 
 }

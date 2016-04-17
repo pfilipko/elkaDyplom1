@@ -1,6 +1,17 @@
-body {
+.with-top-padding {
     padding-top: 30px;
 }
+
+.with-background {
+    background-color: rgba(242, 242, 242, 0.38);
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
 .hiddenRow {
     margin-left: 20px;
     margin-right: 20px;

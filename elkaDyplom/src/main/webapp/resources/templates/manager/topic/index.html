@@ -1,0 +1,127 @@
+<div>
+
+    <div class="row">
+        <div class="page-header">
+            <h2>
+                Tematy niezaakceptowane
+            </h2>
+        </div>
+
+        <div class="modal fade" id="edit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Zamknij</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Zarządaj poprawek</h4>
+                    </div>
+                    <div class="modal-body">
+
+                        <form role="form">
+                            <div class="box-body">
+
+
+                                <div class="form-group">
+                                    <label>Komentarz dla autora</label>
+                                    <textarea class="form-control" rows="10"></textarea>
+                                </div>
+
+                            </div><!-- /.box-body -->
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Zamknij</button>
+                        <button type="button" class="btn btn-primary">Zapisz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <input class="form-group" placeholder=" wyszukaj..."/>
+
+        <div class="col-md-12">
+
+            <div style="overflow-x:auto;">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Temat</th>
+                        <th>Data dodania</th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr ng-repeat="topic in topics" >
+                        <th class="select-column">{{$index}}</th>
+                        <td data-toggle="collapse" data-target="{{ '#demo' + $index }}" class="title-column accordion-toggle">
+                            {{topic.title}}
+                            <p><i><b>{{topic.tags}}</b></i></p>
+                            <div class="hiddenRow accordian-body collapse" id="{{ 'demo' + $index }}">
+                                <table class="table table table-borderless">
+                                    <tr>
+                                        <th>typ</th>
+                                        <th>instytut prowadzący</th>
+                                        <th>specjalność</th>
+                                        <th>temat prywatny</th>
+                                        <th>może być realizowany po angielsku</th>
+                                    </tr>
+                                    <tr>
+                                        <td>{{topic.type}}</td>
+                                        <td>{{topic.institute}}</td>
+                                        <td>{{topic.specialty}}</td>
+                                        <td>{{topic.private}}</td>
+                                        <td>{{topic.english}}</td>
+                                    </tr>
+                                </table>
+
+                                <b>Zakres prac w przeciągu dwóch semestrów:</b>
+                                <p>{{topic.scope}}</p>
+                                <b>Wykorzystywane narzędzia (sprzęt, typ komputera, oprogramowanie, inne):</b>
+                                <p>{{topic.tools}}</p>
+
+                            </div>
+
+                        </td>
+                        <td>01.01.1999</td>
+                        <td>
+                            <a type="button" title="Odrzuć" class="btn">
+                                <span class="glyphicon glyphicon-remove"></span>
+                            </a>
+                        </td>
+                        <td>
+
+                            <a type="button" data-toggle="modal" data-target="#edit" title="Zarządaj poprawek" class="btn">
+                                <span class="glyphicon glyphicon-edit"></span>
+                            </a>
+                        </td>
+                        <td>
+                            <a type="button" title="Akceptuj" class="btn">
+                                <span class="glyphicon glyphicon-ok"></span>
+                            </a>
+                        </td>
+
+
+                        <!--      <button title="Zarządaj poprawek" type="button" data-toggle="modal" data-target="#edit" class="btn btn-xs btn-warning">
+                                  <span class="glyphicon glyphicon-edit"></span>
+                              </button>
+                              <button title="Akceptuj" type="button" class="btn btn-xs btn-success">
+                                  <span class="glyphicon glyphicon-ok"></span>
+                              </button>-->
+                        </td>
+
+                    </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+    </div><!-- /.row -->
+
+
+</div>

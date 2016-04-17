@@ -7,7 +7,7 @@ import javax.persistence.*;
  */
 
 @Entity
-@Table(name="topics")
+@Table(name="topic")
 public class Topic {
 
     @Id
@@ -15,6 +15,27 @@ public class Topic {
     private Long id;
 
     private String title;
+
+    private String details;
+
+    private String tools;
+
+    public void setDetails(String details) {
+        this.details = details;
+    }
+
+    public void setTools(String tools) {
+        this.tools = tools;
+    }
+
+    public String getDetails() {
+
+        return details;
+    }
+
+    public String getTools() {
+        return tools;
+    }
 
     public Topic() {
     }

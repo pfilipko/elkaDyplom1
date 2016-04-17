@@ -2,14 +2,15 @@
 <html ng-app="myApp">
 <head>
     <!-- Bootstrap 3.3.5 -->
+    <base href="/"/>
     <link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="resources/css/site.css"/>
 
 </head>
 <body ng-controller="mainCtrl">
 
-<div class="container" ng-view=""></div>
-    adadasdas
+    <div class="container with-background" ng-view=""></div>
+
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
@@ -17,11 +18,12 @@
 
 <script src="resources/dist/js/angular/app.js"></script>
 
-<script src="resources/dist/js/angular/controllers/student/topic/list.js"></script>
-<script src="resources/dist/js/angular/controllers/supervisor/topic/addTopic.js"></script>
-<script src="resources/dist/js/angular/controllers/supervisor/topic/editTopic.js"></script>
-<script src="resources/dist/js/angular/controllers/supervisor/topic/cloneTopic.js"></script>
-<script src="resources/dist/js/angular/controllers/student/topic/studentTopicIndex.js"></script>
+<script src="resources/dist/js/angular/controllers/SupervisorStudentController.js"></script>
+<script src="resources/dist/js/angular/controllers/SupervisorTopicController.js"></script>
+<script src="resources/dist/js/angular/controllers/SupervisorTopicAddController.js"></script>
+<script src="resources/dist/js/angular/controllers/SupervisorTopicEditController.js"></script>
+<script src="resources/dist/js/angular/controllers/SupervisorTopicCloneController.js"></script>
+<script src="resources/dist/js/angular/controllers/SupervisorTopicStudentsController.js"></script>
 <script src="resources/dist/js/angular/services/studentTopicIndex.js"></script>
 <!-- jQuery 2.2.0 -->
 <script src="resources/plugins/jQuery/jQuery-2.2.0.min.js"></script>
@@ -29,6 +31,5 @@
 <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 <!-- Bootstrap 3.3.5 -->
 <script src="resources/bootstrap/js/bootstrap.min.js"></script>
-
 
 </html>
