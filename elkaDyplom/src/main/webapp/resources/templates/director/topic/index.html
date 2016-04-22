@@ -8,7 +8,7 @@
                     Dodaj temat
                 </a>
 
-                <a href="director/topic/tags" class="btn btn-default pull-right">
+                <a href="director/topic/tags" class="btn btn-default pull-right disabled">
                     Zarządzaj tagami
                 </a>
 
@@ -105,6 +105,9 @@
                             <p><i><b>{{topic.tags}}</b></i></p>
                             <div><b>Autor:</b> {{topic.author}}</div>
                             <div><b>Popularność:</b> {{topic.popularity}}</div>
+                            <a class="btn">
+                                <span class=" glyphicon glyphicon-menu-down"></span>
+                            </a>
 
                             <div class="hiddenRow accordian-body collapse" id="{{ 'demo' + $index }}">
                                 <table class="table table table-borderless">

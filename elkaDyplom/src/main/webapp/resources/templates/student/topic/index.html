@@ -5,7 +5,7 @@
         <div class="page-header">
             <h2>
                 Lista tematów
-                <a href="#student/topic" class="btn btn-default pull-right">
+                <a href="student" class="btn btn-default pull-right">
                     Mój temat
                 </a>
             </h2>
@@ -14,35 +14,35 @@
         <div class="col-md-12" ng-show="numOfSelected">
             <table class="table">
                 <thead>
-                <tr>
-                    <th>#</th>
-                    <th>Wybrane tematy</th>
-                    <th>Akcje</th>
-                </tr>
+                    <tr>
+                        <th>#</th>
+                        <th>Wybrane tematy</th>
+                        <th>Akcje</th>
+                    </tr>
                 </thead>
                 <tbody>
-                <tr ng-repeat="item in selected">
-                    <td>{{$index}}</td>
-                    <td>
-                        <p><b>{{item.title}}</b></p>
-                        <p>{{item.author}}</p>
-                    </td>
-                    <td class="td-inline">
-                        <button type="button" class="btn btn-xs btn-warning">
-                            <span class="glyphicon glyphicon-arrow-up"></span>
-                        </button>
-                        <button type="button" class="btn btn-xs btn-warning">
-                            <span class="glyphicon glyphicon-arrow-down"></span>
-                        </button>
-                        <button type="button" ng-click="removeTopic(item)" class="btn btn-xs btn-danger">
-                            <span class="glyphicon glyphicon-remove"></span>
-                        </button>
-                    </td>
-                </tr>
+                    <tr ng-repeat="item in selected">
+                        <td>{{$index}}</td>
+                        <td>
+                            <p><b>{{item.title}}</b></p>
+                            <p>{{item.author}}</p>
+                        </td>
+                        <td class="td-inline">
+                            <button type="button" class="btn disabled">
+                                <span class="glyphicon glyphicon-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn disabled">
+                                <span class="glyphicon glyphicon-arrow-down"></span>
+                            </button>
+                            <button type="button" ng-click="removeTopic(item)" class="btn">
+                                <span class="glyphicon glyphicon-remove"></span>
+                            </button>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
             <p>
-                <button type="button" class="btn btn-success btn-xs">Wprowadź do bazy</button>
+                <button type="button" class="btn btn-success btn-xs disabled">Wprowadź do bazy</button>
             </p>
             <br/>
             <!--ol>
@@ -94,9 +94,11 @@
                     <tr ng-repeat="topic in topics | filter:searchText" >
                         <th class="select-column">{{$index}}</th>
                         <td class="title-column accordion-toggle" data-toggle="collapse" data-target="{{ '#demo' + $index }}">
-                            {{topic.title}}
-                            <p><b><i>{{topic.tags}}</i></b></p>
-
+                            {{topic.title}}<br/>
+                            <b><i>{{topic.tags}}</i></b><br/>
+                            <a class="btn">
+                                <span class=" glyphicon glyphicon-menu-down"></span>
+                            </a>
                             <div class="hiddenRow accordian-body collapse" id="{{ 'demo' + $index }}">
                                 <table class="table table table-borderless">
                                     <tr>
@@ -125,8 +127,7 @@
                         </td>
                         <td>{{topic.author}}</td>
                         <td class="select-column">
-
-                            <button type="button" ng-click="selectTopic(topic)" class="btn btn-xs btn-success">
+                            <button type="button" ng-click="selectTopic(topic)" class="btn" title="Dodaj do listy wybranych tematów">
                                 <span class="glyphicon glyphicon-plus"></span>
                             </button>
                         </td>

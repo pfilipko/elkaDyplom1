@@ -2,9 +2,8 @@ package com.example.Entities;
 
 import javax.persistence.*;
 
-
 @Entity
-@Table(name="student")
+@Table(name="students")
 public class Student {
 
     @Id

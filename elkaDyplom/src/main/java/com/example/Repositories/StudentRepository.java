@@ -10,7 +10,7 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
  * Created by piotrek on 16.04.16.
  */
 
-@RepositoryRestResource(path="/student")
+@RepositoryRestResource
 public interface StudentRepository extends JpaRepository<Student, Long> {
 
     public Student findById(Long id);

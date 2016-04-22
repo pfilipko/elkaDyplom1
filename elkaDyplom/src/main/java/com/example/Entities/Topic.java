@@ -7,7 +7,7 @@ import javax.persistence.*;
  */
 
 @Entity
-@Table(name="topic")
+@Table(name="topics")
 public class Topic {
 
     @Id
@@ -20,12 +20,15 @@ public class Topic {
 
     private String tools;
 
-    public void setDetails(String details) {
-        this.details = details;
-    }
+    @ManyToOne(optional=true)
+    @JoinColumn(name="supervisor_id",referencedColumnName="id" ,insertable = false, updatable = false)
+    private Supervisor supervisor;
 
-    public void setTools(String tools) {
-        this.tools = tools;
+    /*@ManyToOne(optional=true)
+    @JoinColumn(name="status_id",referencedColumnName="id" ,insertable = false, updatable = false)
+    private Supervisor supervisor;*/
+
+    public Topic() {
     }
 
     public String getDetails() {
@@ -37,11 +40,16 @@ public class Topic {
         return tools;
     }
 
-    public Topic() {
+    public Long getId() {
+        return id;
     }
 
-    public Topic(String title) {
-        this.title = title;
+    public String getTitle() {
+        return title;
+    }
+
+    public Supervisor getSupervisor() {
+        return supervisor;
     }
 
     public void setId(Long id) {
@@ -52,11 +60,15 @@ public class Topic {
         this.title = title;
     }
 
-    public Long getId() {
-        return id;
+    public void setDetails(String details) {
+        this.details = details;
     }
 
-    public String getTitle() {
-        return title;
+    public void setTools(String tools) {
+        this.tools = tools;
+    }
+
+    public void setSupervisor(Supervisor supervisor) {
+        this.supervisor = supervisor;
     }
 }

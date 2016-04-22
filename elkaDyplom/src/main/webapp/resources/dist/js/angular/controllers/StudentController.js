@@ -7,7 +7,7 @@ angular.module('myApp').controller('StudentCtrl',function ($scope, $http, Studen
     $scope.topic;
 
     StudentFactory.getLoggedStudentInfo().success(function(data,status) {
-        console.log(data);
+        //console.log(data);
         $scope.topic = data;
     });
 

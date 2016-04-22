@@ -23,7 +23,7 @@ public class TopicRestController {
     @RequestMapping(value = "/",method = RequestMethod.GET)
     public ResponseEntity<Topic> getLoggedStudentInfo()
     {
-        Topic topic = topicRepository.findById((long) 5);
+        Topic topic = topicRepository.findById((long) 1);
 
         if(topic == null) {
             return new ResponseEntity<Topic>(HttpStatus.NOT_FOUND);

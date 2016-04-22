@@ -31,7 +31,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Zamknij</button>
-                        <button type="button" class="btn btn-primary">Zapisz</button>
+                        <button type="button" class="btn btn-primary disabled">Zapisz</button>
                     </div>
                 </div>
             </div>
@@ -58,8 +58,12 @@
                     <tr ng-repeat="topic in topics" >
                         <th class="select-column">{{$index}}</th>
                         <td data-toggle="collapse" data-target="{{ '#demo' + $index }}" class="title-column accordion-toggle">
-                            {{topic.title}}
-                            <p><i><b>{{topic.tags}}</b></i></p>
+                            {{topic.title}}<br/>
+                            <i>{{topic.tags}}</i><br/>
+
+                            <a class="btn">
+                                <span class=" glyphicon glyphicon-menu-down"></span>
+                            </a>
                             <div class="hiddenRow accordian-body collapse" id="{{ 'demo' + $index }}">
                                 <table class="table table table-borderless">
                                     <tr>
@@ -88,7 +92,7 @@
                         </td>
                         <td>01.01.1999</td>
                         <td>
-                            <a type="button" title="Odrzuć" class="btn">
+                            <a type="button" title="Odrzuć" class="btn disabled">
                                 <span class="glyphicon glyphicon-remove"></span>
                             </a>
                         </td>
@@ -99,7 +103,7 @@
                             </a>
                         </td>
                         <td>
-                            <a type="button" title="Akceptuj" class="btn">
+                            <a type="button" title="Akceptuj" class="btn disabled">
                                 <span class="glyphicon glyphicon-ok"></span>
                             </a>
                         </td>

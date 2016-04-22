@@ -102,23 +102,15 @@ mlApp.config(['$routeProvider', '$locationProvider', function AppConfig($routePr
 mlApp.controller('addTestCtrl', function ($scope, $http, Test){
 
     $scope.add = function () {
-        alert("wiem ze add");
         Test.createTopic($scope.topic).success(function (data, status) {
             $scope.topic=null;
-
-            //updateMethods();
-            //$location.path("/method");
-            alert("udao sie heh");
         })
     };
-
-
 });
 
 mlApp.filter('selectDiplomaType', function($filter){
     return function(students){
         var chceckedType = $filter('filter')()
-
     }
 });
 

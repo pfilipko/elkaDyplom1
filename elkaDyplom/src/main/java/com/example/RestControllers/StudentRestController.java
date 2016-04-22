@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by piotrek on 16.04.16.
  */
 
-
 @RestController
 @RequestMapping(path="/rest/student")
 public class StudentRestController {
@@ -30,7 +29,8 @@ public class StudentRestController {
         Student student = studentRepository.findById((long) 1);
         Topic topic = student.getTopic();
 
-        //Topic topic = topicRepository.findById((long) 5);
         return new ResponseEntity<Topic>(topic,HttpStatus.OK);
+
+
     }
 }

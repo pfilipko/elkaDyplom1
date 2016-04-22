@@ -68,6 +68,10 @@ public class TestController {
         return "index";
     }
 
+    @RequestMapping("/student/**")
+    public String studentContext() {
+        return "index";
+    }
 
    /* @RequestMapping("#/supervisor/topic/add")
     public String getAddTopicTemplate() {

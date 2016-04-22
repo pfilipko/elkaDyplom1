@@ -10,7 +10,7 @@
                 </a>
                 </button>
                 </button>
-                <a href="director/topic" class="btn btn-default pull-right">Lista tematów</a>
+                <a href="director/topic" class="btn btn-default pull-right">Zarządzaj tematami </a>
             </h2>
 
         </div>
@@ -48,6 +48,7 @@
                         <th>#</th>
                         <th>Średnia</th>
                         <th>Nazwisko i imię</th>
+                        <th></th>
                     </tr>
                     </thead>
                     <tbody>
@@ -57,7 +58,15 @@
                         <td>
                             {{student.average}}
                         </td>
-                        <td>{{student.lastname}} {{student.name}}</td>
+                        <td>
+                            {{student.lastname}} {{student.name}}
+
+                        </td>
+                        <td>
+                            <a class="btn">
+                                <span class="glyphicon glyphicon-pencil"></span>
+                            </a>
+                        </td>
 
                     </tr>
 
@@ -129,8 +138,8 @@
 
                 <p>
 
-                    <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Cofnij przydział</button>
-                    <button type="button" class="btn btn-primary pull-right">Przydziel</button>
+                    <button type="button" class="btn btn-default pull-left disabled" data-dismiss="modal">Cofnij przydział</button>
+                    <button type="button" class="btn btn-primary pull-right disabled">Przydziel</button>
                 </p>
 
             </div><!-- /.tab-pane -->
@@ -151,8 +160,8 @@
 
                 <p>
 
-                    <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Cofnij przydział</button>
-                    <button type="button" class="btn btn-primary pull-right">Przydziel</button>
+                    <button type="button" class="btn btn-default pull-left disabled" data-dismiss="modal">Cofnij przydział</button>
+                    <button type="button" class="btn btn-primary pull-right disabled">Przydziel</button>
                 </p>
             </div>
 
