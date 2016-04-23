@@ -1,4 +1,11 @@
+body {
+    padding-top: 70px;
+}
+.navbar-brand {
+    
+}
 .jumbotron {
+    padding-top: 0px;
     background-color: rgba(238, 238, 238, 0.36);
 }
 .table .table {
@@ -56,6 +63,24 @@
 
 .with-margin-bottom{
     margin-bottom: 40px;
+}
+
+@media (max-width: 1204px) {
+    body {
+        padding-top: 110px;
+    }
+}
+
+@media (max-width: 1095px) {
+    body {
+        padding-top: 160px;
+    }
+}
+
+@media (max-width: 752px) {
+    body {
+        padding-top: 70px;
+    }
 }
 /*
 
