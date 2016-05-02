@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <!-- Bootstrap 3.3.5 -->
+    <base href="/"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="resources/css/site.css"/>
+
+</head>
+<body ng-controller="mainCtrl">
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu_options" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">elkaDyplom</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="menu_options">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="/">Tematy (student)</a>
+                        </li>
+                        <li>
+                            <a href="supervisor/student">Studenci (promotor)</a>
+                        </li>
+                        <li>
+                            <a href="supervisor/topic">Tematy (promotor)</a>
+                        </li>
+                        <li>
+                            <a href="director/topic">Tematy (dyrektor)</a>
+                        </li>
+                        <li>
+                            <a href="manager/topic">Tematy - akceptacja (kierownik)</a>
+                        </li>
+                        <li>
+                            <a href="ranking">Statystyki tematów</a>
+                        </li>
+                        <li>
+                            <a href="director/user">Użytkownicy</a>
+                        </li>
+                    </ul>
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+
+            <div class="jumbotron">
+                <div class="container" ng-view=""></div>
+            </div>
+
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.min.js"></script>
+
+<script src="resources/dist/js/angular/app.js"></script>
+
+<script src="resources/dist/js/angular/controllers/StudentController.js"></script>
+<script src="resources/dist/js/angular/controllers/StudentTopicController.js"></script>
+
+<script src="resources/dist/js/angular/controllers/SupervisorStudentController.js"></script>
+<script src="resources/dist/js/angular/controllers/SupervisorTopicController.js"></script>
+<script src="resources/dist/js/angular/controllers/SupervisorTopicAddController.js"></script>
+<script src="resources/dist/js/angular/controllers/SupervisorTopicEditController.js"></script>
+<script src="resources/dist/js/angular/controllers/SupervisorTopicCloneController.js"></script>
+<script src="resources/dist/js/angular/controllers/SupervisorTopicStudentsController.js"></script>
+
+<script src="resources/dist/js/angular/controllers/DirectorTopicController.js"></script>
+<script src="resources/dist/js/angular/controllers/DirectorTopicAddController.js"></script>
+<script src="resources/dist/js/angular/controllers/DirectorTopicEditController.js"></script>
+<script src="resources/dist/js/angular/controllers/DirectorTopicAssignController.js"></script>
+<script src="resources/dist/js/angular/controllers/DirectorTopicTagsController.js"></script>
+<script src="resources/dist/js/angular/controllers/DirectorUserController.js"></script>
+
+<script src="resources/dist/js/angular/controllers/ManagerTopicController.js"></script>
+
+<script src="resources/dist/js/angular/controllers/RankingController.js"></script>
+
+<script src="resources/dist/js/angular/services/StudentFactory.js"></script>
+<script src="resources/dist/js/angular/services/test.js"></script>
+<script src="resources/dist/js/angular/services/DirectorFactory.js"></script>
+<script src="resources/dist/js/angular/services/InstituteFactory.js"></script>
+<script src="resources/dist/js/angular/services/SpecialtyFactory.js"></script>
+<script src="resources/dist/js/angular/services/StudiesTypesFactory.js"></script>
+<script src="resources/dist/js/angular/services/SupervisorFactory.js"></script>
+
+<!-- jQuery 2.2.0 -->
+<script src="resources/plugins/jQuery/jQuery-2.2.0.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<!-- Bootstrap 3.3.5 -->
+<script src="resources/bootstrap/js/bootstrap.min.js"></script>
+
+
+</html>

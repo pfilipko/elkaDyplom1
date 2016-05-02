@@ -86,6 +86,7 @@ mlApp.config(['$routeProvider', '$locationProvider', function AppConfig($routePr
         templateUrl: 'resources/templates/test/add.html',
         controller: 'addTestCtrl'
     }).
+
         otherwise(
         {
             template: 'there is no page here!'
@@ -106,6 +107,11 @@ mlApp.controller('addTestCtrl', function ($scope, $http, Test){
             $scope.topic=null;
         })
     };
+
+    Test.getTopicList().success(function(data,status) {
+        //console.log(data);
+        $scope.topiclist = data;
+    });
 });
 
 mlApp.filter('selectDiplomaType', function($filter){

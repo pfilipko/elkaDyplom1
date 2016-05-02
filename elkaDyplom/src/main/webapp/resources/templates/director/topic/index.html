@@ -2,46 +2,43 @@
 
     <div class="row">
         <div class="page-header">
-            <h2>
-                Zarządzaj tematami
-                <a class="btn btn-primary pull-right" target="_blank" ng-href="{{url}}" ng-mousedown="newTopic()">
-                    Dodaj temat
-                </a>
+            <div class='btn-toolbar pull-right'>
+                <div class='btn-group'>
+                    <a href="director/topic/assign" class="btn btn-default">
+                        Przydziel studentom
+                    </a>
 
-                <a href="director/topic/tags" class="btn btn-default pull-right disabled">
-                    Zarządzaj tagami
-                </a>
-
-                <a href="director/topic/assign" class="btn btn-default pull-right">
-                    Przydziel studentom
-                </a>
-
-            </h2>
+                    <a href="director/topic/tags" class="btn btn-default disabled">
+                        Zarządzaj tagami
+                    </a>
+                    <a class="btn btn-primary" target="_blank" ng-href="{{url}}" ng-mousedown="newTopic()">
+                        Dodaj temat
+                    </a>
+                </div>
+            </div>
+            <h2>Zarządzaj tematami</h2>
         </div>
 
 
         <div class="row">
-            <div class="form-group col-xs-2">
-                <label>Wyszukiwarka:</label>
-                <input type="text" class="form-control" placeholder="wyszukaj..." ng-model="searchText">
-            </div>
-
-            <div class="form-group col-xs-2">
-                <label>Status:</label>
-                <select class="form-control" id="sel1">
-                    <option></option>
-                    <option>Przydzielony</option>
-                    <option>Skończony</option>
-                    <option>Zamknięty</option>
-                    <option>Zatwierdzony/option>
-                    <option>Do modyfikacji</option>
-                </select>
-            </div>
-
-            <label>Lata:</label>
-            <div class="container">
-
-                <div class='col-md-2'>
+            <div class="container filter-menu">
+                <div class="form-group col-xs-6 col-md-2">
+                    <label>Wyszukiwarka:</label>
+                    <input type="text" class="form-control" placeholder="wyszukaj..." ng-model="searchText">
+                </div>
+                <div class="form-group  col-xs-6 col-md-2">
+                    <label>Status:</label>
+                    <select class="form-control" id="sel1">
+                        <option></option>
+                        <option>Przydzielony</option>
+                        <option>Skończony</option>
+                        <option>Zamknięty</option>
+                        <option>Zatwierdzony</option>
+                        <option>Do modyfikacji</option>
+                    </select>
+                </div>
+                <div class="col-xs-6 col-md-2">
+                    <label>Lata:</label>
                     <div class="form-group">
                         <div class='input-group date' id='datetimepicker6'>
                             <input type='text' class="form-control" placeholder="od" />
@@ -53,7 +50,8 @@
                     </div>
                 </div>
 
-                <div class='col-md-2'>
+                <div class="col-xs-6 col-md-2">
+                    <label>&nbsp;</label>
                     <div class="form-group">
                         <div class='input-group date' id='datetimepicker7'>
                             <input type='text' class="form-control" placeholder="do"/>
@@ -64,8 +62,6 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
 
 
@@ -98,12 +94,14 @@
                     </thead>
                     <tbody>
 
-                    <tr ng-repeat="topic in topics | filter:searchText" >
+                    <tr ng-repeat="topic in topics | filter:searchText">
                         <th class="select-column">{{$index}}</th>
                         <td data-toggle="collapse" data-target="{{ '#demo' + $index }}" class="title-column accordion-toggle">
                             {{topic.title}}
                             <p><i><b>{{topic.tags}}</b></i></p>
-                            <div><b>Autor:</b> {{topic.author}}</div>
+                            <!--<div><b>Autor:</b> {{topic.author}}</div>-->
+                            <div><b>Autor:</b> {{topic.supervisor.name}} {{topic.supervisor.lastname}}</div>
+                            <div><b>Typ:</b> {{topic.studiesType.name}}</div>
                             <div><b>Popularność:</b> {{topic.popularity}}</div>
                             <a class="btn">
                                 <span class=" glyphicon glyphicon-menu-down"></span>
@@ -119,25 +117,27 @@
                                         <th>może być realizowany po angielsku</th>
                                     </tr>
                                     <tr>
-                                        <td>{{topic.type}}</td>
-                                        <td>{{topic.institute}}</td>
-                                        <td>{{topic.specialty}}</td>
-                                        <td>{{topic.private}}</td>
+                                        <td>{{topic.studiesType.name}}</td>
+                                        <td>{{topic.institute.name}}</td>
+                                        <td>{{topic.specialty.name}}</td>
+                                        <td>{{topic.privateTopic}}</td>
                                         <td>{{topic.english}}</td>
                                     </tr>
                                 </table>
 
                                 <b>Zakres prac w przeciągu dwóch semestrów:</b>
-                                <p>{{topic.scope}}</p>
+                                <p>{{topic.details}}</p>
                                 <b>Wykorzystywane narzędzia (sprzęt, typ komputera, oprogramowanie, inne):</b>
                                 <p>{{topic.tools}}</p>
 
                             </div>
 
                         </td>
-                        <td>01.01.1999</td>
+                        <!--<td>01.01.1999</td>-->
+                        <td>{{topic.creationDate}}</td>
                         <td class="select-column">
-                            <!--{{topic.status}}--> Przydzielony
+                            <!--{{topic.status}}-->
+                            {{topic.status.name}}
                         </td>
                         <td>
                             <a target="_blank" ng-href="{{url}}" ng-mousedown="edit()" title="Edytuj temat" class="btn">

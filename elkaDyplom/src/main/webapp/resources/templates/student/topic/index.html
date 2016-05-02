@@ -3,11 +3,15 @@
     <div class="row">
 
         <div class="page-header">
+            <div class='btn-toolbar pull-right'>
+                <div class='btn-group'>
+                    <a href="student" class="btn btn-default pull-right">
+                        Mój temat
+                    </a>
+                </div>
+            </div>
             <h2>
                 Lista tematów
-                <a href="student" class="btn btn-default pull-right">
-                    Mój temat
-                </a>
             </h2>
         </div>
 
@@ -63,18 +67,29 @@
             </ol>-->
         </div>
 
-        <input type="text" class="form-group" placeholder=" wyszukaj..." ng-model="searchText"/>
-        <span class="label label-default">tag1</span>
-        <span class="label label-primary">tag2</span>
-        <span class="label label-success">tag3</span>
-        <span class="label label-info">angularjs</span>
-        <span class="label label-warning">jquery</span>
-        <span class="label label-default">javascript</span>
-        <span class="label label-primary">mysql</span>
-        <span class="label label-success">c++</span>
-        <span class="label label-info">c#</span>
-        <span class="label label-warning">grafika</span>
-        <span class="label label-danger">modelowanie 3d</span>
+        <div class="row">
+            <div class="container filter-menu">
+                <div class="form-group col-xs-6 col-md-2">
+                    <input type="text" class="form-control" placeholder="wyszukaj..." ng-model="searchText">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="container">
+                <span class="label label-default">tag1</span>
+                <span class="label label-primary">tag2</span>
+                <span class="label label-success">tag3</span>
+                <span class="label label-info">angularjs</span>
+                <span class="label label-warning">jquery</span>
+                <span class="label label-default">javascript</span>
+                <span class="label label-primary">mysql</span>
+                <span class="label label-success">c++</span>
+                <span class="label label-info">c#</span>
+                <span class="label label-warning">grafika</span>
+                <span class="label label-danger">modelowanie 3d</span>
+            </div>
+        </div>
 
         <div class="col-md-12">
 
@@ -109,10 +124,10 @@
                                         <th>może być realizowany po angielsku</th>
                                     </tr>
                                     <tr>
-                                        <td>{{topic.type}}</td>
-                                        <td>{{topic.institute}}</td>
-                                        <td>{{topic.specialty}}</td>
-                                        <td>{{topic.private}}</td>
+                                        <td>{{topic.studiesType.name}}</td>
+                                        <td>{{topic.institute.name}}</td>
+                                        <td>{{topic.specialty.name}}</td>
+                                        <td>{{topic.privateTopic}}</td>
                                         <td>{{topic.english}}</td>
                                     </tr>
                                 </table>
@@ -125,7 +140,7 @@
                             </div>
 
                         </td>
-                        <td>{{topic.author}}</td>
+                        <td>{{topic.supervisor.name}} {{topic.supervisor.lastname}}</td>
                         <td class="select-column">
                             <button type="button" ng-click="selectTopic(topic)" class="btn" title="Dodaj do listy wybranych tematów">
                                 <span class="glyphicon glyphicon-plus"></span>

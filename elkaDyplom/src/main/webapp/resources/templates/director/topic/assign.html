@@ -56,7 +56,7 @@
                     <tr ng-repeat="student in students" ng-click="showStudent(student)" class="row-with-pointer">
                         <th class="select-column">{{$index}}</th>
                         <td>
-                            {{student.average}}
+                            {{student.average | number : 2}}
                         </td>
                         <td>
                             {{student.lastname}} {{student.name}}
@@ -98,11 +98,11 @@
             <div id="topic1" ng-show="isSelected(1)">
                 <b>Tytuł:</b>
                 <p>
-                    {{ selectedStudent.title }}
+                    {{ selectedStudent.topic.title }}
                 </p>
                 <b>Typ:</b>
                 <p>
-                    {{ selectedStudent.type }}
+                    {{ selectedStudent.topic.studiesType.name}}
                 </p>
                 <b>Autor:</b>
                 <p>

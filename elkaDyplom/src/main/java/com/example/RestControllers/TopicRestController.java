@@ -14,11 +14,20 @@ import java.util.List;
  */
 
 @RestController
-@RequestMapping("/services/StudentTopicIndex")
+@RequestMapping("/rest/topic")
 public class TopicRestController {
 
     @Autowired
     TopicRepository topicRepository;
+
+    @RequestMapping(value = "/test",method = RequestMethod.GET)
+    public ResponseEntity<List<Topic>> index(){
+        List<Topic> topics = topicRepository.findAll();
+        if(topics.isEmpty())
+            return new ResponseEntity<List<Topic>>(HttpStatus.NO_CONTENT);
+
+        return new ResponseEntity<List<Topic>>(topics,HttpStatus.OK);
+    }
 
     @RequestMapping(value = "/",method = RequestMethod.GET)
     public ResponseEntity<Topic> getLoggedStudentInfo()

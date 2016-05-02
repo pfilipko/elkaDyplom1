@@ -8,12 +8,12 @@
 
         <div class="row">
             <div class="col-md-12 with-margin-bottom">
-                <form role="form">
+                <form role="form" ng-submit="add()">
                     <div class="box-body">
 
                         <div class="form-group">
                             <label>Autor tematu</label>
-                            <input class="form-control" rows="1" placeholder="Wyszukaj autora..."/>
+                            <input class="form-control" ng-model="topic.supervisor_id" rows="1" placeholder="Wyszukaj autora..."/>
                         </div>
                         <div class="form-group">
                             <label>Klonuj</label>
@@ -21,46 +21,32 @@
                         </div>
                         <div class="form-group">
                             <label>Tytuł</label>
-                            <textarea class="form-control" rows="3"></textarea>
+                            <textarea class="form-control" ng-model="topic.title" rows="3"></textarea>
                         </div>
                         <div class="form-group">
                             <label>Słowa kluczowe (tagi)</label>
-                            <input class="form-control" rows="1" placeholder=""/>
+                            <input class="form-control" ng-model="topic.tags" rows="1" placeholder=""/>
                         </div>
                         <div class="form-group">
                             <label>Typ</label>
-                            <select class="form-control">
-                                <option>inzynierski</option>
-                                <option>magisterski</option>
-                            </select>
+
+                            <select class="form-control" ng-model="topic.studiesTypes" ng-options="type.id as type.name for type in studiesTypes"></select>
                         </div>
                         <div class="form-group">
                             <label>Instytut prowadzący</label>
-                            <select class="form-control">
-                                <option>Instytut Automatyki i Informatyki Stosowanej</option>
-                                <option>Instytut Informatyki</option>
-                                <option>Instytut Mikroelektroniki i Optoelektroniki</option>
-                                <option>
-                                    Instytut Radioelektroniki i Technik Multimedialnych
-                                </option>
-                                <option>Instytut Systemów Elektronicznych</option>
-                                <option>Instytut Telekomunikacji</option>
+                            <select class="form-control" ng-model="topic.institute_id" ng-options="institute.id as institute.name for institute in institutes">
                             </select>
                         </div>
                         <div class="form-group">
                             <label>Specjalność</label>
-                            <select class="form-control">
-                                <option>Inżynieria systemów informatycznych </option>
-                                <option>Systemy informacyjno - decyzyjne</option>
+                            <select class="form-control" ng-model="topic.specialty_id" ng-options="specialty.id as specialty.name for specialty in specialties">
+                               <!-- <option>Inżynieria systemów informatycznych </option>
+                                <option>Systemy informacyjno - decyzyjne</option>-->
                             </select>
                         </div>
                         <div class="form-group">
                             <label>Proponowana liczba studentów </label>
-                            <select class="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                            </select>
+                            <select class="form-control" ng-model="topic.max_students" ng-options="student_no for student_no in number_of_students"></select>
                         </div>
                         <div class="form-group">
                             <label>Widoczność tematu</label><br/>
@@ -81,19 +67,18 @@
                             <div class="checkbox">
                                 <label><input type="checkbox" value="">Możliwość realizacji w języku angielskim</label>
                             </div>
-
                         </div>
                         <div class="form-group">
                             <label>Zakres prac w przeciągu dwóch semestrów</label>
-                            <textarea class="form-control" rows="10"></textarea>
+                            <textarea class="form-control" ng-model="topic.details" rows="10"></textarea>
                         </div>
                         <div class="form-group">
                             <label>Wykorzystywane narzędzia (sprzęt, typ komputera, oprogramowanie, inne)</label>
-                            <textarea class="form-control" rows="5"></textarea>
+                            <textarea class="form-control" ng-model="topic.tools" rows="5"></textarea>
                         </div>
                     </div><!-- /.box-body -->
                     <div class="box-footer">
-                        <button type="button" class="btn btn-primary pull-right">Dodaj</button>
+                        <button type="submit" class="btn btn-primary pull-right">Dodaj</button>
 
                     </div>
                 </form>

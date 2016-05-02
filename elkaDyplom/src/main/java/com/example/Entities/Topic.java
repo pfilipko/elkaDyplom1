@@ -1,6 +1,7 @@
 package com.example.Entities;
 
 import javax.persistence.*;
+import java.util.Date;
 
 /**
  * Created by piotrek on 03.04.16.
@@ -20,13 +21,52 @@ public class Topic {
 
     private String tools;
 
+    private String tags;
+
+    private Long maxStudents;
+
+    private Boolean privateTopic;
+
+    private Boolean english;
+
+    private Long supervisorId;
+
+    private Long popularity;
+
     @ManyToOne(optional=true)
-    @JoinColumn(name="supervisor_id",referencedColumnName="id" ,insertable = false, updatable = false)
+    @JoinColumn(name="supervisorId",referencedColumnName="id" ,insertable = false, updatable = false)
     private Supervisor supervisor;
 
-    /*@ManyToOne(optional=true)
-    @JoinColumn(name="status_id",referencedColumnName="id" ,insertable = false, updatable = false)
-    private Supervisor supervisor;*/
+    private Long statusId;
+
+    @ManyToOne(optional=true)
+    @JoinColumn(name="statusId",referencedColumnName="id" ,insertable = false, updatable = false)
+    private Status status;
+
+    private Long specialtyId;
+
+    @ManyToOne(optional=true)
+    @JoinColumn(name="specialtyId",referencedColumnName="id" ,insertable = false, updatable = false)
+    private Specialty specialty;
+
+    private Long instituteId;
+
+    @ManyToOne(optional=true)
+    @JoinColumn(name="instituteId",referencedColumnName="id" ,insertable = false, updatable = false)
+    private Institute institute;
+
+    private Long studiesTypeId;
+
+    @ManyToOne(optional = true)
+    @JoinColumn(name="studiesTypeId", referencedColumnName = "id", insertable = false, updatable = false)
+    private StudiesType studiesType;
+
+    @Temporal(TemporalType.DATE)
+    private Date creationDate;
+
+    public Status getStatus() {
+        return status;
+    }
 
     public Topic() {
     }
@@ -52,6 +92,70 @@ public class Topic {
         return supervisor;
     }
 
+    public Specialty getSpecialty() {
+        return specialty;
+    }
+
+    public Institute getInstitute() {
+        return institute;
+    }
+
+    public Long getMaxStudents() {
+        return maxStudents;
+    }
+
+    public Boolean isPrivateTopic() {
+        return privateTopic;
+    }
+
+    public Date getCreationDate() {
+        return creationDate;
+    }
+
+    public String getTags() {
+        return tags;
+    }
+
+    public Boolean getPrivateTopic() {
+        return privateTopic;
+    }
+
+    public Boolean getEnglish() {
+        return english;
+    }
+
+    public Long getSupervisorId() {
+        return supervisorId;
+    }
+
+    public Long getStatusId() {
+        return statusId;
+    }
+
+    public Long getSpecialtyId() {
+        return specialtyId;
+    }
+
+    public Long getInstituteId() {
+        return instituteId;
+    }
+
+    public Long getStudiesTypeId() {
+        return studiesTypeId;
+    }
+
+    public StudiesType getStudiesType() {
+        return studiesType;
+    }
+
+    public Long getPopularity() {
+        return popularity;
+    }
+
+    public Boolean isEnglish() {
+        return english;
+    }
+
     public void setId(Long id) {
         this.id = id;
     }
@@ -71,4 +175,65 @@ public class Topic {
     public void setSupervisor(Supervisor supervisor) {
         this.supervisor = supervisor;
     }
+
+    public void setSpecialty(Specialty specialty) {
+        this.specialty = specialty;
+    }
+
+    public void setInstitute(Institute institute) {
+        this.institute = institute;
+    }
+
+    public void setPrivateTopic(Boolean privateTopic) {
+        this.privateTopic = privateTopic;
+    }
+
+    public void setEnglish(Boolean english) {
+        this.english = english;
+    }
+
+    public void setCreationDate(Date creationDate) {
+        this.creationDate = creationDate;
+    }
+
+    public void setTags(String tags) {
+        this.tags = tags;
+    }
+
+    public void setSupervisorId(Long supervisorId) {
+        this.supervisorId = supervisorId;
+    }
+
+    public void setStatusId(Long statusId) {
+        this.statusId = statusId;
+    }
+
+    public void setSpecialtyId(Long specialtyId) {
+        this.specialtyId = specialtyId;
+    }
+
+    public void setInstituteId(Long instituteId) {
+        this.instituteId = instituteId;
+    }
+
+    public void setMaxStudents(Long maxStudents) {
+        this.maxStudents = maxStudents;
+    }
+
+    public void setStatus(Status status) {
+        this.status = status;
+    }
+
+    public void setStudiesTypeId(Long studiesTypeId) {
+        this.studiesTypeId = studiesTypeId;
+    }
+
+    public void setStudiesType(StudiesType studiesType) {
+        this.studiesType = studiesType;
+    }
+
+    public void setPopularity(Long popularity) {
+        this.popularity = popularity;
+    }
 }
+

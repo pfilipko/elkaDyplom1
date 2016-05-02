@@ -6,7 +6,10 @@ angular.module('myApp').factory('Test', function ($http) {
     return {
 
         createTopic: function(test){
-            return $http.post('/services/StudentTopicIndex/',test);
+            return $http.post('/rest/topic/',test);
+        },
+        getTopicList: function(test){
+            return $http.get('/rest/topic/test',test);
         }
     }
 

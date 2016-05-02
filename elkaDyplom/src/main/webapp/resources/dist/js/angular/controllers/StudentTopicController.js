@@ -2,13 +2,7 @@
  * Created by piotrek on 14.04.16.
  */
 
-angular.module('myApp').controller('StudentTopicCtrl',function ($scope, $http) {
-
-    $http.get('resources/dist/js/angular/topics.json')
-        .then(function(res){
-
-            $scope.topics = res.data;
-        });
+angular.module('myApp').controller('StudentTopicCtrl',function ($scope, $http, StudentFactory) {
 
     $scope.selected = [];
     $scope.numOfSelected = 0;
@@ -25,4 +19,16 @@ angular.module('myApp').controller('StudentTopicCtrl',function ($scope, $http) {
         --$scope.numOfSelected;
     }
 
+    /**
+     * Wołanie serwisów
+     */
+
+ /*   $http.get('resources/dist/js/angular/topics.json')
+        .then(function(res){
+
+            $scope.topics = res.data;
+        });*/
+    StudentFactory.getTopics().success(function(data) {
+        $scope.topics = data;
+    })
 });

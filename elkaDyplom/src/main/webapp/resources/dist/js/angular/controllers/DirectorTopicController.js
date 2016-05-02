@@ -3,10 +3,9 @@
  */
 
 angular.module('myApp').controller('DirectorTopicCtrl',function ($scope, $http, DirectorFactory) {
-    DirectorFactory.getTopics().success(function(data) {
-        $scope.topics = data;
-    });
-
+    /*
+     * Tworzenie linków.
+     */
     $scope.newTopic = function() {
         $scope.url = 'director/topic/add';
     }
@@ -18,4 +17,12 @@ angular.module('myApp').controller('DirectorTopicCtrl',function ($scope, $http, 
     $scope.clone = function() {
         $scope.url = 'supervisor/topic/clone';
     }
+
+    /**
+     * Wołanie serwisów.
+     */
+    DirectorFactory.getTopics().success(function(data) {
+        $scope.topics = data;
+    })
+
 });

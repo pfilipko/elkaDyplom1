@@ -2,11 +2,7 @@
  * Created by piotrek on 15.04.16.
  */
 
-angular.module('myApp').controller('DirectorTopicAssignCtrl',function ($scope, $http) {
-    $http.get('resources/dist/js/angular/students.json')
-        .then(function(res){
-            $scope.students = res.data;
-        });
+angular.module('myApp').controller('DirectorTopicAssignCtrl',function ($scope, $http, DirectorFactory) {
 
     $scope.selectedTab = 1;
     $scope.selectedStudent;
@@ -27,4 +23,16 @@ angular.module('myApp').controller('DirectorTopicAssignCtrl',function ($scope, $
     $scope.newTopic = function() {
         $scope.url = 'supervisor/topic/add';
     }
+
+    /**
+     * Wołanie serwisów
+     */
+    DirectorFactory.getStudentsForTopicAssignment().success(function(data) {
+        $scope.students = data;
+    })
+    /*$http.get('resources/dist/js/angular/students.json')
+        .then(function(res){
+            $scope.students = res.data;
+        });*/
+
 });
