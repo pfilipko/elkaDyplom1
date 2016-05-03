@@ -18,7 +18,7 @@ angular.module('myApp')
             },
             getStudentsForTopicAssignment: function () {
                 //return $http.get('/rest/director/student/assign');
-                return $http.get('resources/dist/js/angular/getTopics.json');
+                return $http.get('resources/dist/js/angular/getStudents.json');
             }
         };
     });
