@@ -10,7 +10,8 @@ angular.module('myApp')
         // Public API here
         return {
             getInstitutes: function () {
-                return $http.get('/rest/institute/');
+                //return $http.get('/rest/institute/');
+                return $http.get('resources/dist/js/angular/institutes.json');
             }
         };
     });

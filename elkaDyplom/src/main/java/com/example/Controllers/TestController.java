@@ -14,6 +14,7 @@ public class TestController {
             "/",
             "/student/{urlName:(?:topic)?}",
             "/supervisor/{urlName:(?:topic|student)?}",
+            "/supervisor/topic/{urlName:(?:students)?}",
             "/director/{urlName:(?:topic|student|user)?}",
             "/manager/{urlName:(?:topic|student)?}",
             "/ranking"

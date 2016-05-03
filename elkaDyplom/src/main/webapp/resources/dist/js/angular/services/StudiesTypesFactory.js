@@ -10,7 +10,8 @@ angular.module('myApp')
         // Public API here
         return {
             getStudiesTypes: function () {
-                return $http.get('/rest/studiestypes/');
+                //return $http.get('/rest/studiestypes/');
+                return $http.get('resources/dist/js/angular/getStudiesTypes.json');
             }
         };
     });

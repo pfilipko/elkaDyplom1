@@ -10,7 +10,8 @@ angular.module('myApp')
         // Public API here
         return {
             getSpecialties: function () {
-                return $http.get('/rest/specialty/');
+                //return $http.get('/rest/specialty/');
+                return $http.get('resources/dist/js/angular/specialties.json');
             }
         };
     });
